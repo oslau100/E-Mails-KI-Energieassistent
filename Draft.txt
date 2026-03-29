@@ -1,0 +1,1239 @@
+Sequence SPART:
+EMAIL 1
+-
+Betreff: Deine persönliche Strom-Empfehlung ist da
+Hallo {{Vorname}},
+ich habe gute Neuigkeiten für dich.
+Wir haben deine Angaben geprüft und dabei einen sicheren Stromtarif gefunden, der für
+dich {{Ersparnis pro Jahr}} pro Jahr günstiger ist als dein aktueller Tarif – ohne versteckte
+Kosten oder riskante Bedingungen.
+Kurz zusammengefasst:
+Mit der empfohlenen Option kannst du deine jährlichen Stromkosten spürbar senken ohne
+zusätzlichen Aufwand und ohne Risiko.
+Vielleicht fragst du dich kurz, wie dieses Ergebnis entstanden ist.
+Kurz erklärt:
+Auf Basis deiner Angaben wurden verfügbare Stromtarife in {{PLZ und Ort}} analysiert und
+miteinander verglichen.
+Dabei ging es nicht darum, einfach den billigsten Tarif zu finden.
+Sondern eine Empfehlung, die langfristig passt und keine versteckten Nachteile hat.
+Alles, was später teurer werden kann oder unnötige Risiken enthält, wurde aussortiert.
+Am Ende wurde ein Tarif gefunden,
+bei dem du nichts vergleichen oder abwägen musst
+sondern einfach weißt: Das ist eine sichere Entscheidung.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt in Ruhe ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert, damit du immer die
+beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+-------------------------------------------------
+EMAIL 2 (nächster Tag nach email )
+BETREFF: Warum fast niemand wirklich den besten Stromtarif hat
+Hallo {{Vorname}},
+eine kurze Sache, die viele überrascht:
+Die meisten Menschen zahlen nicht zu viel Strom,
+weil sie sich nicht kümmern.
+Sondern weil der Energiemarkt extrem verwirrend ist.
+Es gibt hunderte Tarife.
+Bonusversprechen.
+kleingedruckte Regeln.
+ständige Preisänderungen.
+Mehr Auswahl hilft hier nicht.
+Sie macht Entscheidungen nur schwerer.
+Viele vergleichen kurz.
+Scrollen durch Angebote.
+Und fühlen sich danach eher unsicher als sicher.
+Oft wird dann gar nichts entschieden.
+Man schiebt das Thema auf später.
+Und genau da beginnt das Problem.
+Denn wer nichts ändert, bleibt im alten Tarif.
+Und diese Tarife werden mit der Zeit fast immer teurer.
+Preise steigen still an.
+Und man merkt es oft erst, wenn die Rechnung kommt.
+Das ist kein Zufall.
+So ist der Markt aufgebaut.
+Was wirklich hilft, ist nicht noch mehr Angebote.
+Was hilft, ist eine klare Empfehlung,
+die nur sichere Tarife übrig lässt.
+Genau dafür arbeitet dein Energieassistent im Hintergrund.
+Er zeigt dir nicht alles.
+Er filtert zuerst alles heraus,
+was später teuer oder problematisch werden kann.
+Und empfiehlt dir dann den Tarif,
+mit dem du nichts falsch machst.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert, damit du immer die
+beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+P.S.: Die meisten Menschen bleiben jahrelang im gleichen Tarif,
+nicht weil sie wollen – sondern weil ein Wechsel kompliziert wirkt.
+In Wirklichkeit ist er sehr einfach.
+--------------------------------------------------
+Email 3 (2 Tage nach Mail 2)
+Betreff: So werden schlechte Stromtarife automatisch aussortiert
+Hallo {{Vorname}},
+vielleicht fragst du dich gerade:
+„Woher weiß der Energieassistent eigentlich, welcher Tarif wirklich gut ist?“
+Gute Frage.
+Denn genau hier unterscheiden wir uns von klassischen Vergleichsseiten.
+Dort bekommst du einfach lange Listen mit Angeboten.
+Und musst selbst entscheiden, was davon passt.
+Dein Energieassistent geht einen anderen Weg.
+Er sucht nicht zuerst nach günstigen Tarifen.
+Er streicht zuerst alles, was später teuer oder problematisch werden kann.
+Konkret bedeutet das:
+Tarife mit unsicheren Bonusversprechen werden ausgeschlossen.
+Anbieter mit vielen Beschwerden fliegen raus.
+Neue oder schwer einschätzbare Versorger werden nicht berücksichtigt.
+Angebote mit kurzen Preisgarantien oder versteckten Klauseln ebenfalls nicht.
+Zusätzlich werden Vertragsbedingungen und Preisstrukturen im Detail geprüft.
+Erst wenn nur noch sichere Tarife übrig bleiben,
+wird daraus die beste Option für deinen Haushalt ausgewählt.
+Das Ergebnis ist keine endlose Liste.
+Sondern eine klare Empfehlung.
+Eine, bei der du nicht rätseln musst,
+ob irgendwo ein Haken steckt.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert, damit du immer die
+beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+P.S.: Viele Menschen sparen nicht, weil sie Angst haben, etwas Falsches auszuwählen.
+Genau dafür ist dieser Filter da – damit du diese Sorge nicht haben musst.
+---------------------------------------------------
+Email 4 (2 Tage nach Mail 3)
+Betreff: Der Wechsel ist viel einfacher, als die meisten denken
+Hallo {{Vorname}},
+in den letzten Tagen habe ich in Gesprächen immer wieder gemerkt:
+Eine Sache hält viele Menschen davon ab, den Tarif zu wechseln.
+Nicht der Preis.
+Nicht die mögliche Ersparnis.
+Sondern die Sorge, dass es kompliziert ist oder etwas schiefgehen könnte.
+Vielleicht kennst du Gedanken wie:
+„Was, wenn der Strom plötzlich weg ist?“
+„Was, wenn doppelt abgebucht wird?“
+„Was, wenn ich mich um viel Papierkram kümmern muss?“
+„Was, wenn ich irgendetwas falsch mache?“
+Die gute Nachricht:
+So läuft ein Wechsel in der Realität nicht ab.
+Tatsächlich ist es sehr einfach.
+Du nimmst deine Empfehlung mit ein paar kurzen Angaben und Klicks an.
+Danach übermittelt dein Energieassistent den Auftrag für dich.
+Der neue Anbieter kümmert sich um alles Weitere,
+zum Beispiel um die Kündigung beim alten Versorger.
+Der Wechsel wird komplett im Hintergrund organisiert.
+Nach kurzer Zeit bekommst du eine Bestätigung per E-Mail oder Post,
+mit dem genauen Datum, ab dem dein neuer Tarif startet.
+Ab diesem Tag läuft alles nahtlos weiter.
+Ohne Unterbrechung.
+Ohne dass du etwas davon mitbekommst oder merkst.
+Für dich ändert sich am Ende nur eines:
+Der Anbieter auf der Rechnung.
+Und der Betrag, den du zahlst.
+Mehr nicht.
+Kein Papierkram.
+Kein Risiko.
+Und für die Zeit danach:
+Dein Energieassistent behält deine Kündigungsfrist im Blick,
+scannt regelmäßig den Markt
+und meldet sich rechtzeitig mit einer neuen sicheren Empfehlung.
+Du bekommst die Erinnerung
+und entscheidest jederzeit selbst, ob du erneut wechseln möchtest oder nicht.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Der Wechsel ist heute ein ganz normaler Verwaltungsprozess.
+Alles läuft automatisch im Hintergrund – ohne dass du etwas organisieren musst oder
+merkst.
+--------------------------------------------
+Email 5 (2 Tage nach Mail 3)
+Betreff: Vielleicht kennst du jemanden, dem das gerade helfen würde
+Hallo {{Vorname}},
+ich halte es kurz.
+Viele Menschen zahlen aktuell zu viel für Strom oder Gas.
+Nicht, weil sie sich nicht kümmern.
+Sondern weil der Markt einfach extrem unübersichtlich ist.
+Genau deshalb habe ich den Energieassistenten gebaut.
+Damit man Tarife einfach prüfen kann
+und nur sichere, sinnvolle Empfehlungen bekommt
+ohne Vergleichsportale oder Tarifchaos.
+￿ Wenn du jemanden kennst, für den das hilfreich wäre:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Was vielleicht auch wichtig ist:
+Der Energieassistent ist nicht nur auf Deutsch nutzbar,
+sondern in über 10 Sprachen.
+Das heißt, du kannst ihn auch problemlos an Freunde, Familie oder Bekannte weitergeben.
+Wenn aus deiner Empfehlung ein Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Erfolgreich = Tarif geprüft + Empfehlung erhalten + Wechsel durchgeführt
+Viele Grüße
+{{Dein Name}}
+---------------------------------------------
+Email 6 (2 Tage nach Mail 4)
+Betreff: Du verschenkst gerade jedes Jahr Geld – ohne echten Grund
+Hallo {{Vorname}},
+eine kurze, ehrliche Frage:
+Was passiert eigentlich, wenn du deinen aktuellen Stromtarif einfach weiterlaufen lässt?
+In deinem Fall vor allem eines:
+Du zahlst jedes Jahr rund {{Ersparnis pro Jahr}} mehr,
+als du eigentlich müsstest.
+Nicht, weil dein Tarif besser ist.
+Nicht, weil du dafür mehr Leistung bekommst.
+Sondern einfach, weil du bisher nichts geändert hast.
+Es gibt keinen Qualitätsunterschied.
+Keine schlechtere Versorgung.
+Keinen Nachteil.
+Nur höhere Kosten.
+Stell dir vor, du würdest jedes Jahr {{Ersparnis pro Jahr}} einfach verschenken –
+ohne etwas dafür zu bekommen.
+Genau das passiert gerade mit deinem Stromtarif.
+Nicht aus Absicht.
+Sondern weil es im Alltag leicht untergeht.
+Und genau dafür gibt es deinen Energieassistenten.
+Er sorgt dafür, dass du solche Ersparnisse nicht verpasst.
+Er prüft den Markt regelmäßig,
+filtert unsichere Angebote heraus
+und zeigt dir immer dann eine sichere Alternative, wenn es sinnvoll ist.
+So bleibst du nicht im teureren Tarif hängen –
+ohne ständig selbst vergleichen zu müssen.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Nichts zu ändern fühlt sich oft neutral an –
+kostet aber über die Zeit überraschend viel Geld.
+-----------------------------------
+Email 7 (2 Tage nach Mail 5)
+Betreff: Warum „günstige {{Strom/Gas}} Tarife“ oft teurer sind, als sie aussehen
+Hallo {{Vorname}},
+viele Menschen machen an dieser Stelle etwas ganz Natürliches:
+Sie schauen selbst nochmal auf Vergleichsportalen nach.
+Das wirkt logisch.
+Und fühlt sich nach Kontrolle an.
+Das Problem ist nur:
+Sehr viele dieser „günstigen Tarife“ wirken nur deshalb günstig,
+weil dort ein geschätzter Monatsbetrag angezeigt wird.
+In diesem Betrag sind Bonusversprechen bereits eingerechnet.
+Das senkt die Zahl auf dem Bildschirm –
+nicht aber die echten Kosten langfristig.
+Nach dem ersten Jahr fallen diese Boni weg.
+Und plötzlich wird der Tarif deutlich teurer.
+Was wirklich zählt, sind die festen Kosten:
+Arbeitspreis und Grundpreis.
+Genau dort sind viele vermeintlich günstige Tarife in Wirklichkeit teuer.
+Dazu kommt noch etwas, das viele unterschätzen:
+Nicht jeder Anbieter ist stabil oder seriös.
+Manche Versorger sind neu am Markt.
+Andere haben viele Beschwerden.
+Bei einigen kam es in der Vergangenheit sogar zu Insolvenzen.
+Auf Vergleichsportalen sieht man das oft nicht sofort.
+Genau deshalb geht dein Energieassistent einen anderen Weg.
+Er schaut nicht nur auf den angezeigten Preis.
+Er filtert gezielt:
+unsichere Boni
+versteckte Kosten
+problematische Anbieter
+kurze Preisgarantien
+Alles, was später teuer oder riskant werden kann, fliegt raus.
+Erst danach entsteht deine sichere Tarifempfehlung.
+Eine, die nicht nur heute gut aussieht –
+sondern auch langfristig sinnvoll ist.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Ein Tarif, der nur wegen Boni günstig wirkt,
+ist selten wirklich günstig auf Dauer.
+-----------------------------------
+Email 8 (2 Tage nach Mail 6)
+Betreff: Eigentlich ist die Entscheidung schon gefallen
+Hallo {{Vorname}},
+wenn man alles einmal nüchtern zusammenfasst,
+ist die Situation eigentlich recht klar.
+Du hast einen Tarif,
+mit dem du aktuell {{Ersparnis pro Jahr}} pro Jahr sparen könntest.
+Ohne Qualitätsverlust.
+Ohne Versorgungsrisiko.
+Ohne zusätzlichen Aufwand.
+Die Empfehlung basiert nicht auf Werbung oder Boni,
+sondern auf festen Preisen, Vertragsbedingungen
+und der Stabilität des Anbieters.
+Der Wechsel selbst ist ein Standardprozess.
+Ein paar Angaben, ein paar Klicks –
+den Rest übernimmt dein Energieassistent.
+Wenn du nichts änderst, passiert auch nichts Dramatisches.
+Dein aktueller Tarif läuft einfach weiter.
+Der einzige Unterschied ist:
+Du zahlst weiter mehr, als nötig wäre.
+Diese Mail ist kein „Jetzt-oder-nie“.
+Sondern nur ein ruhiger Hinweis,
+dass du die Entscheidung jederzeit treffen kannst.
+Und dass sie heute genauso sicher ist
+wie morgen oder nächste Woche.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung noch einmal ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Viele Menschen wechseln nicht, weil sie unsicher sind.
+Nicht, weil es keinen guten Grund gäbe.
+--------------------------------------------------------------------------------------------------------------------------
+-----------------------------
+Sequence Umzug/Neueinzug
+Email 1
+Betreff: Deine persönliche Strom-Empfehlung für deinen Umzug ist da
+Hallo {{Vorname}},
+ich habe gute Neuigkeiten für dich.
+Wir haben deine Angaben geprüft und dabei einen sicheren Stromtarif für deine neue
+Adresse gefunden –
+ohne versteckte Kosten oder riskante Bedingungen.
+Kurz zusammengefasst:
+Mit dieser Empfehlung startest du direkt in einem fairen Tarif
+statt automatisch in der teuren Grundversorgung zu landen.
+Ohne zusätzlichen Aufwand.
+Ohne Risiko.
+Vielleicht fragst du dich kurz, wie diese Empfehlung entstanden ist.
+Kurz erklärt:
+Auf Basis deiner Angaben wurden die verfügbaren Stromtarife in {{PLZ und Ort}} analysiert
+und verglichen.
+Dabei ging es nicht darum, einfach den billigsten Tarif zu finden.
+Sondern eine Lösung, die langfristig passt und keine versteckten Nachteile hat.
+Alles, was später teurer werden kann oder unnötige Risiken enthält, wurde aussortiert.
+Am Ende wurde ein Tarif gefunden,
+bei dem du nichts vergleichen oder abwägen musst –
+sondern einfach weißt: Das ist eine sichere Entscheidung für meinen Umzug.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt in Ruhe ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Beim Umzug rutschen viele unbemerkt in teure Standardtarife.
+Diese Empfehlung hilft dir, von Anfang an richtig zu starten.
+----------------------------------
+Email 2 (2 Tage nach Email 1)
+Betreff: So einfach regelst du deinen Strom beim Umzug
+Hallo {{Vorname}},
+beim Umzug gibt es viele Dinge, die man organisieren muss.
+Adresse ändern.
+Internet anmelden.
+Möbel aufbauen.
+Strom wirkt dabei oft wie ein weiteres kompliziertes Thema.
+Dabei ist genau das heute einer der einfachsten Punkte.
+Der Ablauf sieht in der Realität so aus:
+Du nimmst deine Tarifempfehlung mit ein paar kurzen Angaben an.
+Zum Beispiel:
+Zählernummer
+Einzugsdatum
+Name
+Mehr braucht es nicht.
+Danach übernimmt dein Energieassistent alles für dich.
+Der Auftrag wird an den neuen Anbieter übermittelt.
+Der Starttermin wird festgelegt.
+Du bekommst eine Bestätigung per E-Mail oder Post.
+Ab dem vereinbarten Datum läuft dein Strom automatisch über den neuen Tarif.
+Ohne Unterbrechung.
+Ohne Umstellung für dich.
+Ohne Stress.
+Für dich ändert sich nur:
+der Anbieter auf der Rechnung
+und die Kosten pro Monat
+Alles andere läuft im Hintergrund.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt in Ruhe ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird automatisch
+aktualisiert.
+Falls sich etwas geändert hat, kannst du sie jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+P.S.: Strom anmelden ist heute ein Standardprozess –
+schneller erledigt als ein Nachsendeauftrag bei der Post.
+---------------------------
+Email 3 (2 Tage nach Email 2)
+Betreff: Warum der Umzug der beste Zeitpunkt für einen guten Tarif ist
+Hallo {{Vorname}},
+beim Umzug entsteht etwas, das man sonst selten hat:
+ein kompletter Neustart beim Stromtarif.
+Kein alter Vertrag, der dich bindet.
+Keine Kündigungsfrist.
+Kein komplizierter Wechsel.
+Du kannst direkt neu wählen.
+Und genau deshalb ist der Umzug der beste Moment,
+um einen guten Tarif zu starten.
+Viele Menschen landen in dieser Phase automatisch in der Grundversorgung.
+Nicht bewusst.
+Sondern einfach, weil sie nichts aktiv auswählen.
+Das Problem:
+Diese Tarife gehören fast immer zu den teuersten.
+Wer dagegen beim Einzug einmal kurz prüft und bewusst wählt,
+zahlt von Anfang an deutlich weniger.
+Ohne späteren Aufwand.
+Ohne Wechselstress.
+Einmal richtig starten – und dann einfach laufen lassen.
+Genau dabei hilft dir dein Energieassistent.
+Er filtert den Markt für dich vor,
+sortiert unsichere Angebote aus
+und zeigt dir direkt eine sichere, faire Option.
+So startest du in deiner neuen Wohnung nicht im Standardtarif,
+sondern im sinnvollen Tarif.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Empfehlung wird automatisch aktualisiert,
+damit du immer die beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+P.S.: Wer beim Einzug bewusst wählt,
+erspart sich später fast immer unnötige Mehrkosten.
+-----------------------------------------
+Email 4 (2 Tage nach Email 3)
+Betreff: Vielleicht kennst du jemanden, dem das gerade helfen würde
+Hallo {{Vorname}},
+ich halte es kurz.
+Viele Menschen zahlen aktuell zu viel für Strom oder Gas.
+Nicht, weil sie sich nicht kümmern.
+Sondern weil der Markt einfach extrem unübersichtlich ist.
+Genau deshalb habe ich den Energieassistenten gebaut.
+Damit man Tarife einfach prüfen kann
+und nur sichere, sinnvolle Empfehlungen bekommt
+ohne Vergleichsportale oder Tarifchaos.
+￿ Wenn du jemanden kennst, für den das hilfreich wäre:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Was vielleicht auch wichtig ist:
+Der Energieassistent ist nicht nur auf Deutsch nutzbar,
+sondern in über 10 Sprachen.
+Das heißt, du kannst ihn auch problemlos an Freunde, Familie oder Bekannte weitergeben.
+Wenn aus deiner Empfehlung ein Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Erfolgreich = Tarif geprüft + Empfehlung erhalten + Wechsel durchgeführt
+Viele Grüße
+{{Dein Name}}
+-------------------------------------------
+Email 5 (2 Tage nach Email 4)
+Betreff: Diese 3 Fehler machen viele beim Strom nach dem Umzug
+Hallo {{Vorname}},
+beim Einzug passieren beim Stromtarif fast immer dieselben Fehler.
+Nicht aus Nachlässigkeit –
+sondern weil der Umzug einfach viel Aufmerksamkeit frisst.
+Die häufigsten sind:
+**1. Gar nichts auswählen**
+Viele lassen den Strom einfach laufen –
+und landen automatisch im teuren Standardtarif.
+**2. Schnell irgendeinen günstigen Tarif nehmen**
+Ohne auf Bedingungen, Preisgarantien oder Anbieter zu achten.
+**3. Sich vornehmen, später zu vergleichen**
+und es dann monatelang nicht zu tun.
+Das Ergebnis ist fast immer dasselbe:
+Man zahlt länger mehr als nötig.
+Dabei lässt sich das direkt beim Einzug ganz einfach vermeiden.
+Einmal kurz prüfen.
+Eine sichere Option wählen.
+Und danach entspannt wohnen.
+Genau dafür ist dein Energieassistent da.
+Er zeigt dir sofort einen Tarif,
+der fair, stabil und sinnvoll ist –
+ohne Tarifchaos oder Risiken.
+So startest du in deiner neuen Wohnung direkt richtig.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Empfehlung wird automatisch aktualisiert,
+damit du immer die beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+--------------------
+Email 6 (2 Tage nach Email 4)
+Betreff: Keine Sorge: Beim Wechsel geht kein Strom verloren
+Hallo {{Vorname}},
+eine der häufigsten Sorgen beim Stromtarif lautet:
+„Was, wenn beim Wechsel etwas schiefgeht?“
+Viele denken an:
+kein Strom für ein paar Stunden
+doppelte Rechnungen
+Chaos mit Anbietern
+Die Realität sieht heute ganz anders aus.
+Ein Stromwechsel ist gesetzlich so geregelt,
+dass deine Versorgung jederzeit gesichert ist.
+Das bedeutet konkret:
+Dein alter Anbieter liefert so lange,
+bis der neue nahtlos übernimmt.
+Es gibt keinen Tag ohne Strom.
+Keine Lücke.
+Kein Risiko.
+Auch Abrechnung und Kündigung laufen automatisch im Hintergrund.
+Für dich fühlt sich der Wechsel so an:
+Du bekommst eine Bestätigung.
+Ab dem Startdatum gilt der neue Tarif.
+Fertig.
+Mehr passiert nicht.
+Genau deshalb kannst du beim Einzug ganz entspannt wechseln –
+ohne Sorge vor Ausfällen oder Problemen.
+Dein Energieassistent sorgt dabei zusätzlich dafür,
+dass nur sichere Anbieter und klare Tarife empfohlen werden.
+So ist der Wechsel nicht nur einfach,
+sondern auch zuverlässig.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Empfehlung wird automatisch aktualisiert,
+damit du immer die beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+P.S.: Millionen Haushalte wechseln jedes Jahr ihren Stromtarif –
+ohne es im Alltag überhaupt zu merken.
+--------------------
+Email 7 (2 Tage nach Email 5)
+Betreff:
+Hallo {{Vorname}},
+beim Umzug gibt es eine Entscheidung,
+die länger wirkt als die meisten anderen.
+Nicht die Wandfarbe.
+Nicht die Möbel.
+Sondern der Stromtarif, mit dem du startest.
+Denn was viele unterschätzen:
+Der Tarif, den man beim Einzug wählt,
+läuft oft jahrelang einfach weiter.
+Und genau dort entscheidet sich,
+ob man jedes Jahr zu viel zahlt – oder entspannt spart.
+Wer im teuren Standardtarif startet,
+zahlt Monat für Monat drauf.
+Wer direkt bewusst einen guten Tarif wählt,
+spart von Anfang an – ohne später etwas tun zu müssen.
+Kein Nachjustieren.
+Kein Stress.
+Kein „Das hätte ich früher machen sollen“.
+Genau deshalb ist der Umzug der perfekte Moment für eine gute Entscheidung.
+Dein Energieassistent sorgt dafür,
+dass du direkt mit einem fairen, stabilen Tarif startest.
+Ohne Risiken.
+Ohne Tarifchaos.
+Ohne versteckte Kosten.
+Einmal richtig starten – und entspannt wohnen.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Empfehlung wird automatisch aktualisiert,
+damit du jederzeit die beste verfügbare Option siehst.
+Viele Grüße
+{{Dein Name}}
+P.S.: Die einfachsten Ersparnisse entstehen oft genau dann,
+wenn man einmal bewusst richtig startet.
+--------------------------------------------------------------------------------------------------------------------------
+----------
+Nicht-Sparer-Sequence:
+Email 1
+Betreff: Deine persönliche Strom-Empfehlung ist da
+Hallo {{Vorname}},
+wir haben deine Angaben geprüft und dabei einen sicheren Stromtarif gefunden – ohne
+versteckte Kosten oder riskante Bedingungen.
+Vielleicht fragst du dich kurz, wie dieses Ergebnis entstanden ist.
+Kurz erklärt:
+Auf Basis deiner Angaben wurden verfügbare Stromtarife in {{PLZ und Ort}} analysiert und
+miteinander verglichen.
+Dabei ging es nicht darum, einfach den billigsten Tarif zu finden.
+Sondern eine Empfehlung, die langfristig passt und keine versteckten Nachteile hat.
+Alles, was später teurer werden kann oder unnötige Risiken enthält, wurde aussortiert.
+Am Ende wurde ein Tarif gefunden,
+bei dem du nichts vergleichen oder abwägen musst
+sondern einfach weißt: Das ist eine sichere Entscheidung.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jetzt in Ruhe ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Tarife verändern sich regelmäßig.
+Deine Empfehlung wird bei jedem Aufruf automatisch aktualisiert, damit du immer die
+beste aktuelle Option siehst.
+Viele Grüße
+{{Dein Name}}
+---------------------------
+Email 2
+Betreff: Vielleicht kennst du jemanden, dem das gerade helfen würde
+Hallo {{Vorname}},
+ich halte es kurz.
+Viele Menschen zahlen aktuell zu viel für Strom oder Gas.
+Nicht, weil sie sich nicht kümmern.
+Sondern weil der Markt einfach extrem unübersichtlich ist.
+Genau deshalb habe ich den Energieassistenten gebaut.
+Damit man Tarife einfach prüfen kann
+und nur sichere, sinnvolle Empfehlungen bekommt
+ohne Vergleichsportale oder Tarifchaos.
+￿ Wenn du jemanden kennst, für den das hilfreich wäre:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Was vielleicht auch wichtig ist:
+Der Energieassistent ist nicht nur auf Deutsch nutzbar,
+sondern in über 10 Sprachen.
+Das heißt, du kannst ihn auch problemlos an Freunde, Familie oder Bekannte weitergeben.
+Wenn aus deiner Empfehlung ein Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Erfolgreich = Tarif geprüft + Empfehlung erhalten + Wechsel durchgeführt
+Viele Grüße
+{{Dein Name}}
+----------------------------
+Email 3
+Betreff:
+Hallo {{Vorname}},
+vielleicht ist dir beim Anschauen deiner Empfehlung eine Sache aufgefallen:
+Hier geht es nicht darum, einfach irgendeinen günstigen Tarif zu zeigen.
+Dein Energieassistent sucht bewusst nicht nach Lockangeboten.
+Sondern nach Tarifen, die langfristig fair und sicher bleiben.
+Das bedeutet konkret:
+Tarife mit Bonus-Tricks fliegen raus.
+Anbieter mit vielen Beschwerden werden ausgeschlossen.
+Versteckte Kosten und kurze Preisgarantien werden aussortiert.
+Übrig bleiben nur stabile, transparente Tarife.
+Erst danach wird geschaut,
+ob wirklich eine echte Verbesserung möglich ist.
+In deinem Fall ist die ehrliche Einschätzung aktuell:
+Dein jetziger Tarif ist bereits gut.
+Und genau so sollte eine faire Empfehlung funktionieren.
+Nicht immer wechseln.
+Sondern nur dann, wenn es wirklich Sinn macht.
+Ein kleiner Hinweis noch:
+Die Berechnung basiert auf deinen Angaben (z. B. deinem monatlichen Abschlag).
+Falls sich dort etwas geändert hat oder du einen Fehler gemacht hast, kannst du das hier
+jederzeit anpassen.
+Und natürlich behält dein Energieassistent den Markt weiter für dich im Blick.
+Sobald sich eine echte bessere Option ergibt, erfährst du es.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen:
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Tarife verändern sich regelmäßig und deine Empfehlung wird automatisch
+aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Eine gute Empfehlung erkennt man daran, dass sie auch mal sagt: „Bleib, wo du bist.“
+------------------------
+Email 4
+Betreff: Warum so viele Menschen jedes Jahr unnötig zu viel zahlen
+Hallo {{Vorname}},
+eine Sache motiviert mich bei meiner Arbeit ganz besonders.
+Die meisten Menschen zahlen beim Stromtarif mehr,
+als sie eigentlich müssten.
+Nicht aus Bequemlichkeit.
+Nicht aus Gleichgültigkeit.
+Sondern weil der Markt extrem unübersichtlich ist.
+Zu viele Tarife.
+Zu viele Tricks.
+Zu viele versteckte Kosten.
+Viele geben irgendwann auf
+und bleiben einfach in dem Tarif, den sie gerade haben.
+Und genau dadurch gehen jedes Jahr Milliarden Euro verloren.
+Unsere Mission ist deshalb ziemlich simpel:
+Den Energiemarkt wieder verständlich machen.
+Und Menschen vor teuren Fehlentscheidungen schützen.
+Nicht durch Werbung.
+Nicht durch Vergleichslisten.
+Sondern durch klare, ehrliche Empfehlungen.
+Wenn ein Wechsel Sinn macht → zeigen wir ihn.
+Wenn nicht → sagen wir auch das.
+Und genau so ist dein Energieassistent entstanden.
+Natürlich bleibt auch deine eigene Empfehlung jederzeit aktuell:
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Angaben kannst du jederzeit anpassen –
+die Empfehlung wird sofort neu berechnet.
+Viele Grüße
+{{Dein Name}}
+P.S.: Die meisten Menschen sparen nicht, weil ihnen die Übersicht fehlt –
+nicht weil es keine besseren Tarife gäbe.
+-----------------------------
+Email 5
+Betreff:
+Hallo {{Vorname}},
+eine Zahl hat mich selbst am Anfang ziemlich überrascht:
+Ein großer Teil der Haushalte zahlt beim Stromtarif mehr,
+als eigentlich nötig wäre.
+Nicht ein paar Euro.
+Sondern oft mehrere hundert Euro pro Jahr.
+Und das betrifft nicht nur Menschen,
+die sich „nie kümmern“.
+Auch viele, die irgendwann mal gewechselt haben.
+Denn Tarife verändern sich.
+Preise steigen.
+Boni fallen weg.
+Und plötzlich ist ein guter Tarif von früher
+heute einfach nur noch okay — oder sogar teuer.
+Genau deshalb reicht ein einmaliger Wechsel meist nicht aus.
+Was wirklich hilft, ist:
+regelmäßig prüfen
+Risiken rausfiltern
+nur dann wechseln, wenn es sinnvoll ist
+Und genau das übernimmt dein KI-Energieassistent für dich.
+Er sorgt dafür,
+dass du nicht unbemerkt wieder in teurere Tarife rutschst.
+Und meldet sich nur dann,
+wenn sich wirklich etwas Besseres ergibt.
+Viele Menschen entdecken dadurch erst,
+wie viel sie über Jahre verschenkt haben.
+Wenn du möchtest, kannst du deine aktuelle Empfehlung jederzeit ansehen:
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Angaben kannst du jederzeit anpassen –
+die Empfehlung wird sofort neu berechnet.
+Viele Grüße
+{{Dein Name}}
+P.S.: Die meisten Mehrkosten entstehen nicht plötzlich –
+sie schleichen sich über Jahre ein.
+--------------------------
+Email 6
+Betreff: Vielleicht kennst du jemanden, dem das gerade helfen würde
+Hallo {{Vorname}},
+ich halte es kurz.
+Viele Menschen zahlen aktuell zu viel für Strom oder Gas.
+Nicht, weil sie sich nicht kümmern.
+Sondern weil der Markt einfach extrem unübersichtlich ist.
+Genau deshalb habe ich den Energieassistenten gebaut.
+Damit man Tarife einfach prüfen kann
+und nur sichere, sinnvolle Empfehlungen bekommt
+ohne Vergleichsportale oder Tarifchaos.
+￿ Wenn du jemanden kennst, für den das hilfreich wäre:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Was vielleicht auch wichtig ist:
+Der Energieassistent ist nicht nur auf Deutsch nutzbar,
+sondern in über 10 Sprachen.
+Das heißt, du kannst ihn auch problemlos an Freunde, Familie oder Bekannte weitergeben.
+Wenn aus deiner Empfehlung ein Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Erfolgreich = Tarif geprüft + Empfehlung erhalten + Wechsel durchgeführt
+Viele Grüße
+{{Dein Name}}
+----------------------------
+Email 7
+Betreff: Nicht wechseln ist manchmal die beste Entscheidung
+Hallo {{Vorname}},
+im Energiemarkt wird oft so getan,
+als müsste man ständig wechseln.
+Hauptsache ein neuer Tarif.
+Hauptsache irgendein Angebot.
+Genau das ist aber einer der größten Gründe,
+warum viele Menschen später draufzahlen.
+Denn nicht jeder „günstige“ Tarif ist wirklich besser.
+Und nicht jeder Wechsel macht Sinn.
+Manchmal ist der aktuelle Tarif bereits fair.
+Stabil.
+Und passend zur eigenen Situation.
+Und genau dann ist es die beste Entscheidung,
+einfach zu bleiben.
+Dein KI-Energieassistent ist bewusst so gebaut,
+dass er keinen Wechsel erzwingt.
+Er zeigt nur dann eine neue Empfehlung,
+wenn sie wirklich besser ist.
+Nicht wegen Provisionen.
+Nicht wegen Werbung.
+Sondern nur, wenn du langfristig davon profitierst.
+So entsteht Vertrauen –
+und keine unnötige Wechselspirale.
+Wenn du möchtest, kannst du jederzeit prüfen,
+ob sich aktuell etwas verbessert hat:
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Angaben kannst du jederzeit anpassen –
+die Empfehlung wird sofort neu berechnet.
+Viele Grüße
+{{Dein Name}}
+P.S.: Eine ehrliche Empfehlung erkennt man daran,
+dass sie auch mal „Nein“ sagt.
+---------------------------
+Email 8
+Betreff: Ab jetzt kümmern wir uns im Hintergrund für dich
+Hallo {{Vorname}},
+ab diesem Punkt musst du nichts weiter tun.
+Dein KI-Energieassistent behält den Markt jetzt automatisch für dich im Blick.
+Er prüft regelmäßig neue Tarife.
+Er filtert Risiken heraus.
+Und er meldet sich nur dann, wenn sich wirklich etwas verbessert.
+Keine ständigen Vergleiche mehr.
+Kein Tarifchaos.
+Kein Rätselraten.
+Einfach die Sicherheit,
+dass du dauerhaft fair unterwegs bist.
+Manchmal wird die Empfehlung lauten:
+„Bleib, wo du bist.“
+Manchmal:
+„Jetzt gibt es eine bessere Option.“
+Beides ist richtig — je nach Marktlage.
+Und genau so sollte es auch sein.
+Natürlich kannst du jederzeit selbst reinschauen:
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen
+Hinweis: Deine Angaben kannst du jederzeit anpassen —
+die Empfehlung wird sofort neu berechnet.
+Viele Grüße
+{{Dein Name}}
+P.S.: Ab jetzt arbeitest nicht mehr du gegen den Energiemarkt —
+sondern dein Assistent für dich.
+--------------------------------------------------------------------------------------------------------------------------
+-------------
+LOOP MAILS:
+Loop Mail 1 – (alle 14 Tage)
+Betreff: Die Zahl, die auf Vergleichsportalen fast immer täuscht
+Hallo {{Vorname}},
+viele Menschen machen nach einer Tarifprüfung etwas ganz Natürliches.
+Sie schauen selbst nochmal auf Vergleichsportalen nach.
+Dort springt ihnen meist sofort eine Zahl ins Auge:
+der „geschätzte Abschlag pro Monat“.
+Und genau diese Zahl sorgt oft für Verwirrung.
+Denn sie wirkt günstig.
+Manchmal sogar deutlich günstiger als andere Angebote.
+Was viele nicht wissen:
+In diesem Betrag sind häufig Bonuszahlungen bereits eingerechnet.
+Neukundenboni.
+Sofortboni.
+Einmalige Gutschriften.
+Dadurch wirkt der monatliche Preis niedriger, als er in Wirklichkeit ist.
+Nach dem ersten Jahr fallen diese Boni weg.
+Die tatsächlichen Kosten bleiben – oder steigen sogar.
+Was langfristig zählt, sind deshalb nicht diese geschätzten Monatsbeträge.
+Sondern:
+der Arbeitspreis pro Kilowattstunde
+und der feste Grundpreis.
+Genau dort verstecken sich bei vielen Tarifen die echten Kosten.
+Deshalb berücksichtigt dein Energieassistent keine schön gerechneten Abschläge.
+Er schaut auf die realen Preise, die dauerhaft gelten.
+Und filtert alles aus, was später teuer oder unsicher werden kann.
+So entsteht deine Empfehlung nicht nach Werbung –
+sondern nach echten Kosten.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird bei jedem
+Aufruf automatisch aktualisiert.
+Falls sich etwas geändert hat, kannst du deine Daten jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+----------------------
+Loop Email 2
+Betreff: Warum die Grundversorgung fast immer teuer ist
+Hallo {{Vorname}},
+viele Haushalte beziehen ihren {{Strom/Gas}} über die sogenannte Grundversorgung.
+Oft ganz unbewusst.
+Zum Beispiel nach einem Umzug.
+Oder weil nie aktiv ein anderer Tarif gewählt wurde.
+Was viele dabei nicht wissen:
+Die Grundversorgung gehört in fast allen Regionen zu den teuersten {{Strom/Gastarifen}}
+überhaupt.
+Nicht, weil der {{Strom/Gas}} dort besser wäre.
+Nicht, weil der Service höher ist.
+Sondern weil diese Tarife nicht auf Wettbewerb ausgelegt sind.
+Sie sind der gesetzlich vorgesehene Basistarif, wenn kein anderer Tarif aktiv gewählt wird.
+Bequem – aber fast immer teurer als nötig.
+Viele Menschen bleiben dort lange Zeit,
+ohne es bewusst zu merken.
+Und zahlen Monat für Monat mehr,
+als sie eigentlich müssten.
+Genau deshalb lohnt sich eine aktive, geprüfte Tarifwahl.
+Dein Energieassistent sorgt dafür,
+dass du nicht in teuren Standardtarifen hängen bleibst.
+Er vergleicht den Markt regelmäßig,
+filtert unsichere Angebote heraus
+und zeigt dir sichere Alternativen mit echten Preisen.
+So zahlst du nicht automatisch mehr –
+sondern bewusst weniger.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird bei jedem
+Aufruf automatisch aktualisiert.
+Falls sich etwas geändert hat, kannst du deine Daten jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+-----------------------------------
+Loop Email 3
+Betreff: Wahrscheinlich kennst du jemanden, für den das wichtig wäre
+Hallo {{Vorname}},
+eine Sache sehe ich immer wieder:
+Fast jeder kennt jemanden,
+der bei Strom oder Gas zu viel zahlt.
+Oft im eigenen Umfeld.
+Und meistens passiert nichts –
+weil das Thema unnötig kompliziert wirkt.
+Genau deshalb gibt es den Energieassistenten.
+Er macht das Ganze einfach:
+prüfen, filtern, klare Empfehlung bekommen.
+Ohne Stress. Ohne Risiko.
+￿ Wenn du jemanden kennst, für den das gerade passt:
+Hier kannst du dich für das Empfehlungsprogramm anmelden
+{{Empfehlungslink}}
+Was viele gar nicht wissen:
+Der Energieassistent funktioniert auch in über 10 Sprachen.
+Das heißt, du kannst ihn wirklich an fast jeden weitergeben –
+unabhängig davon, wie gut jemand Deutsch spricht.
+Wenn aus deiner Empfehlung ein erfolgreicher Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink erhalten
+{{Empfehlungslink}}
+Hinweis: Erfolgreich heißt,
+die Person prüft ihren Tarif,
+bekommt eine Empfehlung
+und nimmt diese an.
+Viele Grüße
+{{Dein Name}}
+------------------------------------
+Loop Email 4
+Betreff: Warum so viele Haushalte plötzlich nachzahlen müssen
+Hallo {{Vorname}},
+viele Menschen sind jedes Jahr aufs Neue überrascht,
+wenn die Strom- oder Gasabrechnung kommt –
+und plötzlich eine Nachzahlung fällig ist.
+Das fühlt sich oft wie eine böse Überraschung an.
+Dabei entstehen Nachzahlungen meist aus ganz realen Gründen.
+Die häufigsten sind:
+Der Verbrauch war höher als erwartet.
+Die monatlichen Abschläge waren zu niedrig angesetzt.
+Preise oder Umlagen haben sich im Laufe des Jahres erhöht.
+Zählerstände wurden geschätzt statt abgelesen.
+In seltenen Fällen passieren auch Abrechnungsfehler.
+All das führt dazu, dass am Jahresende mehr Kosten entstanden sind,
+als vorher monatlich bezahlt wurde.
+Was viele dabei nicht wissen:
+Die Höhe einer Nachzahlung hängt stark von den festen Preisen ab.
+Also vom Arbeitspreis pro Kilowattstunde
+und vom monatlichen Grundpreis.
+Je höher diese beiden sind,
+desto stärker wirken sich selbst kleine Abweichungen aus.
+Je niedriger sie sind,
+desto kleiner fallen Nachzahlungen aus – oder bleiben ganz aus.
+Genau deshalb achtet dein Energieassistent bei jeder Empfehlung
+nicht auf Boni oder schön gerechnete Monatsbeträge.
+Sondern auf echte, stabile Kosten.
+So bekommst du Tarife,
+die nicht nur heute gut aussehen,
+sondern langfristig berechenbar bleiben.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird bei jedem
+Aufruf automatisch aktualisiert.
+Falls sich etwas geändert hat, kannst du deine Daten jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+-------------------
+Loop Mail 5
+Betreff: Viele könnten sparen – und schieben es trotzdem auf
+Hallo {{Vorname}},
+eine interessante Beobachtung aus vielen Gesprächen:
+Die meisten Menschen wissen eigentlich,
+dass sie beim Stromtarif Geld sparen könnten.
+Und trotzdem passiert oft… nichts.
+Nicht, weil es ihnen egal ist.
+Nicht, weil sie kein Interesse haben.
+Sondern weil das Thema schnell überfordert.
+Zu viele Tarife.
+Zu viele Zahlen.
+Zu viele Bedingungen.
+Man denkt sich dann:
+„Darum kümmere ich mich später.“
+„Ich schaue mir das in Ruhe mal an.“
+„Jetzt gerade passt es nicht.“
+Und aus später wird oft Monate oder Jahre.
+Das ist ganz menschlich.
+Unser Gehirn vermeidet Entscheidungen,
+wenn sie kompliziert wirken.
+Genau deshalb ist der Energiemarkt so gebaut, wie er ist.
+Viele Optionen.
+Wenig Klarheit.
+Dein Energieassistent nimmt dir genau diese Komplexität ab.
+Er sortiert vor.
+filtert Risiken heraus.
+und zeigt dir eine klare Empfehlung.
+Nicht zehn Tarife.
+Nicht hundert Zahlen.
+Sondern eine sichere Entscheidung.
+So wird aus „Ich müsste mich mal kümmern“
+eine einfache Handlung.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird bei jedem
+Aufruf automatisch aktualisiert.
+Falls sich etwas geändert hat, kannst du deine Daten jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+P.S.: Je einfacher eine Entscheidung wird,
+desto wahrscheinlicher treffen wir sie auch.
+-------------------
+Loop Mail 6
+Betreff: Warum Abwarten fast immer teurer ist als Wechseln
+Hallo {{Vorname}},
+viele Menschen warten beim Stromtarif auf „den richtigen Moment“.
+Nach dem Winter.
+Nach der nächsten Abrechnung.
+Wenn sie mehr Zeit haben.
+Das klingt vernünftig.
+Ist es finanziell aber fast nie.
+Denn während man wartet, läuft der aktuelle Tarif weiter.
+Und der Markt verändert sich ständig.
+Neue Angebote entstehen.
+Preise steigen oder fallen.
+Konditionen ändern sich.
+Wer nicht regelmäßig prüft,
+zahlt meist automatisch mehr als nötig.
+Nicht auf einmal.
+Sondern Monat für Monat.
+Genau deshalb ist dein Energieassistent so aufgebaut.
+Er wartet nicht auf Zufälle.
+Er prüft den Markt laufend für dich.
+Und meldet sich immer dann,
+wenn eine sichere bessere Option entsteht.
+So musst du nicht ständig vergleichen –
+verpasst aber auch keine Ersparnis.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung basiert auf deinen bisherigen Angaben und wird automatisch
+aktualisiert.
+Änderungen kannst du jederzeit anpassen.
+Viele Grüße
+{{Dein Name}}
+-------------------
+Loop Mail 7
+Betreff: Kurze Frage – fällt dir da jemand ein?
+Hallo {{Vorname}},
+kurze Frage:
+Kennst du jemanden,
+der sich schon länger denkt:
+„Ich müsste eigentlich mal meinen Strom- oder Gastarif prüfen“?
+Die meisten machen es nicht.
+Nicht aus Desinteresse –
+sondern weil es unnötig kompliziert wirkt.
+Genau dafür gibt es den Energieassistenten.
+Einfach prüfen,
+unsichere Tarife rausfiltern
+und eine klare Empfehlung bekommen.
+￿ Wenn dir jemand einfällt:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Kleiner Vorteil noch:
+Der Energieassistent ist in über 10 Sprachen verfügbar.
+Das heißt, du kannst ihn auch problemlos an Menschen weitergeben,
+die kein oder wenig Deutsch sprechen.
+Wenn daraus ein erfolgreicher Wechsel entsteht,
+bekommst du einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Eine erfolgreiche Empfehlung liegt vor,
+wenn die Person ihren Tarif prüft,
+eine Empfehlung erhält
+und diese anschließend annimmt.
+Viele Grüße
+{{Dein Name}}
+-------------------
+Loop Mail 8
+Warum Stromtarife absichtlich kompliziert wirken
+Hallo {{Vorname}},
+eine ehrliche Wahrheit über den Energiemarkt:
+Er ist nicht kompliziert, weil er es sein muss.
+Er ist kompliziert, weil es so für Anbieter profitabler ist.
+Unübersichtliche Tarife.
+lange Vertragsbedingungen.
+Bonusmodelle.
+Preisstaffelungen.
+Je schwieriger der Vergleich,
+desto eher bleiben Menschen einfach beim Alten.
+Und genau darauf bauen viele Anbieter.
+Dein Energieassistent dreht dieses Prinzip um.
+Er macht es bewusst einfach.
+Komplexität raus.
+Risiken raus.
+Unklare Angebote raus.
+Und am Ende bleibt nur das,
+was wirklich sinnvoll ist.
+Eine klare Empfehlung statt Tarifchaos.
+Wenn du möchtest, kannst du sie dir jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Hinweis: Deine Empfehlung wird regelmäßig aktualisiert.
+Viele Grüße
+{{Dein Name}}
+P.S.: Einfachheit ist kein Zufall –
+sie wird hier bewusst für dich geschaffen.
+----------------
+Loop Mail 9
+Betreff: Günstig heißt beim {{Strom-/Gastarif}} nicht automatisch gut
+Hallo {{Vorname}},
+beim {{Strom-/Gastarif}} achten viele nur auf eine Sache:
+den niedrigsten Preis.
+Das ist verständlich.
+Aber im Energiemarkt ist „billig“ nicht immer gleich „gut“.
+Manche Tarife sind günstig,
+weil sie nur kurzfristig locken.
+Andere sparen am Service.
+Oder setzen auf spätere Preiserhöhungen.
+Wieder andere kommen von Anbietern,
+die kaum stabil einzuschätzen sind.
+Deshalb kombiniert dein Energieassistent immer zwei Dinge:
+echte Ersparnis
+und echte Sicherheit
+Nur Tarife, die beides erfüllen,
+kommen überhaupt in die Empfehlung.
+So sparst du Geld –
+ohne Risiken einzugehen.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Günstig ist gut –
+stabil und fair ist besser.
+--------------------
+Loop Mail 10
+Betreff: Der Wechsel ist viel einfacher, als die meisten denken
+Hallo {{Vorname}},
+viele denken beim Thema Stromwechsel sofort an Aufwand.
+Formulare.
+Telefonate.
+Papierkram.
+In der Realität läuft es heute ganz anders.
+Der Wechsel ist ein standardisierter Prozess.
+Du gibst ein paar Daten an.
+Der neue Anbieter übernimmt den Rest.
+Kündigung.
+Umstellung.
+Bestätigung.
+Alles im Hintergrund.
+Genau deshalb lohnt sich regelmäßiges Prüfen so sehr.
+Der Aufwand ist minimal.
+Die Wirkung auf deine Kosten oft groß.
+Dein Energieassistent nutzt genau das für dich.
+Einfach prüfen.
+sicher wechseln.
+dauerhaft sparen.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Schwer wirkt der Wechsel nur im Kopf –
+in der Praxis ist er längst Routine.
+---------------
+Loop Mail 11
+Betreff: Vielleicht kennst du jemanden, dem das gerade helfen würde
+Hallo {{Vorname}},
+ich halte es kurz.
+Viele Menschen zahlen aktuell zu viel für Strom oder Gas.
+Nicht, weil sie sich nicht kümmern.
+Sondern weil der Markt einfach extrem unübersichtlich ist.
+Genau deshalb habe ich den Energieassistenten gebaut.
+Damit man Tarife einfach prüfen kann
+und nur sichere, sinnvolle Empfehlungen bekommt
+ohne Vergleichsportale oder Tarifchaos.
+￿ Wenn du jemanden kennst, für den das hilfreich wäre:
+Hier kannst du dich für das Empfehlungsprogramm registrieren
+{{Empfehlungslink}}
+Was vielleicht auch wichtig ist:
+Der Energieassistent ist nicht nur auf Deutsch nutzbar,
+sondern in über 10 Sprachen.
+Das heißt, du kannst ihn auch problemlos an Freunde, Familie oder Bekannte weitergeben,
+die sich mit Deutsch schwer tun.
+Wenn aus deiner Empfehlung ein Wechsel entsteht,
+bekommst du als Dankeschön einen {{Wunschgutschein Betrag}} Wunschgutschein.
+￿ Hier registrieren und Empfehlungslink sichern
+{{Empfehlungslink}}
+Hinweis: Eine erfolgreiche Empfehlung bedeutet,
+dass die Person ihren Tarif prüft,
+eine Empfehlung bekommt
+und diese anschließend annimmt und erfolgreich wechselt.
+Viele Grüße
+{{Dein Name}}
+----------------
+Loop Mail 12
+Betreff: So zahlen viele jahrelang zu viel – ohne es zu merken
+Hallo {{Vorname}},
+die meisten Menschen zahlen nicht plötzlich zu viel.
+Es passiert schleichend.
+Ein kleiner Preisanstieg hier.
+Ein angepasster Abschlag dort.
+Ein Bonus, der wegfällt.
+Einzeln kaum auffällig.
+Zusammen über Jahre teuer.
+So entstehen hunderte oder tausende Euro Mehrkosten,
+ohne dass man es bewusst wahrnimmt.
+Regelmäßige Tarifprüfung verhindert genau das.
+Und genau dafür ist dein Energieassistent da.
+Er erkennt Veränderungen früh
+und zeigt dir rechtzeitig bessere Optionen.
+Damit zu viel zahlen gar nicht erst zur Gewohnheit wird.
+Wenn du möchtest, kannst du deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Die teuersten Kosten sind oft die,
+die langsam entstehen.
+---------------------
+Loop Mail 13
+Betreff: Worauf es beim {{Strom-/Gastarif}} wirklich ankommt
+Hallo {{Vorname}},
+ein günstiger Tarif bringt wenig,
+wenn er später Probleme macht.
+Preiserhöhungen.
+unübersichtliche Abrechnungen.
+schlechter Kundenservice.
+Genau deshalb prüft dein Energieassistent nicht nur Preise.
+Sondern auch:
+Anbieterhistorie
+Beschwerdequoten
+Vertragsklarheit
+Versorgungssicherheit
+So bekommst du keine Wette –
+sondern eine verlässliche Empfehlung.
+Sparen mit ruhigem Gefühl.
+Wenn du möchtest, kannst du sie dir jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Ein guter Tarif spart Geld –
+ein sicherer Tarif spart Nerven.
+------------------------------------
+Loop Mail 14
+Betreff: Der häufigste Fehler nach einem Tarifwechsel
+Hallo {{Vorname}},
+ein Tarifwechsel ist keine einmalige Sache.
+Der Markt verändert sich ständig.
+Was heute gut ist,
+kann in einem Jahr schon überholt sein.
+Viele Menschen wechseln einmal –
+und prüfen danach jahrelang nichts mehr.
+Genau dadurch entstehen neue Mehrkosten.
+Dein Energieassistent ist deshalb kein Einmalvergleich.
+Er begleitet dich dauerhaft.
+Er prüft weiter.
+beobachtet Fristen.
+meldet sich bei besseren Optionen.
+So bleibt dein Tarif langfristig sinnvoll.
+Wenn du möchtest, kannst du jederzeit deine aktuelle Empfehlung ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Gute Entscheidungen brauchen Pflege –
+nicht Vergessen.
+-----------------------------
+Loop Mail 15
+Betreff: So bleibt dein Tarif dauerhaft fair und günstig
+Hallo {{Vorname}},
+fair beim Stromtarif bedeutet nicht:
+einmal günstig wechseln
+und dann nie wieder hinschauen.
+Fair bedeutet:
+klare Preise
+stabile Bedingungen
+regelmäßige Überprüfung
+Genau dieses Prinzip verfolgt dein Energieassistent.
+Er schützt dich vor versteckten Verteuerungen.
+vor schlechten Angeboten.
+und vor unnötigen Mehrkosten.
+So bleibt dein Tarif nicht nur heute gut –
+sondern dauerhaft sinnvoll.
+Wenn du möchtest, kannst du dir deine aktuelle Empfehlung jederzeit ansehen.
+￿ Deine aktuelle Strom-Empfehlung für {{PLZ}} ansehen ({{Ersparnis pro Jahr}} sparen)
+Viele Grüße
+{{Dein Name}}
+P.S.: Dauerhaft sparen ist kein Glück –
+sondern System.
+-------------------------------------------------
