@@ -1,13 +1,12 @@
 <!-- Subject: Letzter Impuls für deine Ersparnis -->
-<!-- Preheader: Danach entscheidest du in Ruhe. -->
+<!-- Preheader: Wenn du wechseln willst, ist jetzt ein guter Moment für den Abschluss. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>das ist mein letzter Hinweis in dieser Sequenz.</p>
-<p>Wenn du bei Energie dauerhaft weniger zahlen willst, ist jetzt ein guter Moment für den Check.</p>
-<p>Du siehst sofort, ob {{ opportunity.neuer_anbieter }} und {{ opportunity.neuer_monatlicher_preis_ }} für dich sinnvoll sind.</p>
-<p>Danach kannst du ganz in Ruhe entscheiden.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>letzter Impuls von mir:</p>
+<p>Du hast jetzt alle Infos, um nicht länger unnötig zu viel zu zahlen.</p>
+<p>Wenn du das Thema sauber abschließen willst, dann am besten jetzt.</p>
+<p>Hier ist dein direkter Link zur finalen Prüfung: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

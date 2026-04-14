@@ -1,13 +1,11 @@
 <!-- Subject: Typischer Fehler beim Einzug -->
-<!-- Preheader: Erst später prüfen kostet oft Geld. -->
+<!-- Preheader: Viele verschieben die Tarifwahl und zahlen dann unnötig drauf. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ein häufiger Fehler ist: später kümmern.</p>
-<p>Dann läuft der Tarif oft länger als gedacht zu ungünstigen Konditionen.</p>
-<p>Besser jetzt kurz prüfen und von Anfang an sauber aufgestellt sein.</p>
-<p>So vermeidest du unnötige Nachbesserungen.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>der häufigste Fehler beim Einzug: „Ich kümmere mich später darum.“</p>
+<p>Später heißt oft: mehrere Monate mit einem Tarif, der nicht zu dir passt.</p>
+<p>Hier prüfst du in wenigen Minuten die bessere Startoption: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

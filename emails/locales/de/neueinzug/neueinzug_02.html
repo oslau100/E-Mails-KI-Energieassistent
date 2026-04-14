@@ -1,13 +1,11 @@
 <!-- Subject: Grundversorgung ist oft nur die Übergangslösung -->
-<!-- Preheader: Besser aktiv wählen statt automatisch teurer. -->
+<!-- Preheader: Praktisch für den Start, aber häufig nicht die günstigste Dauerlösung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele landen beim Einzug erstmal in der Grundversorgung.</p>
-<p>Das ist bequem, aber oft nicht die günstigste Dauerlösung.</p>
-<p>Wenn du jetzt kurz prüfst, sparst du dir später unnötige Kosten.</p>
-<p>Der nächste Schritt dauert nur wenige Minuten.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Grundversorgung ist beim Einzug oft der automatische Startpunkt.</p>
+<p>Für den Übergang okay – auf Dauer aber häufig unnötig teuer.</p>
+<p>Hier findest du die passende Empfehlung für deinen Start: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

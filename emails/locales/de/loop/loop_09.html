@@ -1,13 +1,12 @@
 <!-- Subject: Teile Klarheit statt unnötiger Kosten -->
-<!-- Preheader: Vielleicht hilft dein Hinweis genau im richtigen Moment. -->
+<!-- Preheader: Vielleicht hilft dein Link gerade jemandem im richtigen Moment. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>heute nochmal mission-first:</p>
-<p>Viele in deinem Umfeld zahlen vermutlich mehr als nötig, weil das Thema so unübersichtlich ist.</p>
-<p>Mit deinem Hinweis hilfst du ihnen, schneller eine gute Entscheidung zu treffen.</p>
-<p>Für jede erfolgreiche Empfehlung bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
-<p>Hier kannst du den Empfehlungslink direkt teilen: <a href="{{ contact.empfehlungslink }}">{{ contact.empfehlungslink }}</a></p>
+<p>vielleicht gibt es in deinem Umfeld gerade jemanden, der beim Thema Energie komplett unsicher ist.</p>
+<p>Manchmal hilft genau dann ein einfacher, vertrauenswürdiger Link.</p>
+<p>Wenn eine Empfehlung erfolgreich ist, bekommst du aktuell {{custom_values.empfehlungsprmie}} – aber wichtiger ist: Du machst es jemandem leichter.</p>
+<p>Hier kannst du deinen Link direkt teilen: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

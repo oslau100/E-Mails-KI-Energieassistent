@@ -1,13 +1,11 @@
 <!-- Subject: Schnell erledigt, langfristig hilfreich -->
-<!-- Preheader: Einmal sauber auswählen und abhaken. -->
+<!-- Preheader: Jetzt wenige Minuten investieren spart später viel Korrekturaufwand. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>du hast gerade genug um die Ohren.</p>
-<p>Deshalb halten wir den Prozess bewusst einfach.</p>
-<p>Einmal den passenden Tarif wählen und das Thema ist erstmal erledigt.</p>
-<p>Hier geht es direkt zur Empfehlung.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>jetzt prüfen ist leichter als später nachbessern.</p>
+<p>Gerade beim Einzug ist ein früher Tarifentscheid einer der schnellsten Hebel für weniger laufende Kosten.</p>
+<p>Hier kannst du den offenen Punkt direkt abhaken: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

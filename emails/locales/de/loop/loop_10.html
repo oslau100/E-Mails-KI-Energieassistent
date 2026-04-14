@@ -1,12 +1,10 @@
 <!-- Subject: Dein Tarif-Status in einem kurzen Check -->
-<!-- Preheader: Pragmatisch und ohne Druck. -->
+<!-- Preheader: Klar sehen, ob dein aktueller Tarif noch passt. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>falls es bei dir gerade untergeht, hier die einfache Version:</p>
-<p>kurz prüfen, Klarheit bekommen, dann abhaken.</p>
-<p>Genau dafür ist dein persönlicher Link gedacht.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>ein kurzer Status-Check spart oft langes Grübeln.</p>
+<p>Hier kannst du deinen aktuellen Stand direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

@@ -1,13 +1,11 @@
 <!-- Subject: Aufschieben ist auch eine Entscheidung -->
-<!-- Preheader: Und meistens die teurere. -->
+<!-- Preheader: Wer nicht prüft, entscheidet sich oft unbewusst für höhere Kosten. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>noch ein ehrlicher Gedanke:</p>
-<p>Nicht zu wechseln ist ebenfalls eine Entscheidung.</p>
-<p>Nur leider oft die, die auf Dauer mehr kostet.</p>
-<p>Schau dir die Empfehlung kurz an, dann hast du Fakten statt Bauchgefühl.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>kurzer Reframe:</p>
+<p>Auch nichts zu tun ist eine Entscheidung – meist für den teureren Tarif.</p>
+<p>Hier prüfst du in Ruhe, ob du das wirklich so lassen willst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

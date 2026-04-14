@@ -1,12 +1,11 @@
 <!-- Subject: Kurz-Reminder -->
-<!-- Preheader: Ein Klick zu deiner Empfehlung. -->
+<!-- Preheader: Bevor das Thema wieder liegen bleibt: einmal kurz prüfen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>nur ein schneller Reminder.</p>
-<p>Deine mögliche Ersparnis: {{ opportunity.savings_text }}.</p>
-<p>Hier ist dein direkter Link.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nur ein kurzer Reminder, bevor das Thema wieder untergeht.</p>
+<p>Bei dir geht es potenziell um {{ opportunity.savings_text }}.</p>
+<p>Hier kannst du das jetzt direkt abhaken: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
