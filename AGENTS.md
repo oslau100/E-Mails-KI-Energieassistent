@@ -73,6 +73,12 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
 - {{custom_values.absender_name}}
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}
 
 ## Subject line rules (open rate)
 - clear, personal, concrete
@@ -80,12 +86,19 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
 - no fake support/service framing
 - {{ contact.first_name }} and {{ opportunity.energieart }} may be used selectively
 - no misleading urgency
+- no fake-transactional framing ("deine Anfrage", "wir warten auf Rückmeldung", "bitte dringend antworten")
 
 ## Preheader rules
 - must complement the subject
 - should increase relevance and clarity
 - can create a soft open loop
 - no fake urgency or fake "we are waiting" framing
+- no fake ticket/support wording
+
+## Selective bridge-line rule
+- Keep current structure and add exactly one extra line only where needed.
+- Allowed function of this extra line: objection handling, trust bridge, or relevance bridge before CTA.
+- Do not add this line to every email; use it selectively.
 
 ## Prohibited / ambiguous phrases
 Do not use:
@@ -97,9 +110,15 @@ Do not use:
 ## HTML and layout rules
 - plain, personal, text-first style
 - no buttons
-- no images
+- no images in body content (exception: small logo only inside the signature block)
 - no decorative marketing layout
 - CTA must be a normal text link
+- exactly one CTA link per email
+
+## Signature rule
+- Add a consistent, lightly formatted HTML signature below greeting + sender name.
+- Signature may include: brand name, small logo, address, impressum link, datenschutz link.
+- Signature should stay subtle and text-first, never banner-like.
 
 ## Important constraints
 - no fake urgency

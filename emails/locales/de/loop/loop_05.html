@@ -6,6 +6,14 @@
 <p>nur ein kurzer Reminder, bevor das Thema wieder monatelang untergeht.</p>
 <p>Du musst nichts überstürzen – ein kurzer Check reicht für Klarheit.</p>
 <p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
+<strong>{{custom_values.brandname}}</strong><br>
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:120px; height:auto; margin:6px 0;">
+{{custom_values.strae_und_hausnummer}}<br>
+{{custom_values.plz_und_stadt}}<br>
+<a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>
+{{custom_values.absender_email}}
+</p>
 </body>
 </html>
