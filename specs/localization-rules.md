@@ -3,63 +3,39 @@
 ## Current state
 Phase 1 builds German master emails only.
 
-## Future localization principle
-Future languages are for people living in the DACH region who prefer another language.
+## Core principle
+Future languages keep DACH market logic and mission.
 
-This means:
-- market context stays German / DACH-specific
-- language changes
-- the product logic does not change
-- the mission stays the same
+## Must preserve
+- placeholders exactly
+- same scenario psychology
+- same CTA intent
+- plain personal email style
 
-## Rules
-- translate persuasively, not literally
-- preserve all placeholders exactly
-- keep structure aligned across languages
-- maintain the same scenario psychology
-- keep CTA intent equivalent
-- do not adapt to a foreign energy market
-- do not invent region-specific claims outside DACH
+## Subject and preheader quality
+Across languages:
+- subject must be concrete, clear, trustworthy
+- preheader must complement subject
+- no misleading urgency
+- no fake support-style phrasing
+
+## Forbidden ambiguous wording (carry over by meaning)
+Do not translate into equivalents of:
+- "dein aktueller Stand"
+- "dein Tarif-Status"
+- "deine Situation"
+- "deine Daten"
 
 ## CTA rule
 Every email in every language must contain a CTA.
 
-### Default
-Most CTAs should still point to the tariff recommendation.
+## Variable usage
+- {{ opportunity.energieart }} may be used selectively where relevance increases
+- do not overuse dynamic variables in every email
 
-### Referral exception
-Only selected loop emails may use referral-oriented CTAs.
-
-## Reward variable rule
-`{{custom_values.empfehlungsprmie}}` is amount-only and must remain language-neutral.
-Examples:
-- 30€
-- 50€
-
-The surrounding sentence must be translated in the email copy.
-
-## Referral rule
-Referral messaging must remain trust-based across languages.
-
-It should feel like:
-- helping loved ones
-- sharing clarity
-- helping more households
-- contributing to something useful
-
-It must not become:
-- aggressive affiliate language
-- spammy recruiting language
-- money-first messaging
-
-## Arabic
-- requires RTL review later
-
-## QA for future translation
+## QA for translation
 - no broken placeholders
 - no mixed-language leftovers
-- no broken CTA labels
-- no unnatural line breaks
-- no loss of persuasion
-- reward value still appears naturally in translated sentences
-- referral emails still feel mission-led, not affiliate-led
+- no fake urgency
+- no ambiguous wording
+- CTA remains clear and unique

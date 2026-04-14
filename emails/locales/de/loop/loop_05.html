@@ -1,10 +1,11 @@
-<!-- Subject: Ein kurzer Reminder (bevor es wieder liegen bleibt) -->
-<!-- Preheader: Nur ein kurzer Check, bevor das Thema wieder liegen bleibt. -->
+<!-- Subject: "Kurzer Reminder, bevor es wieder liegen bleibt" -->
+<!-- Preheader: "Nur ein kurzer Check, damit das Thema nicht wieder monatelang offen bleibt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>nur ein kurzer Reminder, bevor das Thema wieder monatelang untergeht.</p>
-<p>Hier kannst du das jetzt sofort prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Du musst nichts überstürzen – ein kurzer Check reicht für Klarheit.</p>
+<p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
