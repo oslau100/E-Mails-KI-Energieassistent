@@ -22,7 +22,7 @@ Hinweis: Jede E-Mail enthält genau einen CTA-Link (offer oder referral) plus de
 | filename | subject | goal | CTA type |
 |---|---|---|---|
 | neueinzug_01.html | Beim Einzug entscheidet sich viel | Timing-Relevanz und Grundversorgungs-Risiko öffnen | offer |
-| neueinzug_02.html | Grundversorgung ist oft nur die Übergangslösung | Standardtarif als Übergang reframen | offer |
+| neueinzug_02.html | Grundversorgung ist oft nur die Übergangslösung | Grundversorgung als Übergang reframen | offer |
 | neueinzug_03.html | Schnell erledigt, langfristig hilfreich | Jetzt handeln statt später nachbessern | offer |
 | neueinzug_04.html | Typischer Fehler beim Einzug | Aufschieben als Kostenfehler markieren | offer |
 | neueinzug_05.html | Einmal richtig wählen | Sauberen Start als Entlastung positionieren | offer |
