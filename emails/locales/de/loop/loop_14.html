@@ -1,12 +1,18 @@
-<!-- Subject: Hilf deinen Liebsten mit einer hilfreichen Empfehlung -->
-<!-- Preheader: Vielleicht braucht jemand in deinem Umfeld genau jetzt Orientierung. -->
+<!-- Subject: Hilf deinen Liebsten mit Klarheit beim Tarif -->
+<!-- Preheader: Teile Orientierung statt nur einen Link – das hilft oft im richtigen Moment. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>vielleicht gibt es gerade jemanden in deinem Umfeld, der umzieht oder mit hohen Energiekosten kämpft.</p>
-<p>Wenn du der Person deinen Link schickst, hilfst du möglicherweise genau im richtigen Moment.</p>
+<p>vielleicht gibt es gerade jemanden in deinem Umfeld, der mit Energiekosten kämpft oder umzieht.</p>
+<p>Wenn du deinen Link teilst, machst du es dieser Person deutlich leichter.</p>
 <p>Bei erfolgreicher Empfehlung erhältst du aktuell {{custom_values.empfehlungsprmie}}.</p>
 <p>Hier kannst du deinen Empfehlungslink jetzt direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

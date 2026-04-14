@@ -1,11 +1,17 @@
-<!-- Subject: Dein Einsparpotenzial im Blick behalten -->
-<!-- Preheader: Kontinuität schlägt Zufall: regelmäßig prüfen statt raten. -->
+<!-- Subject: Deinen Tarif regelmäßig sauber prüfen -->
+<!-- Preheader: Kontinuität schlägt Zufall: kurz prüfen, klar entscheiden, wieder Ruhe. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>Tarifentscheidungen funktionieren am besten mit einem einfachen Rhythmus:</p>
 <p>kurz prüfen, klar entscheiden, dann wieder Ruhe haben.</p>
-<p>Hier kannst du jetzt sofort prüfen, wo du aktuell stehst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

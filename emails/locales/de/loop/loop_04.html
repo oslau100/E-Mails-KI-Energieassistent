@@ -1,13 +1,18 @@
 <!-- Subject: Hilf uns, mehr Haushalten Klarheit zu geben -->
-<!-- Preheader: Vielleicht gibt es gerade jemanden in deinem Umfeld, der genau jetzt Hilfe braucht. -->
+<!-- Preheader: Vielleicht braucht gerade jemand in deinem Umfeld genau diese Orientierung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kennst du jemanden in Familie oder Freundeskreis, der sich mit Strom und Gas am liebsten gar nicht beschäftigen würde?</p>
-<p>Vielleicht gibt es gerade genau jetzt jemanden mit hohen Abschlägen oder einem Umzug.</p>
-<p>Ein geteilter Link kann in so einem Moment viel Unsicherheit rausnehmen.</p>
+<p>kennst du jemanden in Familie oder Freundeskreis, der sich beim Thema Energie Orientierung wünscht?</p>
+<p>Mit deinem Link hilfst du, Klarheit statt Tarifchaos zu teilen.</p>
 <p>Wenn daraus eine erfolgreiche Empfehlung wird, bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
 <p>Hier kannst du deinen Empfehlungslink jetzt direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

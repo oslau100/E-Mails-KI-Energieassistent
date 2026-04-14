@@ -1,11 +1,17 @@
-<!-- Subject: Dein Tarifcheck: Hier bleibt Geld liegen -->
-<!-- Preheader: Viele merken es zu spät: Der aktuelle Tarif ist oft unnötig teuer. -->
+<!-- Subject: {{ contact.first_name }}, kurze Frage zu deinem {{ opportunity.energieart }}-Tarif -->
+<!-- Preheader: Viele zahlen monatelang unbemerkt zu viel – ich wollte das kurz für dich klären. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele merken erst spät, dass ihr Tarif längst teurer ist als nötig.</p>
+<p>viele zahlen monatelang unbemerkt zu viel, weil der Tarif einfach weiterläuft.</p>
 <p>Bei dir geht es aktuell um {{ opportunity.savings_text }}.</p>
-<p>Hier kannst du jetzt direkt sehen, ob du zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Hier siehst du sofort, ob du zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

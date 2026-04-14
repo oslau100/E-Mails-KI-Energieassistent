@@ -1,11 +1,17 @@
 <!-- Subject: Wenn du warten willst, dann bewusst -->
-<!-- Preheader: Warten ist okay – solange es bewusst ist und du nicht monatelang zu viel zahlst. -->
+<!-- Preheader: Warten ist okay – solange du vorher einmal sauber geprüft hast. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>warten kann richtig sein. Unbewusst warten ist meist teuer.</p>
 <p>Deshalb lieber kurz prüfen und dann bewusst entscheiden.</p>
-<p>Hier siehst du direkt, ob sich etwas verändert hat: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Hier siehst du sofort, ob du zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

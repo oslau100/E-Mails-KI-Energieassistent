@@ -1,12 +1,18 @@
-<!-- Subject: Entscheidung einfach machen -->
-<!-- Preheader: Drei Punkte reichen, um eine gute Tarifentscheidung zu treffen. -->
+<!-- Subject: {{ contact.first_name }}, Entscheidung leicht machen -->
+<!-- Preheader: Drei kurze Fragen reichen oft für eine gute Tarifentscheidung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>wenn Entscheidungen hängen bleiben, hilft ein einfacher Rahmen:</p>
-<p>1) Zahle ich aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Kann ich den Schritt jetzt sauber abschließen?</p>
-<p>Wenn du 1 und 2 mit Ja beantwortest, ist 3 meistens der richtige nächste Schritt.</p>
-<p>Hier bekommst du in 2 Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>1) Zahlst du aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Willst du das Thema jetzt sauber abschließen?</p>
+<p>Wenn 1 und 2 mit Ja beantwortet sind, ist der nächste Schritt meist klar.</p>
+<p>Hier bekommst du in wenigen Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>

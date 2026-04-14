@@ -1,11 +1,17 @@
-<!-- Subject: Kontinuität statt Aktionismus -->
-<!-- Preheader: Kleine regelmäßige Checks schlagen hektische Tarifwechsel. -->
+<!-- Subject: Kontinuität schlägt Aktionismus -->
+<!-- Preheader: Kleine regelmäßige Checks sind oft die bessere Strategie. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>die beste Strategie ist selten Aktionismus, sondern Kontinuität.</p>
-<p>Regelmäßig kurz prüfen macht sofort sichtbar, ob du weiterhin solide aufgestellt bist.</p>
-<p>Hier bekommst du in 2 Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Regelmäßig kurz prüfen zeigt sofort, ob du weiterhin gut aufgestellt bist.</p>
+<p>Hier bekommst du in wenigen Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<div style="font-size:12px; line-height:1.4; color:#555555;">
+<p style="margin:0 0 6px 0;"><strong>{{custom_values.brandname}}</strong></p>
+<p style="margin:0 0 6px 0;"><img src="{{custom_values.logo}}" alt="{{custom_values.brandname}}" style="max-width:120px; height:auto;"></p>
+<p style="margin:0;">{{custom_values.strae_und_hausnummer}}<br>{{custom_values.plz_und_stadt}}</p>
+<p style="margin:6px 0 0 0;"><a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a></p>
+</div>
 </body>
 </html>
