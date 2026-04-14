@@ -19,11 +19,12 @@ Phase 1 = German only (`de`).
 - loop = 15 emails
 
 ## Core objective
-Create persuasive but trustworthy email templates for the German DACH energy market.
+Create persuasive but trustworthy HTML emails for the German DACH energy market.
 
 The system should:
 - increase conversions
 - build trust
+- feel personal
 - stay easy to localize later
 - remain easy to import into GoHighLevel
 - separate workflow logic from email rendering
@@ -156,15 +157,42 @@ Avoid:
 - aggressive recruiting language
 - MLM-like wording
 
-## HTML email rules
-- table-based layout
-- simple and robust
-- mobile-friendly
-- compatible with common email clients
+## HTML and layout rules
+The emails must look as plain and personal as possible.
+
+Required design style:
+- very basic email appearance
+- text-first
+- minimal HTML
+- no visual marketing layout
+- should feel like a personal email from a real person
+- should feel closer to a helpful note than to a newsletter
+
+Mandatory layout constraints:
+- no buttons
+- no images
+- no icons
+- no banners
+- no cards
+- no boxed sections
+- no hero areas
+- no complex table-based visual layout
+- no decorative design elements
+- no multi-column sections
+
+CTA implementation:
+- CTA must appear as a normal text link
+- CTA may be placed as a plain hyperlink line
+- CTA can also appear in a short sentence with a linked anchor text
+- do not style CTA like a button
+
+HTML constraints:
+- keep HTML as lightweight and simple as possible
+- use safe email-compatible markup
+- use simple paragraphs, line breaks, and links
+- minimal wrapper structure only if needed for email compatibility
+- avoid unnecessary nesting
 - no JavaScript
-- lightweight markup
-- CTA button must be prominent
-- include fallback text if styling is stripped
 
 ## Copy rules
 - strong subject lines
@@ -175,6 +203,7 @@ Avoid:
 - avoid generic utility company language
 - write natural German for people living in DACH
 - trust and clarity matter more than hype
+- emails should read like one person wrote to another person
 
 ## Important constraints
 - no fake urgency
@@ -207,5 +236,7 @@ A template is done when:
 - scenario psychology is correct
 - CTA is clear and present
 - CTA destination matches the email’s purpose
-- mobile readability is good
+- the email looks plain and personal
+- no button-like elements exist
+- no images exist
 - footer uses sender values
