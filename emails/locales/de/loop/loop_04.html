@@ -1,13 +1,13 @@
 <!-- Subject: Hilf uns, mehr Haushalten Klarheit zu geben -->
-<!-- Preheader: Teile die Empfehlung mit Menschen, die dir wichtig sind. -->
+<!-- Preheader: Vielleicht gibt es gerade jemanden in deinem Umfeld, der genau jetzt Hilfe braucht. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>heute mit einer Bitte, die uns wichtig ist.</p>
-<p>Wenn du Menschen kennst, die beim Thema Energie unsicher sind, teile gern unseren Ansatz mit ihnen.</p>
-<p>So hilfst du mit, dass mehr Haushalte verständliche Orientierung bekommen.</p>
-<p>Als Dankeschön erhältst du aktuell {{custom_values.empfehlungsprmie}} pro erfolgreicher Empfehlung.</p>
-<p>Hier kannst du den Empfehlungslink direkt teilen: <a href="{{ contact.empfehlungslink }}">{{ contact.empfehlungslink }}</a></p>
+<p>kennst du jemanden in Familie oder Freundeskreis, der sich mit Strom und Gas am liebsten gar nicht beschäftigen würde?</p>
+<p>Vielleicht gibt es gerade genau jetzt jemanden mit hohen Abschlägen oder einem Umzug.</p>
+<p>Manchmal reicht genau so ein Link, damit aus Unsicherheit wieder Klarheit wird.</p>
+<p>Wenn daraus eine erfolgreiche Empfehlung wird, bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
+<p>Hier kannst du deine Empfehlung direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlung jetzt teilen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

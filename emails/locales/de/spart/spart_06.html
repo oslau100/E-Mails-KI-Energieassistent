@@ -1,12 +1,11 @@
 <!-- Subject: Kurze Frage: willst du weiter zu viel zahlen? -->
-<!-- Preheader: 2 Minuten für eine klare Entscheidung. -->
+<!-- Preheader: Eine kurze Entscheidung kann dir jeden Monat Kosten sparen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ich halte es kurz:</p>
-<p>Wenn dein Einsparpotenzial bei {{ opportunity.savings_text }} liegt, lohnt sich ein kurzer Blick fast immer.</p>
-<p>Mehr ist es nicht: prüfen, entscheiden, fertig.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>kurze Frage:</p>
+<p>Willst du im aktuellen Tarif bleiben, obwohl bei dir {{ opportunity.savings_text }} möglich sind?</p>
+<p>Hier kannst du das jetzt sofort klären: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

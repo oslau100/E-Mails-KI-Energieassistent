@@ -1,13 +1,11 @@
 <!-- Subject: Beim Einzug entscheidet sich viel -->
-<!-- Preheader: Jetzt richtig wählen spart später Aufwand. -->
+<!-- Preheader: Nichtstun beim Start führt oft direkt in die teure Grundversorgung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>willkommen in deinem neuen Zuhause.</p>
-<p>Beim Einzug wird der Energietarif oft nebenbei entschieden.</p>
-<p>Genau jetzt lohnt sich ein klarer Blick, damit du nicht unnötig teuer startest.</p>
-<p>Ein kurzer Check reicht.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>beim Einzug wird der Tarif oft aus Versehen entschieden – und genau das wird später teuer.</p>
+<p>Viele landen erstmal in der Grundversorgung (die teure Standardlösung).</p>
+<p>Hier kannst du deinen Tarif jetzt sauber festlegen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

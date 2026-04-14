@@ -1,13 +1,11 @@
 <!-- Subject: Das Thema kostet jeden weiteren Monat -->
-<!-- Preheader: Aufschieben fühlt sich neutral an, ist es aber nicht. -->
+<!-- Preheader: Aufschieben wirkt neutral, kostet aber oft Monat für Monat Geld. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kurzer Hinweis, weil es wichtig ist:</p>
-<p>Nichts zu ändern wirkt erstmal bequem.</p>
-<p>Praktisch bedeutet es aber oft, dass jeden Monat weiter zu viel gezahlt wird.</p>
-<p>Der Check dauert nur kurz und gibt dir sofort Klarheit.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nicht zu wechseln fühlt sich neutral an – ist es aber nicht.</p>
+<p>Jeder weitere Monat im teureren Tarif lässt weiter Geld liegen.</p>
+<p>Hier kannst du jetzt sofort prüfen, ob du weiter zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

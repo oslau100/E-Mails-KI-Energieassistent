@@ -1,13 +1,11 @@
 <!-- Subject: Das ist ein guter Zwischenstand -->
-<!-- Preheader: Wir behalten den Markt für dich im Blick. -->
+<!-- Preheader: Kein Wechsel um jeden Preis: Wir empfehlen nur bei echtem Vorteil. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>du machst aktuell schon viel richtig.</p>
-<p>Dein derzeitiger Tarif ist im Moment keine schlechte Wahl.</p>
-<p>Wir beobachten trotzdem weiter, ob sich eine bessere Option ergibt.</p>
-<p>Du kannst jederzeit selbst kurz nachsehen.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nicht jeder Check endet mit „wechseln“ – und das ist gut so.</p>
+<p>Wir empfehlen nur dann einen Wechsel, wenn der Vorteil wirklich nachvollziehbar ist.</p>
+<p>Hier siehst du direkt, warum wir aktuell keinen Wechsel empfehlen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

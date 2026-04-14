@@ -1,13 +1,11 @@
 <!-- Subject: Aktuell bist du solide aufgestellt -->
-<!-- Preheader: Ehrliche Einschätzung statt Verkaufsdruck. -->
+<!-- Preheader: Stand heute sehen wir keinen klar besseren Tarif für dich. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>gute Nachricht vorweg:</p>
-<p>Aktuell sehen wir bei dir keinen klar besseren Tarif mit sinnvoller Verbesserung.</p>
-<p>Uns ist wichtig, dir das offen zu sagen statt künstlich Druck zu machen.</p>
-<p>Wenn sich etwas Relevantes ändert, melden wir uns.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>ehrliches Update: Aktuell sehen wir für dich keinen klar besseren Wechsel-Tarif.</p>
+<p>Das ist ein guter Zwischenstand und genau so soll Transparenz funktionieren.</p>
+<p>Hier siehst du deinen aktuellen Stand in 2 Minuten: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

@@ -1,13 +1,12 @@
 <!-- Subject: Entscheidung einfach machen -->
-<!-- Preheader: Eine klare Empfehlung statt 20 Tabs. -->
+<!-- Preheader: Drei Punkte reichen, um eine gute Tarifentscheidung zu treffen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>du brauchst keine perfekte Marktanalyse.</p>
-<p>Du brauchst eine verständliche Empfehlung, die zu deinem Haushalt passt.</p>
-<p>Genau dafür ist dein persönlicher Link da.</p>
-<p>Dann kannst du mit gutem Gefühl entscheiden.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>wenn Entscheidungen hängen bleiben, hilft ein einfacher Rahmen:</p>
+<p>1) Zahle ich aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Kann ich den Schritt jetzt sauber abschließen?</p>
+<p>Wenn du 1 und 2 mit Ja beantwortest, ist 3 meistens der richtige nächste Schritt.</p>
+<p>Hier siehst du jetzt direkt deine aktuelle Empfehlung: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
