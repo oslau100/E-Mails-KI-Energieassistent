@@ -1,11 +1,11 @@
-<!-- Subject: Wenn sich etwas ändert, bist du vorbereitet -->
-<!-- Preheader: Mit einem kurzen Check bleibst du handlungsfähig statt überrascht. -->
+<!-- Subject: Wenn sich etwas ändert, bist du nicht überrascht -->
+<!-- Preheader: Mit einem kurzen Check bleibst du handlungsfähig, damit du nicht im falschen Tarif bleibst. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>wer nur reagiert, wenn die Rechnung steigt, ist meistens zu spät dran.</p>
 <p>Besser: in Ruhe prüfen, bevor es teuer wird.</p>
-<p>Hier siehst du deine aktuelle Empfehlung: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier bekommst du in 2 Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
