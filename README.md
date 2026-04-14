@@ -59,9 +59,10 @@ Nicht wie Newsletter, sondern wie persönliche Nachrichten.
 
 ### Deshalb gilt
 - keine Buttons
-- keine Bilder
+- keine Bilder im Body
 - keine komplexen Layouts
 - CTA als normaler Hyperlink im Text
+- genau ein CTA-Link pro Email
 
 ## Phase 1
 Aktuell wird nur die deutsche Master-Version gebaut.
@@ -92,6 +93,12 @@ Aktuell wird nur die deutsche Master-Version gebaut.
 - {{custom_values.absender_name}}
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}
 
 ## Betreffzeilen-Regeln (Open Rate)
 - persönlich und konkret formulieren
@@ -99,12 +106,29 @@ Aktuell wird nur die deutsche Master-Version gebaut.
 - nicht nach Werbung und nicht nach Fake-Service-Mail klingen
 - {{ contact.first_name }} und {{ opportunity.energieart }} selektiv nutzen
 - keine irreführenden Betreffzeilen (z. B. „Dringend“, „Wir benötigen Rückmeldung“) ohne realen Kontext
+- keine fake-transaktionalen Muster (z. B. „deine Anfrage“, „wir warten auf Rückmeldung“)
 
 ## Preheader-Regeln
 - ergänzt den Betreff sinnvoll
 - erzeugt Relevanz ohne Druck
 - darf kurze offene Schleifen setzen
 - keine Fake-Dringlichkeit und kein falscher Service-Kontext
+- kein Support-/Ticket-Framing ohne realen Kontext
+
+## Selektive Zusatzzeile vor CTA
+- Bestehende Email-Struktur bleibt erhalten.
+- Genau eine zusätzliche Zeile wird nur dann ergänzt, wenn der CTA-Sprung zu abrupt ist.
+- Zweck der Zusatzzeile: Einwandbehandlung, Vertrauensbrücke oder Relevanzverstärkung.
+
+## Signatur-Standard
+Unter der Grußformel wird eine leichte HTML-Signatur genutzt:
+- {{custom_values.brandname}}
+- kleines Logo über {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- Impressum- und Datenschutz-Links
+
+Die Signatur ist das einzige stärker formatierte Element und bleibt bewusst dezent.
 
 ## Klare Sprachregeln
 Vermeiden (doppeldeutig/unklar):

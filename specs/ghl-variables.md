@@ -27,6 +27,12 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{custom_values.absender_name}}
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}
 
 ## Nutzung in Emails
 
@@ -55,3 +61,12 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - Placeholder niemals mit Beispieldaten ersetzen
 - Placeholder-Syntax exakt beibehalten
 - Keine neuen Variablen erfinden
+
+## Signatur-Verwendung
+Für die HTML-Signatur in deutschen Emails sind folgende Werte vorgesehen:
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}
