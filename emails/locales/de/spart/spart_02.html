@@ -1,0 +1,14 @@
+<!-- Subject: Kurzer Vergleich: alt vs. möglich -->
+<!-- Preheader: Ein Blick auf Anbieter und Monatskosten reicht oft. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>hier ist der direkte Vergleich aus deinem Check:</p>
+<p>Aktuell: {{ opportunity.aktueller_anbieter }} mit {{ opportunity.aktuelle_monatliche_kosten_ }} pro Monat.</p>
+<p>Möglich: {{ opportunity.neuer_anbieter }} mit {{ opportunity.neuer_monatlicher_preis_ }} pro Monat.</p>
+<p>Der Unterschied ist oft größer, als man denkt.</p>
+<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Oder direkt über diesen Link: <a href="{{ opportunity.offer_url }}">{{ opportunity.offer_url }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+</body>
+</html>
