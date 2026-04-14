@@ -22,28 +22,12 @@ Phase 1 = German only (`de`).
 Create persuasive but trustworthy HTML emails for the German DACH energy market.
 
 The system should:
-- increase conversions
+- increase open rate, click rate, and conversion
 - build trust
 - feel personal
 - stay easy to localize later
 - remain easy to import into GoHighLevel
 - separate workflow logic from email rendering
-
-## Mission context
-The product helps households gain more transparency around electricity and gas tariffs and identify meaningful savings potential.
-
-The brand position is:
-- clarity in a complex market
-- understandable guidance instead of confusion
-- helping households avoid unnecessary energy costs
-- reducing friction and overwhelm
-- making savings understandable without complicated comparisons
-
-This mission should influence tone, especially:
-- trust framing
-- educational clarity
-- recommendation / affiliate emails
-- long-term loop messaging
 
 ## Mandatory CTA rule
 Every email must contain a CTA.
@@ -54,19 +38,13 @@ Most emails must use the tariff recommendation CTA and link to:
 
 ### Referral CTA rule
 Only selected loop emails may use referral / recommendation CTAs.
-Those emails should focus on:
-- helping friends and family
-- contributing to a bigger mission
-- helping more households gain clarity and save money
-
-Referral emails must NOT sound like generic affiliate marketing.
+Referral emails must be mission-led and helpful, never spammy affiliate style.
 
 ## Data rules
-- Use only the approved GoHighLevel variables.
+- Use only approved GoHighLevel variables.
 - Preserve placeholders exactly as provided.
 - Do not rename variables.
 - Do not invent fields.
-- Do not replace placeholders with hardcoded example values in final templates.
 - Keep placeholder spacing exactly as provided.
 
 ## Approved variables
@@ -78,6 +56,7 @@ Referral emails must NOT sound like generic affiliate marketing.
 - {{ opportunity.scenario }}
 - {{ opportunity.email_lang }}
 - {{ opportunity.offer_url }}
+- {{ opportunity.energieart }}
 - {{ opportunity.aktueller_anbieter }}
 - {{ opportunity.neuer_anbieter }}
 - {{ opportunity.aktuelle_monatliche_kosten_ }}
@@ -95,124 +74,39 @@ Referral emails must NOT sound like generic affiliate marketing.
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
 
-## Reward variable rule
-{{custom_values.empfehlungsprmie}} must contain amount-only values, e.g.:
-- 30€
-- 50€
+## Subject line rules (open rate)
+- clear, personal, concrete
+- not ad-like
+- no fake support/service framing
+- {{ contact.first_name }} and {{ opportunity.energieart }} may be used selectively
+- no misleading urgency
 
-Do not assume product type inside the variable value.
-The surrounding sentence belongs in the email copy.
+## Preheader rules
+- must complement the subject
+- should increase relevance and clarity
+- can create a soft open loop
+- no fake urgency or fake "we are waiting" framing
 
-## Scenario messaging rules
-
-### spart
-- strongest conversion intent
-- use loss framing
-- make overpayment feel real
-- reduce fear of switching
-- reinforce simplicity and safety
-- CTA should usually point to the tariff recommendation
-- include some shorter, sharper spike emails
-
-### spart_nicht
-- build trust through honesty
-- no fake savings claims
-- positive reframe
-- market monitoring mindset
-- CTA should still exist, but stay soft
-- CTA should usually still point to the recommendation / overview page
-
-### neueinzug
-- emphasize timing
-- avoid expensive default / Grundversorgung framing
-- make action feel easy and quick
-- CTA should usually point to the tariff recommendation
-
-### loop
-- lighter than entry sequences
-- mix insights, reminders, soft conversion, and selected referral prompts
-- should not feel repetitive
-- should keep trust high
-- most loop emails still use tariff recommendation CTA
-- only selected loop emails use referral CTA
-
-## Referral / recommendation framing rules
-Referral emails must feel mission-led and helpful.
-
-Required emotional angle:
-- help us help more households
-- help your loved ones make better energy decisions
-- share clarity, not just a link
-- reward is secondary, mission is primary
-
-Good themes:
-- "Hilf uns, deinen Liebsten zu helfen"
-- "Teile Klarheit statt unnötiger Kosten"
-- "Mach es anderen leichter"
-- "Hilf mit, mehr Haushalten Orientierung zu geben"
-
-Avoid:
-- spammy affiliate tone
-- money-first tone
-- aggressive recruiting language
-- MLM-like wording
+## Prohibited / ambiguous phrases
+Do not use:
+- "dein aktueller Stand"
+- "dein Tarif-Status"
+- "deine Situation"
+- "deine Daten"
 
 ## HTML and layout rules
-The emails must look as plain and personal as possible.
-
-Required design style:
-- very basic email appearance
-- text-first
-- minimal HTML
-- no visual marketing layout
-- should feel like a personal email from a real person
-- should feel closer to a helpful note than to a newsletter
-
-Mandatory layout constraints:
+- plain, personal, text-first style
 - no buttons
 - no images
-- no icons
-- no banners
-- no cards
-- no boxed sections
-- no hero areas
-- no complex table-based visual layout
-- no decorative design elements
-- no multi-column sections
-
-CTA implementation:
-- CTA must appear as a normal text link
-- CTA may be placed as a plain hyperlink line
-- CTA can also appear in a short sentence with a linked anchor text
-- do not style CTA like a button
-
-HTML constraints:
-- keep HTML as lightweight and simple as possible
-- use safe email-compatible markup
-- use simple paragraphs, line breaks, and links
-- minimal wrapper structure only if needed for email compatibility
-- avoid unnecessary nesting
-- no JavaScript
-
-## Copy rules
-- strong subject lines
-- short preheaders
-- varied hooks across emails
-- every email must feel purposeful
-- avoid repetitive intros
-- avoid generic utility company language
-- write natural German for people living in DACH
-- trust and clarity matter more than hype
-- emails should read like one person wrote to another person
+- no decorative marketing layout
+- CTA must be a normal text link
 
 ## Important constraints
 - no fake urgency
 - no deceptive scarcity
 - no misleading claims
-- no outdated hardcoded savings numbers
-- use {{ opportunity.savings_text }} when dynamic savings language is needed
-- use {{ opportunity.cta_text }} only where it makes sense
-- every email must have a CTA
+- use dynamic variables where relevant
+- every email must include a CTA
 - most CTAs should drive to {{ opportunity.offer_url }}
 
 ## File structure
@@ -221,22 +115,3 @@ HTML constraints:
 - emails/locales/de/neueinzug/
 - emails/locales/de/loop/
 - specs/
-
-## Naming
-- spart_01.html ... spart_10.html
-- spart_nicht_01.html ... spart_nicht_04.html
-- neueinzug_01.html ... neueinzug_10.html
-- loop_01.html ... loop_15.html
-
-## Done criteria
-A template is done when:
-- HTML is valid and clean
-- placeholders are intact
-- subject and preheader are defined clearly
-- scenario psychology is correct
-- CTA is clear and present
-- CTA destination matches the email’s purpose
-- the email looks plain and personal
-- no button-like elements exist
-- no images exist
-- footer uses sender values

@@ -1,11 +1,11 @@
-<!-- Subject: Letzter kurzer Reminder -->
-<!-- Preheader: Bevor es liegen bleibt: den Einzugs-Tarif jetzt einmal sauber prüfen. -->
+<!-- Subject: "{{ contact.first_name }}, einmal sauber klären?" -->
+<!-- Preheader: "Bevor das Thema liegen bleibt: kurzer Check, klare Entscheidung." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>nur ein kurzer Reminder:</p>
-<p>Wenn du das Thema jetzt abschließt, ist es erledigt statt aufgeschoben.</p>
-<p>Hier kannst du jetzt sofort sehen, welche Startoption passt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nur ein kurzer Impuls:</p>
+<p>Noch weiter laufen lassen oder jetzt einmal sauber klären?</p>
+<p>Hier bekommst du in wenigen Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

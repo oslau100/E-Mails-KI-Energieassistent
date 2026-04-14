@@ -1,11 +1,11 @@
-<!-- Subject: Kurze Frage: willst du weiter zu viel zahlen? -->
-<!-- Preheader: Eine kurze Entscheidung kann dir jeden Monat Kosten sparen. -->
+<!-- Subject: "Kurze Frage zu deinem {{ opportunity.energieart }}-Tarif" -->
+<!-- Preheader: "Bei dir geht es aktuell um {{ opportunity.savings_text }} – einmal sauber klären?" -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurze Frage:</p>
 <p>Willst du im aktuellen Tarif bleiben, obwohl es bei dir aktuell um {{ opportunity.savings_text }} geht?</p>
-<p>Hier kannst du das jetzt sofort klären: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

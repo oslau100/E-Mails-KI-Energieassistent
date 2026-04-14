@@ -1,11 +1,11 @@
-<!-- Subject: Beim Einzug entscheidet sich viel -->
-<!-- Preheader: Nichtstun beim Start führt oft direkt in die teure Grundversorgung. -->
+<!-- Subject: "Beim Einzug wird {{ opportunity.energieart }} oft unnötig teuer" -->
+<!-- Preheader: "Gerade am Start landen viele zuerst in der Grundversorgung." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>beim Einzug wird der Tarif oft aus Versehen entschieden – und genau das wird später teuer.</p>
-<p>Viele landen erstmal in der Grundversorgung (die teure Standardlösung), obwohl bessere Optionen schon verfügbar sind.</p>
-<p>Hier kannst du das jetzt sofort klären, bevor es wieder Monate läuft: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>beim Einzug wird der Tarif oft nebenbei entschieden – und genau das wird später teuer.</p>
+<p>Viele landen zuerst in der Grundversorgung (die teure Standardlösung), obwohl bessere Optionen schon verfügbar sind.</p>
+<p>Hier bekommst du in wenigen Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

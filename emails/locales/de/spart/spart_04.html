@@ -1,11 +1,12 @@
-<!-- Subject: Das Thema kostet jeden weiteren Monat -->
-<!-- Preheader: Aufschieben wirkt neutral, kostet aber oft Monat für Monat Geld. -->
+<!-- Subject: "Nichtstun kostet bei {{ opportunity.energieart }} oft weiter" -->
+<!-- Preheader: "Aufschieben wirkt harmlos, kostet aber oft Monat für Monat Geld." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>nicht zu wechseln fühlt sich neutral an – ist es aber nicht.</p>
-<p>Jeder weitere Monat im teureren Tarif lässt weiter Geld liegen.</p>
-<p>Hier kannst du in wenigen Minuten direkt sehen, ob der Wechsel jetzt sinnvoll ist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Wenn ein teurer Tarif weiterläuft, zahlst du jeden Monat weiter zu viel.</p>
+<p>Wenn kein Vorteil da ist, bleibt alles wie es ist.</p>
+<p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
