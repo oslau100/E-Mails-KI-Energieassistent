@@ -1,1 +1,14 @@
-
+<!-- Subject: Dein Tarifcheck: Hier bleibt Geld liegen -->
+<!-- Preheader: Kurz und klar: So viel kannst du voraussichtlich sparen. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>mir ist bei deinem aktuellen Tarif etwas aufgefallen.</p>
+<p>Viele Haushalte zahlen monatlich mehr als nötig, ohne es zu merken.</p>
+<p>Bei dir liegt das Einsparpotenzial laut Check bei {{ opportunity.savings_text }}.</p>
+<p>Wenn du willst, kannst du dir die Empfehlung in Ruhe ansehen.</p>
+<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Oder direkt über diesen Link: <a href="{{ opportunity.offer_url }}">{{ opportunity.offer_url }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+</body>
+</html>
