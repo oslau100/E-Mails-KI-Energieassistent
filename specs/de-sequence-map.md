@@ -1,5 +1,7 @@
 # DE Sequence Map
 
+Hinweis: Jede E-Mail enthält genau einen CTA-Link (offer oder referral) plus den Absenderkontakt im Footer.
+
 ## spart
 
 | filename | subject | goal | CTA type |
