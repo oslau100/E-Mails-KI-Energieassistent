@@ -52,6 +52,26 @@ Diese Emails sollen nicht wie klassisches Affiliate-Marketing wirken, sondern wi
 - Transparenz weitergeben
 - unnötige Kosten vermeiden helfen
 
+## Design-Prinzip
+Die Emails sollen bewusst sehr einfach aussehen.
+
+Sie sollen:
+- textbasiert
+- schlicht
+- persönlich
+- direkt
+wirken.
+
+Nicht wie Newsletter, sondern eher wie eine persönliche Mail.
+
+### Deshalb gilt
+- keine Buttons
+- keine Bilder
+- keine komplexen Layouts
+- keine Banner
+- keine Marketing-Optik
+- CTA als normaler Hyperlink im Text
+
 ## Phase 1
 Aktuell wird nur die deutsche Master-Version gebaut.
 
@@ -128,3 +148,4 @@ Die Emails enthalten keine Entscheidungslogik.
 - jede Email braucht einen CTA
 - die meisten CTAs gehen auf die Tarifempfehlung
 - Empfehlungs-Emails müssen missionsgetrieben und hilfreich wirken
+- Emails sollen optisch so basic wie möglich sein
