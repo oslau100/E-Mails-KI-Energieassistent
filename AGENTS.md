@@ -22,7 +22,9 @@ Phase 1 = German only (`de`).
 Create persuasive but trustworthy HTML emails for the German DACH energy market.
 
 The system should:
-- increase conversions
+- increase open rates with stronger, relevant subject lines
+- increase click-through rates with clearer CTA lead-ins
+- increase conversions with natural objection handling
 - build trust
 - feel personal
 - stay easy to localize later
@@ -39,14 +41,15 @@ The brand position is:
 - reducing friction and overwhelm
 - making savings understandable without complicated comparisons
 
-This mission should influence tone, especially:
-- trust framing
-- educational clarity
-- recommendation / affiliate emails
-- long-term loop messaging
+Mission messaging should be integrated selectively (not in every email), especially in:
+- selected spart emails
+- selected neueinzug emails
+- selected spart_nicht emails
+- selected loop emails
+- all referral emails
 
 ## Mandatory CTA rule
-Every email must contain a CTA.
+Every email must contain exactly one CTA destination link.
 
 ### Default CTA rule
 Most emails must use the tariff recommendation CTA and link to:
@@ -78,6 +81,7 @@ Referral emails must NOT sound like generic affiliate marketing.
 - {{ opportunity.scenario }}
 - {{ opportunity.email_lang }}
 - {{ opportunity.offer_url }}
+- {{ opportunity.energieart }}
 - {{ opportunity.aktueller_anbieter }}
 - {{ opportunity.neuer_anbieter }}
 - {{ opportunity.aktuelle_monatliche_kosten_ }}
@@ -111,64 +115,40 @@ The surrounding sentence belongs in the email copy.
 - make overpayment feel real
 - reduce fear of switching
 - reinforce simplicity and safety
-- CTA should usually point to the tariff recommendation
-- include some shorter, sharper spike emails
+- naturally handle objections ("ich will nichts falsch machen", "ich kenne mich nicht aus", "ich kümmere mich später")
+- include a deliberate length mix (short spikes + medium + selected longer emails)
 
 ### spart_nicht
 - build trust through honesty
 - no fake savings claims
 - positive reframe
 - market monitoring mindset
-- CTA should still exist, but stay soft
-- CTA should usually still point to the recommendation / overview page
+- explain why ongoing monitoring emails still create value
+- include selective mission framing
 
 ### neueinzug
 - emphasize timing
-- avoid expensive default / Grundversorgung framing
+- use Grundversorgung framing (avoid Standardtarif wording)
+- acknowledge move-related overwhelm naturally
 - make action feel easy and quick
-- CTA should usually point to the tariff recommendation
+- include a deliberate length mix
 
 ### loop
 - lighter than entry sequences
 - mix insights, reminders, soft conversion, and selected referral prompts
 - should not feel repetitive
 - should keep trust high
+- include selective mission framing
 - most loop emails still use tariff recommendation CTA
 - only selected loop emails use referral CTA
-
-## Referral / recommendation framing rules
-Referral emails must feel mission-led and helpful.
-
-Required emotional angle:
-- help us help more households
-- help your loved ones make better energy decisions
-- share clarity, not just a link
-- reward is secondary, mission is primary
-
-Good themes:
-- "Hilf uns, deinen Liebsten zu helfen"
-- "Teile Klarheit statt unnötiger Kosten"
-- "Mach es anderen leichter"
-- "Hilf mit, mehr Haushalten Orientierung zu geben"
-
-Avoid:
-- spammy affiliate tone
-- money-first tone
-- aggressive recruiting language
-- MLM-like wording
 
 ## HTML and layout rules
 The emails must look as plain and personal as possible.
 
-Required design style:
-- very basic email appearance
+Mandatory style:
 - text-first
 - minimal HTML
 - no visual marketing layout
-- should feel like a personal email from a real person
-- should feel closer to a helpful note than to a newsletter
-
-Mandatory layout constraints:
 - no buttons
 - no images
 - no icons
@@ -176,34 +156,20 @@ Mandatory layout constraints:
 - no cards
 - no boxed sections
 - no hero areas
-- no complex table-based visual layout
-- no decorative design elements
 - no multi-column sections
 
 CTA implementation:
 - CTA must appear as a normal text link
-- CTA may be placed as a plain hyperlink line
-- CTA can also appear in a short sentence with a linked anchor text
-- do not style CTA like a button
-
-HTML constraints:
-- keep HTML as lightweight and simple as possible
-- use safe email-compatible markup
-- use simple paragraphs, line breaks, and links
-- minimal wrapper structure only if needed for email compatibility
-- avoid unnecessary nesting
-- no JavaScript
+- no button styling
 
 ## Copy rules
-- strong subject lines
-- short preheaders
-- varied hooks across emails
-- every email must feel purposeful
-- avoid repetitive intros
-- avoid generic utility company language
-- write natural German for people living in DACH
-- trust and clarity matter more than hype
-- emails should read like one person wrote to another person
+- actively optimize subject lines for open rate
+- write preheaders that add relevance, consequence, or utility
+- vary hooks across emails
+- not all emails should be ultra-short
+- include short spikes selectively, not universally
+- keep tone: trustworthy + calm + clear
+- use {{ opportunity.energieart }} where it improves relevance
 
 ## Important constraints
 - no fake urgency
@@ -211,32 +177,4 @@ HTML constraints:
 - no misleading claims
 - no outdated hardcoded savings numbers
 - use {{ opportunity.savings_text }} when dynamic savings language is needed
-- use {{ opportunity.cta_text }} only where it makes sense
-- every email must have a CTA
-- most CTAs should drive to {{ opportunity.offer_url }}
-
-## File structure
-- emails/locales/de/spart/
-- emails/locales/de/spart_nicht/
-- emails/locales/de/neueinzug/
-- emails/locales/de/loop/
-- specs/
-
-## Naming
-- spart_01.html ... spart_10.html
-- spart_nicht_01.html ... spart_nicht_04.html
-- neueinzug_01.html ... neueinzug_10.html
-- loop_01.html ... loop_15.html
-
-## Done criteria
-A template is done when:
-- HTML is valid and clean
-- placeholders are intact
-- subject and preheader are defined clearly
-- scenario psychology is correct
-- CTA is clear and present
-- CTA destination matches the email’s purpose
-- the email looks plain and personal
-- no button-like elements exist
-- no images exist
-- footer uses sender values
+- keep plain email style intact

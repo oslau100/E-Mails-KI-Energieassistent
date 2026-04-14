@@ -1,23 +1,34 @@
 # Email System – Tarif Funnel (DACH)
 
-Dieses Repository enthält ein skalierbares HTML-Email-System für GoHighLevel.
+Dieses Repository enthält ein skalierbares Plain-HTML-Email-System für GoHighLevel.
 
 ## Ziel
-Dieses System soll:
-- Conversion steigern
+Das System soll:
+- Open Rate über relevantere Betreffzeilen steigern
+- CTR über klarere CTA-Einleitungen steigern
+- Conversion über bessere Einwandbehandlung steigern
 - Vertrauen aufbauen
 - das Thema Energie verständlicher machen
 - Haushalten helfen, unnötige Kosten zu vermeiden
-- später sauber mehrsprachig ausgerollt werden können
+
+## Stilprinzip (fix)
+Kein Redesign.
+
+Alle Emails bleiben:
+- plain
+- textbasiert
+- ohne Buttons
+- ohne Bilder
+- ohne Marketing-Layout
 
 ## Mission
-Wir unterstützen Haushalte dabei, mehr Transparenz beim Thema Strom- und Gastarife zu gewinnen und gezielte Einsparpotenziale zu erkennen.
+Wir unterstützen Haushalte dabei, beim Thema Energie klare Entscheidungen zu treffen statt im Tarif-Chaos hängen zu bleiben.
 
-In unserer täglichen Arbeit sehen wir immer wieder, wie unübersichtlich der Energiemarkt für viele Menschen geworden ist. Unterschiedliche Anbieter, ständig wechselnde Tarife und komplexe Vertragsbedingungen erschweren es, den wirklich passenden Tarif zu finden. Viele Haushalte setzen sich erst dann mit ihrem Energievertrag auseinander, wenn unerwartet hohe Nachzahlungen entstehen oder die Kosten plötzlich steigen.
-
-Genau hier setzen wir an. Mit unserem digitalen Energieassistenten bieten wir ein System, das Tarife automatisch überprüft, Jahresabrechnungen analysiert und verständlich aufzeigt, wo Einsparungen möglich sind oder Auffälligkeiten bestehen. So wird aus einem komplexen Thema eine klare und nachvollziehbare Lösung.
-
-Unser Ziel ist es, möglichst vielen Haushalten zu helfen, ihre Energiekosten besser zu verstehen, unnötige Ausgaben zu vermeiden und langfristig zu sparen – ganz ohne komplizierte Vergleiche oder zusätzlichen Aufwand.
+Mission-Elemente werden punktuell eingebaut (nicht in jeder Mail), besonders in:
+- ausgewählten Loop-Mails
+- ausgewählten spart_nicht-Mails
+- ausgewählten spart/neueinzug-Mails
+- allen Referral-Mails
 
 ## Szenarien
 - spart
@@ -26,54 +37,23 @@ Unser Ziel ist es, möglichst vielen Haushalten zu helfen, ihre Energiekosten be
 - loop
 
 ## Sequenz-Struktur
-
-### Haupt-Sequenzen
 - spart = 10 Emails
 - neueinzug = 10 Emails
 - spart_nicht = 4 Emails
-
-### Loop
-- 15 Emails
-- startet nach der jeweiligen Einstiegsszenario-Sequenz
-- dient Reaktivierung, Markt-Awareness, Reminder und ausgewählten Empfehlungs-Impulsen
+- loop = 15 Emails
 
 ## CTA-Regel
-Jede Email enthält einen CTA.
+Jede Email enthält genau einen CTA-Ziellink:
+- meist `{{ opportunity.offer_url }}`
+- in ausgewählten Loop-Referral-Mails `{{ contact.empfehlungslink }}`
 
-### Standard
-Die meisten Emails verlinken auf die Tarifempfehlung:
-- {{ opportunity.offer_url }}
-
-### Referral / Empfehlungsprogramm
-Nur ausgewählte Loop-Emails nutzen Empfehlungs-CTAs.
-Diese Emails sollen nicht wie klassisches Affiliate-Marketing wirken, sondern wie ein hilfreicher Beitrag zur Mission:
-- mehr Haushalten Orientierung geben
-- Liebsten helfen
-- Transparenz weitergeben
-- unnötige Kosten vermeiden helfen
-
-## Design-Prinzip
-Die Emails sollen bewusst sehr einfach aussehen.
-
-Sie sollen:
-- textbasiert
-- schlicht
-- persönlich
-- direkt
-wirken.
-
-Nicht wie Newsletter, sondern eher wie eine persönliche Mail.
-
-### Deshalb gilt
-- keine Buttons
-- keine Bilder
-- keine komplexen Layouts
-- keine Banner
-- keine Marketing-Optik
-- CTA als normaler Hyperlink im Text
-
-## Phase 1
-Aktuell wird nur die deutsche Master-Version gebaut.
+## Performance-Regeln für Copy
+- Betreffzeilen aktiv auf Open Rate optimieren (konkret, relevant, neugierig; nicht clickbait)
+- Preheader darf Betreff nicht nur wiederholen, sondern muss Nutzen/Konsequenz ergänzen
+- CTA-Einleitung aktivierend formulieren
+- Einwandbehandlung bewusst integrieren (natürlich, nicht aufgezählt)
+- Nicht alle Mails ultrakurz halten: sinnvoller Längenmix aus kurz/mittel/substanzieller
+- `{{ opportunity.energieart }}` gezielt für Relevanz nutzen
 
 ## Verwendete GHL Variablen
 
@@ -84,6 +64,7 @@ Aktuell wird nur die deutsche Master-Version gebaut.
 - {{ opportunity.scenario }}
 - {{ opportunity.email_lang }}
 - {{ opportunity.offer_url }}
+- {{ opportunity.energieart }}
 - {{ opportunity.aktueller_anbieter }}
 - {{ opportunity.neuer_anbieter }}
 - {{ opportunity.aktuelle_monatliche_kosten_ }}
@@ -101,30 +82,6 @@ Aktuell wird nur die deutsche Master-Version gebaut.
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
 
-## Wichtige Regel zur Empfehlungsprämie
-`{{custom_values.empfehlungsprmie}}` soll nur den nackten Wert enthalten, zum Beispiel:
-- 30€
-- 50€
-
-Nicht:
-- 50€ Amazon Gutschein
-- 50€ für jede erfolgreiche Empfehlung
-
-Die sprachliche Einbettung erfolgt in der jeweiligen Email.
-
-## Workflow-Prinzip
-Die Logik liegt in GoHighLevel.
-
-Der Workflow setzt vor dem Versand:
-- scenario
-- savings_bucket
-- savings_text
-- cta_text
-- offer_url
-- email_lang
-
-Die Emails enthalten keine Entscheidungslogik.
-
 ## Struktur
 - emails/locales/de/spart/
 - emails/locales/de/spart_nicht/
@@ -132,20 +89,9 @@ Die Emails enthalten keine Entscheidungslogik.
 - emails/locales/de/loop/
 - specs/
 
-## Reihenfolge
-1. Setup-Files anlegen
-2. Deutsche Master-Emails bauen
-3. HTML in GHL testen
-4. Importprozess standardisieren
-5. Loop validieren
-6. Später lokalisieren
-
 ## Wichtige Regeln
-- keine festen veraltbaren Zahlen in statischen Emails
 - keine Logik im HTML
 - keine zusätzlichen Variablen erfinden
-- gleiche Placeholder-Syntax überall beibehalten
+- Placeholder exakt beibehalten
 - jede Email braucht einen CTA
-- die meisten CTAs gehen auf die Tarifempfehlung
-- Empfehlungs-Emails müssen missionsgetrieben und hilfreich wirken
-- Emails sollen optisch so basic wie möglich sein
+- Plain-Email-Optik unverändert beibehalten

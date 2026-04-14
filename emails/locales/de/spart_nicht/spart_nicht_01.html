@@ -1,11 +1,12 @@
-<!-- Subject: Aktuell bist du solide aufgestellt -->
-<!-- Preheader: Stand heute sehen wir keinen klar besseren Tarif für dich. -->
+<!-- Subject: Aktuell kein besserer {{ opportunity.energieart }}-Tarif – und das ist ehrlich -->
+<!-- Preheader: Du bekommst weiter Updates, damit du bei Veränderungen nicht zu spät dran bist. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>ehrliches Update: Aktuell sehen wir für dich keinen klar besseren Wechsel-Tarif.</p>
-<p>Das ist ein guter Zwischenstand und genau so soll Transparenz funktionieren.</p>
-<p>Hier kannst du dir deinen aktuellen Stand ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Genau das ist unser Ansatz: Klarheit vor Aktion, auch wenn es gerade keinen Wechsel braucht.</p>
+<p>Wenn sich beim {{ opportunity.energieart }} etwas ändert, sollst du es früh sehen – nicht erst nach teuren Monaten.</p>
+<p>Hier bekommst du in kurzer Zeit Klarheit zu deinem aktuellen Stand: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

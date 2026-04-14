@@ -1,11 +1,11 @@
-<!-- Subject: Bleib entspannt informiert -->
+<!-- Subject: Bleib entspannt informiert – ohne Mehrkosten zu übersehen -->
 <!-- Preheader: Kurz prüfen, bewusst entscheiden, dann wieder Ruhe haben. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>du musst nicht ständig optimieren – nur regelmäßig kurz hinschauen.</p>
-<p>So bleibt dein Tarif-Thema entspannt und trotzdem unter Kontrolle.</p>
-<p>Hier kannst du deinen aktuellen Tarif direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>So bleibt dein {{ opportunity.energieart }}-Thema entspannt und trotzdem unter Kontrolle.</p>
+<p>Hier bekommst du in kurzer Zeit Klarheit zu deinem {{ opportunity.energieart }}-Tarif: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

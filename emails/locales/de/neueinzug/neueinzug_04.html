@@ -1,11 +1,12 @@
-<!-- Subject: Typischer Fehler beim Einzug -->
-<!-- Preheader: Viele verschieben die Tarifwahl und zahlen dann unnötig drauf. -->
+<!-- Subject: Der häufigste Einzugs-Fehler beim {{ opportunity.energieart }} -->
+<!-- Preheader: "Ich kümmere mich später" führt beim Einzug oft zu mehreren teuren Monaten. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>der häufigste Fehler beim Einzug: „Ich kümmere mich später darum.“</p>
-<p>Später heißt oft: mehrere Monate mit einem Tarif, der nicht zu dir passt.</p>
-<p>Hier prüfst du in wenigen Minuten die bessere Startoption: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>der häufigste Fehler beim Einzug: „Darum kümmere ich mich später.“</p>
+<p>Später heißt oft: Grundversorgung läuft weiter, obwohl sie nicht zu dir passt.</p>
+<p>Wenn du dich gerade nicht auch noch mit {{ opportunity.energieart }} beschäftigen willst, ist ein kurzer Check die pragmatische Lösung.</p>
+<p>Hier kannst du jetzt sofort prüfen, welche Startoption besser ist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

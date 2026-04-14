@@ -1,11 +1,12 @@
-<!-- Subject: Der Aufwand ist kleiner als gedacht -->
-<!-- Preheader: Der Tarifcheck dauert kurz und verhindert lange teure Phasen. -->
+<!-- Subject: Der Aufwand ist kleiner als dein Einwand -->
+<!-- Preheader: Viele überschätzen den Aufwand und unterschätzen, was Monate im falschen Tarif kosten. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele überschätzen den Aufwand und unterschätzen die Kosten des Wartens.</p>
-<p>Der Check ist kurz. Der Effekt kann monatelang wirken.</p>
-<p>Hier kannst du deine Empfehlung ohne Umwege prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>viele denken: „Ich habe gerade genug anderes zu tun.“</p>
+<p>Genau deshalb ist dieser Check so kurz gehalten: wenig Aufwand, klare Entscheidung, Thema erledigt.</p>
+<p>Der Effekt bei {{ opportunity.energieart }} kann danach monatelang wirken.</p>
+<p>Hier bekommst du in kurzer Zeit Klarheit zu deinem {{ opportunity.energieart }}-Tarif: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

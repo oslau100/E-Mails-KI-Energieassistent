@@ -10,6 +10,7 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{ opportunity.scenario }}
 - {{ opportunity.email_lang }}
 - {{ opportunity.offer_url }}
+- {{ opportunity.energieart }}
 - {{ opportunity.aktueller_anbieter }}
 - {{ opportunity.neuer_anbieter }}
 - {{ opportunity.aktuelle_monatliche_kosten_ }}
@@ -34,8 +35,9 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{ contact.city }}
 - {{ contact.postal_code }}
 
-### Messaging
+### Messaging / Relevanz
 - {{ opportunity.savings_text }}
+- {{ opportunity.energieart }}
 - {{ opportunity.cta_text }}
 
 ### Routing / Kontext
@@ -45,6 +47,7 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 
 ### CTA Ziel
 - {{ opportunity.offer_url }}
+- {{ contact.empfehlungslink }} (nur in ausgewählten Referral-Mails)
 
 ### Vergleich / Conversion Layer
 - {{ opportunity.aktueller_anbieter }}
@@ -53,21 +56,12 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{ opportunity.neuer_monatlicher_preis_ }}
 
 ### Empfehlungsprogramm
-- {{ contact.empfehlungslink }}
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
-
-## Wichtige Regel zur Empfehlungsprämie
-`{{custom_values.empfehlungsprmie}}` enthält nur den Betrag bzw. Wert, zum Beispiel:
-- 30€
-- 50€
-
-Nicht:
-- 50€ Amazon Gutschein
-- 50€ für jede erfolgreiche Empfehlung
 
 ## Regeln
 - Placeholder niemals umformatieren
 - Placeholder niemals übersetzen
 - Placeholder niemals mit Beispieldaten ersetzen
 - Placeholder-Syntax exakt beibehalten
+- `{{ opportunity.energieart }}` gezielt und natürlich einsetzen (Betreff, Preheader, Einstieg, CTA-Kontext)

@@ -1,11 +1,12 @@
-<!-- Subject: Unser Versprechen: Klarheit vor Conversion -->
-<!-- Preheader: Wir bleiben ehrlich – auch wenn ein Wechsel gerade nicht sinnvoll ist. -->
+<!-- Subject: Unser Versprechen: Klarheit, auch wenn „nichts tun“ richtig ist -->
+<!-- Preheader: Wir empfehlen nur, wenn es wirklich sinnvoll ist – und melden uns, wenn sich das ändert. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>unser Anspruch bleibt einfach: Klarheit vor Aktion.</p>
-<p>Wenn ein Wechsel Sinn ergibt, sagen wir es klar. Wenn nicht, sagen wir das genauso klar.</p>
-<p>Hier kannst du deine aktuelle Einschätzung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>unser Anspruch bleibt einfach: Klarheit vor Conversion.</p>
+<p>Wenn ein Wechsel beim {{ opportunity.energieart }} Sinn ergibt, sagen wir es klar. Wenn nicht, sagen wir das genauso klar.</p>
+<p>Damit aus einem komplexen Markt wieder eine ruhige, nachvollziehbare Entscheidung wird.</p>
+<p>Hier kannst du jetzt sofort deine aktuelle Einschätzung sehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

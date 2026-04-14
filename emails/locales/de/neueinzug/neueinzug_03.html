@@ -1,11 +1,12 @@
-<!-- Subject: Schnell erledigt, langfristig hilfreich -->
-<!-- Preheader: Jetzt wenige Minuten investieren spart später viel Korrekturaufwand. -->
+<!-- Subject: Jetzt 2 Minuten investieren, später viel Aufwand sparen -->
+<!-- Preheader: Ein früher Tarifentscheid verhindert teure Korrekturen nach dem Einzug. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>jetzt prüfen ist leichter als später nachbessern.</p>
-<p>Gerade beim Einzug ist ein früher Tarifentscheid einer der schnellsten Hebel für weniger laufende Kosten.</p>
-<p>Hier kannst du den offenen Punkt direkt abhaken: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Gerade beim Einzug ist ein früher Entscheid beim {{ opportunity.energieart }} oft der schnellste Hebel für weniger laufende Kosten.</p>
+<p>Unser Ziel ist, dir in dieser vollen Phase trotzdem Klarheit zu geben – ohne zusätzlichen Stress.</p>
+<p>Hier kannst du das Thema jetzt direkt abhaken: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

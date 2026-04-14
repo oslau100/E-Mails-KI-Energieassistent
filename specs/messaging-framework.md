@@ -1,236 +1,123 @@
 # Messaging Framework
 
 ## Grundprinzip
-Es wird im deutschen DACH-Energiemarkt kommuniziert.
+Kommunikation für den deutschen DACH-Energiemarkt.
 
 Die Emails sollen:
 - klar
 - vertrauenswürdig
 - conversion-stark
-- nicht generisch
+- relevant
+- nicht spammy
 sein.
 
-Die Marke hilft Haushalten, ein komplexes Energiethema besser zu verstehen und gezielt Einsparpotenziale zu erkennen.
+## Performance-Ziele
+1. Open Rate durch stärkere Subject Lines
+2. CTR durch bessere CTA-Einleitungen
+3. Conversion durch gezielte Einwandbehandlung
+4. Relevanz durch sinnvollen Einsatz von `{{ opportunity.energieart }}`
 
 ## Form-Prinzip
-Die Emails sollen sich wie persönliche, einfache Nachrichten anfühlen.
+Die Emails sollen wie persönliche, einfache Nachrichten wirken.
 
 Nicht wie:
 - Newsletter
 - Werbemails
-- Marketing-Templates
+- Design-Kampagnen
 
-Sondern eher wie:
-- eine direkte Nachricht
-- eine hilfreiche persönliche Mail
-- ein klar formulierter Hinweis von einer echten Person
+Sondern wie:
+- hilfreiche persönliche Hinweise
+- klare Handlungsimpulse
 
-## Layout-Prinzip
-Alle Emails sollen optisch sehr schlicht sein.
-
+## Layout-Prinzip (fix)
 Pflicht:
 - textbasiert
 - minimal
-- ohne grafische Elemente
+- plain style
 - CTA als normaler Hyperlink
 
 Verboten:
 - Buttons
 - Bilder
-- Boxen
 - Banner
-- Newsletter-Optik
-- komplexes Layout
+- Boxen
+- komplexe Layouts
 
----
+## Längenmix
+Nicht alle Emails ultrakurz halten.
 
-## Szenario 1: spart
+Richtwert pro Sequenz:
+- 20–30% kurze Spike-Mails
+- 30–40% substanziellere Mails
+- Rest mittellang
 
-### Ziel
-Conversion
+## Mission-Einsatz
+Mission punktuell integrieren, nicht in jeder Mail.
 
-### Psychologie
-- Verlustvermeidung
-- Klarheit
-- Relevanz
-- Risikoabbau
-- Handlungsvereinfachung
+Fokus:
+- Klarheit statt Tarif-Chaos
+- Haushalten helfen, Energiekosten besser zu verstehen
+- unnötige Kosten vermeiden
+- Orientierung geben
 
-### Kernbotschaften
-- Du zahlst aktuell mehr als nötig.
-- Das ist kein theoretisches Problem, sondern real.
-- Der Wechsel ist einfacher als viele denken.
-- Nichts zu tun kostet weiter Geld.
+Mission ist Pflicht in:
+- allen Referral-Mails
 
-### Wichtige Trigger
-- Loss framing
-- Vergleich alt vs. neu
-- Sicherheit
-- geringe Hürde
-- ehrlicher Druck
+## Einwandbehandlung
+Einwände natürlich in den Fließtext einbauen.
 
-### CTA-Ton
-- direkt
-- outcome-orientiert
-- handlungsstark
+### spart
+Adressieren:
+- „Ich will nichts falsch machen“
+- „Ich kenne mich mit {{ opportunity.energieart }} nicht aus“
+- „Vielleicht lohnt es sich gar nicht“
+- „Ich kümmere mich später“
 
-### CTA-Ziel
-- überwiegend Tarifempfehlung / Angebotsseite
+### neueinzug
+Adressieren:
+- „Ich habe gerade genug anderes zu tun“
+- „Darum kümmere ich mich später“
+- „Ich will mich jetzt nicht auch noch mit {{ opportunity.energieart }} beschäftigen“
 
-### Sequenzlänge
-- 10 Emails
+### spart_nicht
+Adressieren:
+- „Warum bekomme ich überhaupt noch Mails?“
+- „Bringt mir das überhaupt etwas?“
+- Nutzen von Monitoring bei aktuell fehlendem Wechselvorteil
 
-### Zusätzliche Regel
-- 2 bis 3 Emails dürfen bewusst kürzer und druckvoller sein
+## Szenario-Regeln
 
----
+### spart
+- stärkster Loss Frame
+- weniger abstraktes „Einsparpotenzial“, mehr konkrete Überzahlung
+- 2–3 Mails bewusst gehaltvoller
 
-## Szenario 2: spart_nicht
+### neueinzug
+- Grundversorgung klar benennen
+- Timing + Überforderung beim Einzug aktiv behandeln
+- 2–3 Mails bewusst gehaltvoller
 
-### Ziel
-Vertrauen und spätere Wiederaktivierung
+### spart_nicht
+- Trust-first
+- Monitoring-Mehrwert klar erklären
+- weiche, aber klare CTA-Formulierungen
 
-### Psychologie
-- Ehrlichkeit
-- Entlastung
-- Autorität
-- positive Reframe
-- Marktbeobachtung
+### loop
+- hohe Variation
+- nicht nur Reminder, auch neue Perspektiven
+- mission-led Referral-Mails
 
-### Kernbotschaften
-- Aktuell gibt es keinen besseren Tarif.
-- Du bist derzeit nicht schlecht aufgestellt.
-- Wir beobachten weiter, ob sich etwas ändert.
-- Ehrlichkeit ist hier wichtiger als Druck.
-
-### Wichtige Trigger
-- radikale Ehrlichkeit
-- Vertrauen statt Druck
-- Sicherheit
-- Service-Gedanke
-
-### CTA-Ton
-- weich
-- ruhig
-- beratend
-
-### CTA-Ziel
-- weiterhin klare Handlung, aber soft
-- meist Tarifempfehlung / Übersicht
-
-### Sequenzlänge
-- 4 Emails
-
----
-
-## Szenario 3: neueinzug
-
-### Ziel
-Schnelle Entscheidung
-
-### Psychologie
-- Timing
-- Einfachheit
-- Stressreduktion
-- falsche Default-Entscheidung vermeiden
-
-### Kernbotschaften
-- Beim Einzug ist jetzt der beste Moment.
-- Wer nichts auswählt, landet oft in einer teuren Standardversorgung.
-- Einmal richtig wählen, dann ist das Thema erledigt.
-- Es soll schnell und unkompliziert gehen.
-
-### Wichtige Trigger
-- Grundversorgung vermeiden
-- schnell erledigt
-- wenig Aufwand
-- jetzt ist der ideale Zeitpunkt
-
-### CTA-Ton
-- klar
-- unkompliziert
-- zügig
-
-### CTA-Ziel
-- überwiegend Tarifempfehlung / Angebotsseite
-
-### Sequenzlänge
-- 10 Emails
-
-### Zusätzliche Regel
-- mehrere Emails dürfen sehr klar auf Default-Vermeidung und Einfachheit gehen
-
----
-
-## Szenario 4: loop
-
-### Ziel
-- Reaktivierung
-- Top of mind bleiben
-- spätere Conversion
-- Vertrauen halten
-- Empfehlungsprogramm punktuell aktivieren
-
-### Psychologie
-- leichter als die Einstiegsszenarien
-- weniger Druck
-- mehr Rhythmuswechsel
-- gelegentliche Conversion-Spikes
-- Empfehlungs-Emails ohne Spam-Gefühl
-
-### Content-Mix
-- Markt-Insights
-- Soft Conversion
-- Reminder
-- Reaktivierung
-- ausgewählte Empfehlungs-Emails
-
-### CTA-Regel
-Jede Loop-Email braucht einen CTA.
-
-### Default CTA im Loop
-- meist Tarifempfehlung / Angebotsseite
-
-### Referral CTA im Loop
-- nur ausgewählte Emails
-- Mission first, Prämie second
-- Fokus auf:
-  - Hilf uns, deinen Liebsten zu helfen
-  - Gib Klarheit weiter
-  - Hilf mit, mehr Haushalten Orientierung zu geben
-  - Teile eine hilfreiche Lösung statt nur einen Link
-
-### Sequenzlänge
-- 15 Emails
-
-### Referral-Einbindung
-- etwa 3 Loop-Emails dürfen klar auf das Empfehlungsprogramm gehen
-- CTA dann z. B.:
-  - Empfehlung teilen
-  - Jetzt weitergeben
-  - Freunden helfen
-  - Zur Empfehlungsseite
-
----
-
-## Betreffzeilen-Prinzipien
+## Subject-Line-Regeln (Open Rate)
 - konkret
-- neugierig
 - relevant
-- nicht clickbaity
-- teils personalisiert
-- teils problemorientiert
+- psychologisch stark (Frage, Verlust, Fehler, Timing, Klartext)
+- variiert
+- nicht clickbait, nicht reißerisch
 
-## Preheader-Prinzipien
-- kurz
-- ergänzt den Betreff
-- verstärkt Relevanz oder Nutzen
+## Preheader-Regeln
+- ergänzt den Subject, wiederholt ihn nicht nur
+- macht Nutzen oder Konsequenz klar
 
-## Verboten
-- fake scarcity
-- übertriebene Versprechen
-- unseriöse Claims
-- aggressive Billigstrom-Sprache
-- plumpe Affiliate-Sprache
-- Geld-verdienen-Framing als Hauptbotschaft
-- newsletterartige Optik
+## CTA-Regel
+- genau ein CTA-Ziellink pro Mail
+- CTA-Einleitung aktivierend und klar

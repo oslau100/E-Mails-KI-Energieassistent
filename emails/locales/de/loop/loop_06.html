@@ -1,11 +1,11 @@
-<!-- Subject: Kurz prüfen? -->
-<!-- Preheader: Reaktivierung in 1 Minute: einmal bewusst checken statt weiterlaufen lassen. -->
+<!-- Subject: Kurze Frage zu deinem {{ opportunity.energieart }}-Tarif? -->
+<!-- Preheader: Reaktivierung in 1 Minute: einmal bewusst prüfen statt weiterlaufen lassen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurze Frage:</p>
-<p>Wann hast du deinen Tarif zuletzt bewusst geprüft?</p>
-<p>Hier kannst du das direkt nachholen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Wann hast du deinen {{ opportunity.energieart }}-Tarif zuletzt bewusst geprüft?</p>
+<p>Hier kannst du das jetzt sofort prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

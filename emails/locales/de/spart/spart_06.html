@@ -1,11 +1,12 @@
-<!-- Subject: Kurze Frage: willst du weiter zu viel zahlen? -->
-<!-- Preheader: Eine kurze Entscheidung kann dir jeden Monat Kosten sparen. -->
+<!-- Subject: Kurze Frage zu deinem {{ opportunity.energieart }}-Tarif -->
+<!-- Preheader: Wenn es bei dir um {{ opportunity.savings_text }} geht, ist Warten selten die beste Antwort. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurze Frage:</p>
-<p>Willst du im aktuellen Tarif bleiben, obwohl {{ opportunity.savings_text }} drin sein könnten?</p>
-<p>Hier kannst du das direkt klären: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Willst du den aktuellen Tarif weiterlaufen lassen, obwohl es bei dir aktuell um {{ opportunity.savings_text }} geht?</p>
+<p>Falls "ich kümmere mich später" gerade mitläuft: genau dann hilft ein kurzer, sauberer Check.</p>
+<p>Hier kannst du das jetzt sofort klären: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

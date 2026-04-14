@@ -1,13 +1,12 @@
-<!-- Subject: Hilf uns, mehr Haushalten Klarheit zu geben -->
-<!-- Preheader: Vielleicht gibt es gerade jemanden in deinem Umfeld, der genau jetzt Hilfe braucht. -->
+<!-- Subject: Hilf uns, mehr Haushalten bei {{ opportunity.energieart }} Klarheit zu geben -->
+<!-- Preheader: Dein Link kann jemandem im Umfeld unnötige Kosten und Unsicherheit ersparen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kennst du jemanden in Familie oder Freundeskreis, der sich mit Strom und Gas am liebsten gar nicht beschäftigen würde?</p>
-<p>Vielleicht gibt es gerade genau jetzt jemanden mit hohen Abschlägen oder einem Umzug.</p>
-<p>Ein geteilter Link kann in so einem Moment viel Unsicherheit rausnehmen.</p>
-<p>Wenn daraus eine erfolgreiche Empfehlung wird, bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
-<p>Hier kannst du deinen Empfehlungslink direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
+<p>kennst du jemanden in Familie oder Freundeskreis, der sich mit {{ opportunity.energieart }} am liebsten gar nicht beschäftigen würde?</p>
+<p>Genau dort wollen wir helfen: Klarheit statt Tarif-Chaos, bevor unnötige Kosten entstehen.</p>
+<p>Wenn daraus eine erfolgreiche Empfehlung wird, bekommst du aktuell {{custom_values.empfehlungsprmie}} – wichtiger ist der konkrete Nutzen für die Person.</p>
+<p>Hier kannst du deinen Empfehlungslink jetzt direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

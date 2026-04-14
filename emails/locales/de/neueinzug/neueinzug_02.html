@@ -1,11 +1,11 @@
-<!-- Subject: Grundversorgung ist oft nur die Übergangslösung -->
-<!-- Preheader: Praktisch für den Start, aber häufig nicht die günstigste Dauerlösung. -->
+<!-- Subject: Grundversorgung beim Einzug: okay für den Start, teuer auf Dauer -->
+<!-- Preheader: Der automatische Start ist bequem, aber häufig nicht die beste Dauerlösung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>Grundversorgung ist beim Einzug oft der automatische Startpunkt.</p>
-<p>Für den Übergang okay – auf Dauer aber häufig unnötig teuer.</p>
-<p>Hier findest du die passende Empfehlung für deinen Start: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Für den Übergang okay – wenn es weiterläuft, wird es bei {{ opportunity.energieart }} oft unnötig teuer.</p>
+<p>Hier bekommst du in kurzer Zeit Klarheit zu deinem {{ opportunity.energieart }}-Starttarif: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

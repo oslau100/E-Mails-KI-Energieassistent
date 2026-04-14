@@ -1,11 +1,12 @@
-<!-- Subject: Aufschieben ist auch eine Entscheidung -->
+<!-- Subject: Aufschieben ist beim {{ opportunity.energieart }} auch eine Entscheidung -->
 <!-- Preheader: Wer nicht prüft, entscheidet sich oft unbewusst für höhere Kosten. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurzer Reframe:</p>
-<p>Auch nichts zu tun ist eine Entscheidung – meist für den teureren Tarif.</p>
-<p>Hier prüfst du in Ruhe, ob du das wirklich so lassen willst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>"Später" fühlt sich ruhig an, bedeutet beim Tarif aber oft: weiter zu viel zahlen.</p>
+<p>Gerade wenn du denkst "Vielleicht lohnt es sich gar nicht", hilft ein Check, der direkt zeigt, was Sache ist.</p>
+<p>Hier siehst du sofort, ob dein {{ opportunity.energieart }}-Tarif gerade zu teuer ist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

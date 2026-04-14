@@ -1,11 +1,11 @@
-<!-- Subject: Dein Tarifcheck: Hier bleibt Geld liegen -->
-<!-- Preheader: Viele merken es zu spät: Der aktuelle Tarif ist oft unnötig teuer. -->
+<!-- Subject: {{ contact.first_name }}, zahlst du bei {{ opportunity.energieart }} gerade zu viel? -->
+<!-- Preheader: Viele lassen den Tarif monatelang laufen und merken die Mehrkosten erst spät. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele merken erst spät, dass ihr Tarif längst teurer ist als nötig.</p>
-<p>Bei dir sieht es aktuell nach {{ opportunity.savings_text }} Einsparpotenzial aus.</p>
-<p>Hier siehst du, ob du gerade unnötig zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>bei vielen läuft der Tarif einfach weiter, obwohl er längst zu teuer ist.</p>
+<p>Bei dir geht es aktuell um {{ opportunity.savings_text }}.</p>
+<p>Hier siehst du sofort, ob dein {{ opportunity.energieart }}-Tarif gerade zu teuer ist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

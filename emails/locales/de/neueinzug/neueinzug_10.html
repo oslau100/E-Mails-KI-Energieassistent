@@ -1,11 +1,12 @@
-<!-- Subject: Final: Einzugsthema abschließen -->
-<!-- Preheader: Letzter Impuls für einen klaren und kostensicheren Start. -->
+<!-- Subject: Final: Einzugsthema bei {{ opportunity.energieart }} abschließen -->
+<!-- Preheader: Ein letzter klarer Schritt sorgt dafür, dass keine unnötigen Kosten mit umziehen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>finaler Impuls von mir zum Einzug:</p>
-<p>Jetzt prüfen ist der einfachste Weg, um später nicht teuer nachbessern zu müssen.</p>
-<p>Hier kannst du deinen Tarif jetzt final festlegen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Jetzt prüfen ist der einfachste Weg, damit Grundversorgung nicht unbemerkt weiterläuft.</p>
+<p>Danach ist der Punkt sauber geklärt und du hast wieder Kopf frei.</p>
+<p>Hier kannst du deinen {{ opportunity.energieart }}-Tarif jetzt final festlegen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
