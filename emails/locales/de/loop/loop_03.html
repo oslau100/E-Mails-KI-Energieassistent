@@ -1,12 +1,11 @@
 <!-- Subject: Dein Einsparpotenzial im Blick behalten -->
-<!-- Preheader: Kleine Routine, großer Effekt. -->
+<!-- Preheader: Kontinuität schlägt Zufall: regelmäßig prüfen statt raten. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ein kurzer Blick auf den Tarif kann bereits reichen.</p>
-<p>Wenn sich bei dir wieder {{ opportunity.savings_text }} ergibt, ist ein Wechsel schnell sinnvoll.</p>
-<p>Darum schicken wir dir lieber klare Hinweise statt laute Werbung.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Tarifentscheidungen funktionieren am besten mit einem einfachen Rhythmus:</p>
+<p>kurz prüfen, klar entscheiden, dann wieder Ruhe haben.</p>
+<p>Hier kannst du deinen aktuellen Stand direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

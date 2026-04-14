@@ -1,13 +1,11 @@
 <!-- Subject: Dein Tarifcheck: Hier bleibt Geld liegen -->
-<!-- Preheader: Kurz und klar: So viel kannst du voraussichtlich sparen. -->
+<!-- Preheader: Viele merken es zu spät: Der aktuelle Tarif ist oft unnötig teuer. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>mir ist bei deinem aktuellen Tarif etwas aufgefallen.</p>
-<p>Viele Haushalte zahlen monatlich mehr als nötig, ohne es zu merken.</p>
-<p>Bei dir liegt das Einsparpotenzial laut Check bei {{ opportunity.savings_text }}.</p>
-<p>Wenn du willst, kannst du dir die Empfehlung in Ruhe ansehen.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>viele merken erst spät, dass ihr Tarif längst teurer ist als nötig.</p>
+<p>Bei dir sind aktuell {{ opportunity.savings_text }} möglich.</p>
+<p>Hier siehst du, ob du gerade unnötig zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
