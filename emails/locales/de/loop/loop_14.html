@@ -1,13 +1,12 @@
 <!-- Subject: Hilf deinen Liebsten mit einer hilfreichen Empfehlung -->
-<!-- Preheader: Teile den Link, wenn du Klarheit weitergeben möchtest. -->
+<!-- Preheader: Vielleicht braucht jemand in deinem Umfeld genau jetzt Orientierung. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>zum Schluss noch ein wichtiger mission-getriebener Impuls:</p>
-<p>Wenn du Familie oder Freunde hast, die bei Energiekosten unsicher sind, teile gern unseren Empfehlungslink.</p>
-<p>Damit hilfst du ihnen, bessere Entscheidungen zu treffen und unnötige Kosten zu vermeiden.</p>
-<p>Als kleines Dankeschön gibt es aktuell {{custom_values.empfehlungsprmie}} pro erfolgreicher Empfehlung.</p>
-<p>Hier kannst du den Empfehlungslink direkt teilen: <a href="{{ contact.empfehlungslink }}">{{ contact.empfehlungslink }}</a></p>
+<p>vielleicht gibt es gerade jemanden in deinem Umfeld, der umzieht oder mit hohen Energiekosten kämpft.</p>
+<p>Wenn du der Person deinen Link schickst, hilfst du möglicherweise genau im richtigen Moment.</p>
+<p>Bei erfolgreicher Empfehlung erhältst du aktuell {{custom_values.empfehlungsprmie}}.</p>
+<p>Hier kannst du deinen Empfehlungslink direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

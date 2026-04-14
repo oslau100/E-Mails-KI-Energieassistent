@@ -1,12 +1,11 @@
 <!-- Subject: Letzter kurzer Reminder -->
-<!-- Preheader: Deine Empfehlung wartet. -->
+<!-- Preheader: Bevor es liegen bleibt: den Einzugs-Tarif jetzt einmal sauber prüfen. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ich mache es ganz kurz.</p>
-<p>Wenn du den Tarif jetzt festziehst, startest du sauber und ohne offenen Punkt.</p>
-<p>Hier ist dein direkter Link.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nur ein kurzer Reminder:</p>
+<p>Wenn du das Thema jetzt abschließt, ist es erledigt statt aufgeschoben.</p>
+<p>Hier kannst du die passende Startoption direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>

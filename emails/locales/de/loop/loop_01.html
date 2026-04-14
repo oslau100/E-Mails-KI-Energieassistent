@@ -1,12 +1,11 @@
 <!-- Subject: Kurzer Markt-Check für {{ contact.city }} -->
-<!-- Preheader: So bleibst du ohne Aufwand auf dem Laufenden. -->
+<!-- Preheader: Viele zahlen unbemerkt zu viel, weil der letzte Check zu lange her ist. -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>hier ist ein kurzer Markt-Impuls für dich.</p>
-<p>Tarife ändern sich laufend, deshalb lohnt ein gelegentlicher Check.</p>
-<p>So behältst du Klarheit, ohne dich ständig damit beschäftigen zu müssen.</p>
-<p>Hier kannst du dir deine Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>viele zahlen monatelang zu viel, ohne es bewusst zu merken.</p>
+<p>Ein kurzer Check reicht oft, um wieder Klarheit zu haben.</p>
+<p>Hier kannst du deinen Tarif direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
 </body>
 </html>
