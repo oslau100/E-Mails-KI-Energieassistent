@@ -12,6 +12,36 @@ sein.
 
 Die Marke hilft Haushalten, ein komplexes Energiethema besser zu verstehen und gezielt Einsparpotenziale zu erkennen.
 
+## Form-Prinzip
+Die Emails sollen sich wie persönliche, einfache Nachrichten anfühlen.
+
+Nicht wie:
+- Newsletter
+- Werbemails
+- Marketing-Templates
+
+Sondern eher wie:
+- eine direkte Nachricht
+- eine hilfreiche persönliche Mail
+- ein klar formulierter Hinweis von einer echten Person
+
+## Layout-Prinzip
+Alle Emails sollen optisch sehr schlicht sein.
+
+Pflicht:
+- textbasiert
+- minimal
+- ohne grafische Elemente
+- CTA als normaler Hyperlink
+
+Verboten:
+- Buttons
+- Bilder
+- Boxen
+- Banner
+- Newsletter-Optik
+- komplexes Layout
+
 ---
 
 ## Szenario 1: spart
@@ -202,4 +232,5 @@ Jede Loop-Email braucht einen CTA.
 - unseriöse Claims
 - aggressive Billigstrom-Sprache
 - plumpe Affiliate-Sprache
-- „Geld verdienen“-Framing als Hauptbotschaft
+- Geld-verdienen-Framing als Hauptbotschaft
+- newsletterartige Optik
