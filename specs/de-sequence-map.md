@@ -21,7 +21,7 @@ Hinweis: Jede E-Mail enthält genau einen CTA-Link (offer oder referral) plus de
 
 | filename | subject | goal | CTA type |
 |---|---|---|---|
-| neueinzug_01.html | Beim Einzug entscheidet sich viel | Timing-Relevanz und Grundversorgungs-Risiko öffnen | offer |
+| neueinzug_01.html | Beim Einzug entscheidet sich viel | Timing-Relevanz und Default-Risiko öffnen | offer |
 | neueinzug_02.html | Grundversorgung ist oft nur die Übergangslösung | Standardtarif als Übergang reframen | offer |
 | neueinzug_03.html | Schnell erledigt, langfristig hilfreich | Jetzt handeln statt später nachbessern | offer |
 | neueinzug_04.html | Typischer Fehler beim Einzug | Aufschieben als Kostenfehler markieren | offer |
@@ -48,15 +48,15 @@ Hinweis: Jede E-Mail enthält genau einen CTA-Link (offer oder referral) plus de
 | loop_01.html | Kurzer Markt-Check für {{ contact.city }} | Insight + Relevanzstart | offer |
 | loop_02.html | Wenn sich etwas ändert, bist du vorbereitet | Reminder mit Handlungsfähigkeit | offer |
 | loop_03.html | Dein Einsparpotenzial im Blick behalten | Routine statt Zufall etablieren | offer |
-| loop_04.html | Hilf uns, mehr Haushalten Klarheit zu geben | Referral sozial, situationsnah und handlungsstark | referral |
+| loop_04.html | Hilf uns, mehr Haushalten Klarheit zu geben | Referral sozial und situationsnah | referral |
 | loop_05.html | Ein ruhiger Reminder | Ultrakurzer Pattern-Interrupt | offer |
 | loop_06.html | Kurz prüfen? | Reaktivierungs-Spike (Frageformat) | offer |
 | loop_07.html | Was viele unterschätzen | Insight mit Verlustperspektive | offer |
 | loop_08.html | Weniger Tarif-Stress im Alltag | Soft Conversion über Entlastung | offer |
-| loop_09.html | Teile Klarheit statt unnötiger Kosten | Referral mit konkretem Anlass und aktivem CTA | referral |
+| loop_09.html | Teile Klarheit statt unnötiger Kosten | Referral mit konkretem Anlass | referral |
 | loop_10.html | Dein Tarif-Status in einem kurzen Check | Klarer Status-Reminder | offer |
 | loop_11.html | Wenn du warten willst, dann bewusst | Reframe: bewusstes Warten | offer |
 | loop_12.html | Nur ein kurzer Reaktivierungs-Impuls | Reaktivierungs-Spike (ultrakurz) | offer |
 | loop_13.html | Kontinuität statt Aktionismus | Vertrauensvoller Rhythmus-Frame | offer |
-| loop_14.html | Hilf deinen Liebsten mit einer hilfreichen Empfehlung | Referral mission-led, persönlich und direkt | referral |
+| loop_14.html | Hilf deinen Liebsten mit einer hilfreichen Empfehlung | Referral mission-led + persönlich | referral |
 | loop_15.html | Bleib entspannt informiert | Sanfter Abschluss mit aktivem Check | offer |
