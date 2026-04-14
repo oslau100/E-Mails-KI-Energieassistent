@@ -46,15 +46,15 @@
 | loop_01.html | Kurzer Markt-Check für {{ contact.city }} | Insight | offer |
 | loop_02.html | Wann hast du zuletzt bewusst geprüft? | Frage-Mail | offer |
 | loop_03.html | Ein stiller Kostenfresser | Sozialvergleich/Insight | offer |
-| loop_04.html | Hilf uns, deinen Liebsten zu helfen | Referral 1 | referral |
+| loop_04.html | Hilf uns, deinen Liebsten zu helfen | Referral mit Familien-Kontext | referral |
 | loop_05.html | Reminder ohne Druck | Soft reminder | offer |
 | loop_06.html | 2 Minuten. Eine klare Antwort. | Reaktivierungs-Spike 1 | offer |
 | loop_07.html | Was viele unterschätzen | Insight | offer |
 | loop_08.html | Wenn du wartest, dann bewusst | Reframe | offer |
-| loop_09.html | Teile Klarheit im richtigen Moment | Referral 2 | referral |
+| loop_09.html | Teile Klarheit im richtigen Moment | Referral mit Abschlags-Trigger | referral |
 | loop_10.html | Mini-Check statt Tarifchaos | Short reminder | offer |
 | loop_11.html | Nicht reagieren ist auch eine Entscheidung | Kontrast-Mail | offer |
 | loop_12.html | Kurz reaktivieren | Reaktivierungs-Spike 2 | offer |
 | loop_13.html | Ruhiger Rhythmus, klare Entscheidungen | Trust reminder | offer |
-| loop_14.html | Vielleicht kennst du genau so jemanden | Referral 3 | referral |
+| loop_14.html | Vielleicht kennst du genau so jemanden | Referral mit Entscheidungsimpuls | referral |
 | loop_15.html | Bleib entspannt informiert | Soft close | offer |
