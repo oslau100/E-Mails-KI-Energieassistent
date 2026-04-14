@@ -1,0 +1,12 @@
+<!-- Subject: Letzter Impuls für deine Ersparnis -->
+<!-- Preheader: Danach hast du Klarheit statt offene Frage. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>letzter Impuls von mir in dieser Serie.</p>
+<p>Wenn du jetzt prüfst, weißt du sofort, ob {{ opportunity.neuer_monatlicher_preis_ }} für dich sinnvoll ist.</p>
+<p>Danach entscheidest du entspannt – aber auf Faktenbasis.</p>
+<p>Hier ist dein finaler Check-Link: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

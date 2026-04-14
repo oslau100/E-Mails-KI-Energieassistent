@@ -1,0 +1,12 @@
+<!-- Subject: Wann hast du zuletzt bewusst geprüft? -->
+<!-- Preheader: Nicht aus Angst – aus Klarheit. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>ernste Frage:</p>
+<p>Wann hast du deinen Tarif das letzte Mal bewusst geprüft?</p>
+<p>Wenn du gerade zögerst, ist jetzt wahrscheinlich der richtige Moment.</p>
+<p>Hier kannst du deinen Tarif direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

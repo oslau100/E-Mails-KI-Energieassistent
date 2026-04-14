@@ -1,0 +1,13 @@
+<!-- Subject: Teile Klarheit im richtigen Moment -->
+<!-- Preheader: Vielleicht kämpft gerade jemand mit hohen Abschlägen. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>vielleicht gibt es gerade in deinem Umfeld jemanden mit überraschend hohen Abschlägen.</p>
+<p>Oder jemanden, der seit Monaten sagt: ich muss das mal prüfen.</p>
+<p>Schick der Person deinen Link – oft macht genau so ein Impuls den Unterschied.</p>
+<p>Bei erfolgreicher Empfehlung bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
+<p>Hier kannst du deinen Empfehlungslink teilen: <a href="{{ contact.empfehlungslink }}">{{ contact.empfehlungslink }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

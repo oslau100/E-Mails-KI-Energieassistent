@@ -1,1 +1,12 @@
-
+<!-- Subject: Aktuell bist du solide aufgestellt -->
+<!-- Preheader: Ehrliche Einschätzung statt Wechseldruck. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>gute Nachricht: aktuell sehen wir keinen klar besseren Tarif für dich.</p>
+<p>Das sagen wir bewusst so klar, weil Vertrauen wichtiger ist als Aktionismus.</p>
+<p>Wir bleiben für dich dran, falls sich der Markt dreht.</p>
+<p>Hier kannst du deine aktuelle Einschätzung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

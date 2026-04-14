@@ -1,0 +1,12 @@
+<!-- Subject: Das ist ein guter Zwischenstand -->
+<!-- Preheader: Du musst gerade nichts überstürzen. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>dein aktueller Stand ist im Moment solide.</p>
+<p>Deshalb gibt es heute keinen künstlichen Wechselimpuls.</p>
+<p>Wenn sich ein echter Vorteil ergibt, melden wir uns nachvollziehbar.</p>
+<p>Hier siehst du deinen Tarifstatus im Überblick: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

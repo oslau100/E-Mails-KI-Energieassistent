@@ -1,1 +1,13 @@
-
+<!-- Subject: Dein Tarifcheck: Hier bleibt Geld liegen -->
+<!-- Preheader: Viele merken es erst, wenn Monate vorbei sind. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>bei deinem aktuellen Tarif bleibt gerade Geld liegen.</p>
+<p>Viele merken erst spät, dass sie monatelang zu viel gezahlt haben.</p>
+<p>Bei dir geht es laut Check um {{ opportunity.savings_text }}.</p>
+<p>Das ist kein Detail, sondern echte Haushaltskasse.</p>
+<p>Hier siehst du, ob du gerade unnötig zu viel zahlst: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

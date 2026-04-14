@@ -1,0 +1,12 @@
+<!-- Subject: Schnell erledigt, lange Ruhe -->
+<!-- Preheader: Einmal sauber wählen, dann abhaken. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>du hast gerade genug offene Punkte.</p>
+<p>Der Tarif muss keiner davon bleiben.</p>
+<p>Ein kurzer Check jetzt spart dir spätere Korrekturen.</p>
+<p>Hier kannst du den offenen Punkt direkt abhaken: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

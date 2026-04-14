@@ -1,0 +1,12 @@
+<!-- Subject: Bleib entspannt informiert -->
+<!-- Preheader: Wir melden uns, wenn es wirklich relevant wird. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>danke, dass du dir die Updates ansiehst.</p>
+<p>Unser Ziel bleibt gleich: Klarheit statt Alarmismus.</p>
+<p>Wenn sich für dich wirklich etwas lohnt, sollst du es früh genug sehen.</p>
+<p>Hier siehst du deine aktuelle Empfehlung im Überblick: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

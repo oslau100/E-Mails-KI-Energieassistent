@@ -1,0 +1,12 @@
+<!-- Subject: Kurzer Reminder vor dem Wochenende -->
+<!-- Preheader: Lass den Punkt nicht mit umziehen. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>kurzer Reminder, bevor es wieder untergeht.</p>
+<p>Tarif jetzt klären heißt: später kein Nachfassen.</p>
+<p>Ein Klick, dann ist es sauber erledigt.</p>
+<p>Hier ist dein direkter Start-Link: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!-- Subject: Wenn schon wechseln, dann mit klaren Zahlen -->
+<!-- Preheader: Erst prüfen, dann sauber entscheiden. -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>wenn du wechselst, dann am besten mit klarer Grundlage.</p>
+<p>Der direkte Vergleich von {{ opportunity.aktueller_anbieter }} zu {{ opportunity.neuer_anbieter }} macht die Entscheidung greifbar.</p>
+<p>So triffst du keine spontane, sondern eine sinnvolle Wahl.</p>
+<p>Hier kannst du deine bessere Option direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}<br>{{custom_values.absender_email}}</p>
+</body>
+</html>
