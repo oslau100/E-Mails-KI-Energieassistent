@@ -1,11 +1,11 @@
-<!-- Subject: "Wenn sich etwas ändert, bist du vorbereitet" -->
+<!-- Subject: "{{ contact.first_name }}, bist du bei {{ opportunity.energieart }} vorbereitet?" -->
 <!-- Preheader: "Ein kurzer Check hält dich handlungsfähig statt später überrascht. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>wer erst reagiert, wenn die Rechnung steigt, ist oft zu spät dran.</p>
 <p>Besser: in Ruhe prüfen und dann bewusst entscheiden.</p>
-<p>Hier findest du deine zuletzt ermittelte sichere {{ opportunity.energieart }}-Empfehlung: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

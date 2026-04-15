@@ -1,4 +1,4 @@
-<!-- Subject: "Sicherheit vor dem Wechsel: so gehst du sauber vor" -->
+<!-- Subject: "{{ contact.first_name }}, so triffst du die sichere Wahl" -->
 <!-- Preheader: "Klare Schritte statt Bauchgefühl – damit die Entscheidung leicht wird. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
 <html>
 <body>
@@ -6,7 +6,8 @@
 <p>ein guter Wechsel fühlt sich nicht wie ein Sprung ins Ungewisse an.</p>
 <p>Du siehst transparent, was du aktuell zahlst, welche Alternative es gibt und wie groß der Unterschied ist.</p>
 <p>Deshalb machen wir das bewusst einfach statt kompliziert.</p>
-<p>Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung für dich ermittelt – hier kannst du sie ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

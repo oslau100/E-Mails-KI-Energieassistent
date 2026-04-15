@@ -1,4 +1,4 @@
-<!-- Subject: "{{ contact.first_name }}, dein Tarif kurz geprüft" -->
+<!-- Subject: "{{ contact.first_name }}, dein {{ opportunity.energieart }}-Vergleich" -->
 <!-- Preheader: "Ich habe den Vergleich für dich auf den Punkt gebracht. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
 <html>
 <body>
@@ -6,9 +6,9 @@
 <p>hier der direkte Vergleich für deinen {{ opportunity.energieart }}-Tarif:</p>
 <p>Aktuell zahlst du bei {{ opportunity.aktueller_anbieter }} ca. {{ opportunity.aktuelle_monatliche_kosten_ }} pro Monat.</p>
 <p>Beim empfohlenen Tarif von {{ opportunity.neuer_anbieter }} liegen wir bei etwa {{ opportunity.neuer_monatlicher_preis_ }}.</p>
-<p>Genau diese Differenz summiert sich Monat für Monat.</p>
+<p>Das bedeutet für dich: {{ opportunity.savings_text }}.</p>
 <p>Du musst nichts überstürzen – du entscheidest danach in Ruhe.</p>
-<p>Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung für dich ermittelt – hier kannst du sie ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

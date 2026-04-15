@@ -1,12 +1,14 @@
-<!-- Subject: "Typischer Fehler beim Einzug (leicht vermeidbar)" -->
+<!-- Subject: "{{ contact.first_name }}, diesen Einzugsfehler vermeiden" -->
 <!-- Preheader: "Aufschieben führt oft direkt in unnötig hohe laufende Kosten. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
+<p>Beim Umzug vermeidest du {{ opportunity.savings_text }}.</p>
 <p>der häufigste Fehler beim Umzug: „Ich kümmere mich später darum.“</p>
 <p>Später heißt oft: mehrere Monate in der Grundversorgung oder in einem unpassenden Tarif.</p>
+<p>Gerade beim Umzug wird das oft übersehen – und später teuer korrigiert.</p>
 <p>Der Check verpflichtet dich zu nichts.</p>
-<p>Für deinen Einzug haben wir bereits eine sichere {{ opportunity.energieart }}-Empfehlung vorbereitet – hier kannst du sie ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

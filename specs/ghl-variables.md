@@ -34,6 +34,19 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{custom_values.impressum_url}}
 - {{custom_values.datenschutz_url}}
 
+## savings_text Source of Truth (final)
+- neueinzug = unnötige Mehrkosten beim Start
+- spart_nicht = gut und sinnvoll eingestellt
+- low = etwas mehr als nötig
+- mid = spürbar mehr als nötig
+- high = mehrere hundert Euro pro Jahr zu viel
+- very_high = über 500€ pro Jahr zu viel
+
+## Satzlogik je Szenario
+- spart: `Du zahlst aktuell {{ opportunity.savings_text }}` oder `Das bedeutet für dich: {{ opportunity.savings_text }}`
+- spart_nicht: `Du bist aktuell {{ opportunity.savings_text }}` oder `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
+- neueinzug: `So vermeidest du {{ opportunity.savings_text }}` oder `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
+
 ## Nutzungsregeln (final)
 
 ### Pflichtkontext
@@ -57,12 +70,3 @@ CTA-Texte müssen ausdrücken:
 - Placeholder niemals mit Beispieldaten ersetzen
 - Placeholder-Syntax exakt beibehalten
 - Keine neuen Variablen erfinden
-
-## Signatur-Verwendung
-Für die HTML-Signatur in deutschen Emails sind folgende Werte vorgesehen:
-- {{custom_values.brandname}}
-- {{custom_values.logo}}
-- {{custom_values.strae_und_hausnummer}}
-- {{custom_values.plz_und_stadt}}
-- {{custom_values.impressum_url}}
-- {{custom_values.datenschutz_url}}
