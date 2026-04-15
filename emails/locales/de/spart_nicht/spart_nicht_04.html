@@ -1,11 +1,15 @@
-<!-- Subject: "Unser Versprechen: Klarheit vor Druck" -->
-<!-- Preheader: "Wir bleiben ehrlich – auch wenn ein Wechsel gerade nicht sinnvoll ist. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, wenn dir bei {{ opportunity.energieart }} Sicherheit wichtig ist" -->
+<!-- Preheader: "Wir drängen nie zu unnötigen Wechseln und zeigen dir nur Optionen mit sauberer Logik." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>unser Anspruch bleibt einfach: Klarheit vor Aktion.</p>
-<p>Wenn ein Wechsel Sinn ergibt, sagen wir es klar. Wenn nicht, sagen wir das genauso klar.</p>
-<p>Hier kannst du dir die {{ opportunity.energieart }}-Empfehlung ansehen, mit der du aktuell auf der sicheren Seite bist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>wir möchten dir ein faires Bild geben: Dein aktueller {{ opportunity.energieart }}-Tarif ist momentan keineswegs schlecht.</p>
+<p>Wir pushen keine unnötigen Wechsel, nur damit ein Abschluss entsteht.</p>
+<p>Wenn kurzfristig keine klare Ersparnis vorhanden ist, ist das völlig in Ordnung.</p>
+<p>Sobald jedoch Schutz vor Preiserhöhungen oder langfristig stabile Kosten für dich wichtiger sind, kann eine sichere Alternative die ruhigere Entscheidung sein.</p>
+<p>Dafür ist bereits eine verlässliche {{ opportunity.energieart }}-Empfehlung als Stabilitätsoption vorbereitet.</p>
+<p>Du musst nichts überstürzen.</p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

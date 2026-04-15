@@ -1,12 +1,14 @@
-<!-- Subject: "{{ contact.first_name }}, aktuell bist du solide aufgestellt" -->
-<!-- Preheader: "Stand heute sehen wir keinen klar besseren Tarif – das ist ein gutes Signal. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, dein {{ opportunity.energieart }}-Tarif ist aktuell solide" -->
+<!-- Preheader: "Status-Update: Du bist aktuell gut aufgestellt, und eine sichere Option liegt für dich bereit." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ehrliches Update: Aktuell sehen wir für dich keinen klar besseren Wechsel-Tarif.</p>
-<p>Das ist ein guter Zwischenstand und genau so soll Transparenz funktionieren.</p>
-<p>Wenn sich am Markt etwas ändert, melden wir uns wieder klar und fair.</p>
-<p>Hier kannst du dir die {{ opportunity.energieart }}-Empfehlung ansehen, mit der du aktuell auf der sicheren Seite bist: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>gute Nachricht vorweg: Du bist bei {{ opportunity.energieart }} aktuell gut aufgestellt.</p>
+<p>Für einen rein preisgetriebenen Sofortwechsel sehen wir im Moment keinen starken Grund.</p>
+<p>Falls dir aber mehr Stabilität für die nächsten Monate wichtig ist, kann eine abgesicherte Lösung dennoch sinnvoll sein.</p>
+<p>Darum liegt bereits eine sichere, auf deine Angaben abgestimmte {{ opportunity.energieart }}-Empfehlung für dich bereit.</p>
+<p>Wenn kein echter Vorteil da ist, bleibt alles wie es ist.</p>
+<p>Hier kannst du dir die sichere {{ opportunity.energieart }}-Option in Ruhe ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>
