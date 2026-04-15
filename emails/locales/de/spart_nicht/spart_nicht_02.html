@@ -1,16 +1,17 @@
-<!-- Subject: "Kein Wechsel um jeden Preis" -->
-<!-- Preheader: "Wir empfehlen nur dann einen Wechsel, wenn der Vorteil klar erkennbar ist." -->
+<!-- Subject: "Kein Wechsel um jeden Preis bei {{ opportunity.energieart }}" -->
+<!-- Preheader: "Wir empfehlen nur bei klarem Vorteil – und zeigen dir trotzdem eine sichere stabile Option." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>nicht jeder Check endet mit „wechseln“ – und das ist gut so.</p>
-<p>Wir empfehlen nur dann einen Wechsel, wenn der Vorteil wirklich nachvollziehbar ist.</p>
-<p>Deshalb machen wir das bewusst einfach statt kompliziert.</p>
-<p>Hier kannst du jetzt direkt prüfen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>nicht jeder Check endet mit „wechseln“ – und genau das ist bei {{ opportunity.energieart }} ein Qualitätsmerkmal.</p>
+<p>Wenn aktuell kein klarer Vorteil sichtbar ist, empfehlen wir keinen unnötigen Wechsel.</p>
+<p>Auch ohne direkte Ersparnis kann eine stabile {{ opportunity.energieart }}-Option sinnvoll sein, z. B. wenn du verlässliche Abschläge und mehr Planungssicherheit möchtest.</p>
+<p>Wir haben dafür auf Basis deiner Angaben eine sichere Option für dich vorbereitet, die du in Ruhe prüfen kannst.</p>
+<p>Hier kannst du dir deine stabile {{ opportunity.energieart }}-Option direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>
-<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:120px; height:auto; margin:6px 0;">
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:90px; height:auto; margin:6px 0;">
 {{custom_values.strae_und_hausnummer}}<br>
 {{custom_values.plz_und_stadt}}<br>
 <a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>

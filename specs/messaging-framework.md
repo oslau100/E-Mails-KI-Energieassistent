@@ -4,9 +4,9 @@
 Kommunikation für den deutschen DACH-Energiemarkt: klar, vertrauenswürdig, handlungsstark.
 
 ## Performance-Ziele
-- höhere Open Rate über bessere Betreffzeilen
-- höhere Klickrate über klare CTA-Sprache
-- höhere Conversion über Relevanz und Einwandbehandlung
+- höhere Open Rate über inbox-starke Betreffzeilen
+- höhere Klickrate über use-case-präzise CTA-Sprache
+- höhere Conversion über Kontext, Sicherheit und Einwandbehandlung
 
 ## Form-Prinzip
 Die Emails sollen wie persönliche Nachrichten wirken, nicht wie Newsletter.
@@ -19,51 +19,56 @@ Pflicht:
 
 Verboten:
 - Buttons
-- Bilder
+- Bilder im Body
 - Banner/Boxen
 - komplexes Marketing-Layout
 - fake-transaktionale Betreffmuster ("deine Anfrage", "wir warten auf Rückmeldung")
+- unklare Formulierungen ("dein aktueller Stand", "dein Tarif-Status", "deine Situation", "deine Daten")
 
-## Betreffzeilen-Regeln
-- konkret, klar, natürlich
+## Business-Case CTA Logik (final)
+Ausgangspunkt: Nutzer hat bereits eine persönliche Empfehlung angefordert.
+
+Daher CTA-Logik in Nicht-Referral-Mails:
+- sichere {{ opportunity.energieart }}-Empfehlung wurde bereits auf Basis der Angaben ermittelt
+- CTA fordert zum direkten Ansehen dieser Empfehlung auf
+- je nach Szenario mit Zusatzfokus:
+  - spart: Sicherheit + Ersparnis
+  - neueinzug: Timing + sicherer Start
+  - spart_nicht: Sicherheit + Klarheit ohne unnötige Aktion
+  - loop: erneute Klarheit mit kurzem Blick
+
+## Betreffzeilen-Regeln (final)
+- konkret, relevant, natürlich
 - persönlich statt werblich
-- selektive Personalisierung mit {{ contact.first_name }} und {{ opportunity.energieart }}
-- keine irreführenden Betreffzeilen
+- mix aus Frage-, Timing- und Klarheitsmustern
 - keine Fake-Dringlichkeit
-- keine Support-/Ticket-Simulation
+- kein Support-/Ticket-Sound
+- kein irreführendes Framing
 
-## Preheader-Regeln
-- ergänzt den Betreff
-- erhöht Relevanz
-- kurze offene Schleife möglich
-- kein Fake-Service- oder Fake-Waiting-Frame
+## Preheader-Regeln (final)
+- ergänzt den Betreff inhaltlich
+- erhöht Relevanz und Kontext
+- darf eine sanfte offene Schleife setzen
+- kein Fake-Service-/Fake-Waiting-Frame
 
-## Selektive Zusatzzeile
-- Wenn der Sprung zum CTA zu abrupt ist, darf genau eine zusätzliche Zeile ergänzt werden.
-- Funktion der Zeile: Einwandbehandlung, Vertrauensaufbau oder Relevanzbrücke.
-- Diese Ergänzung erfolgt selektiv, nicht pauschal in jeder Mail.
+## {{ opportunity.energieart }} Regel
+In jeder Nicht-Referral-Mail:
+- muss {{ opportunity.energieart }} im Subject oder Preheader enthalten sein
+- und im Body enthalten sein
 
-## Verbotene / doppeldeutige Formulierungen
-- "dein aktueller Stand"
-- "dein Tarif-Status"
-- "deine Situation"
-- "deine Daten"
+## Zusätzliche Kontext-/Einwand-Sätze
+- 1–2 Zusatzsätze nur dann, wenn sie Conversion-relevante Funktion haben
+- zulässige Funktionen: Kontext, Einwandbehandlung, CTA-Brücke
+- keine pauschale Textaufblähung
 
-## Einwandbehandlung
-Selektiv ergänzen:
-- "du musst nichts überstürzen"
-- "der Check verpflichtet dich zu nichts"
-- "wenn kein Vorteil da ist, bleibt alles wie es ist"
-- "du entscheidest danach in Ruhe"
+## Einwandfokus nach Szenario
+- spart: „lohnt sich das“, „ich will keinen Fehler“, „kein Stress“
+- neueinzug: „später“, „zu viel los“, „schnell abhaken“
+- spart_nicht: „warum noch Mails“, „ist das nur Werbung“
+- loop: „später“, „nicht auf dem Schirm“, „kein Energie-Stress“
 
 ## Signatur-Regel
 - Unter Grußformel/Absendername eine dezente HTML-Signatur nutzen.
 - Erlaubte Bestandteile: Brandname, kleines Logo, Adresse, Impressum, Datenschutz.
-- Die Signatur ist das einzige Element mit leicht stärkerer Formatierung.
+- Die Signatur ist das einzige leicht formatierte Element.
 - CTA bleibt als normaler Textlink im Body und pro Mail einzigartig.
-
-## Szenario-Fokus
-- spart: klarer Verlustfokus, {{ opportunity.savings_text }} sichtbar machen
-- spart_nicht: Ehrlichkeit + Monitoring statt Druck
-- neueinzug: Grundversorgung als teure Default-Option klar benennen
-- loop: Reaktivierung, Rhythmus, mission-led Referral in ausgewählten Mails
