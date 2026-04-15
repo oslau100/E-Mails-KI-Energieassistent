@@ -1,11 +1,10 @@
-<!-- Subject: "Hilf uns, mehr Haushalten Klarheit zu geben" -->
-<!-- Preheader: "Vielleicht braucht gerade jemand in deinem Umfeld genau diese Orientierung." -->
+<!-- Subject: "{{ contact.first_name }}, jemanden im Umfeld mit Energie-Frage?" -->
+<!-- Preheader: "Falls jemand gerade vergleicht, kannst du mit deinem Link direkt weiterhelfen." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kennst du jemanden in Familie oder Freundeskreis, der sich beim Thema Energie Orientierung wünscht?</p>
-<p>Mit deinem Link hilfst du, Klarheit statt Tarifchaos zu teilen.</p>
-<p>Wenn daraus eine erfolgreiche Empfehlung wird, bekommst du aktuell {{custom_values.empfehlungsprmie}}.</p>
+<p>vielleicht kennst du gerade jemanden, der beim Tarifthema Unterstützung braucht.</p>
+<p>Mit deinem persönlichen Link kann die Person direkt eine passende Empfehlung erhalten.</p>
 <p>Hier kannst du deinen Empfehlungslink jetzt direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">

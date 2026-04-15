@@ -1,9 +1,9 @@
 # GHL Variables
 
 ## Hinweis
-Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
+Platzhalter exakt beibehalten (inkl. Klammern, Punkten, Leerzeichen).
 
-## Opportunity Fields
+## Opportunity
 - {{ opportunity.cta_text }}
 - {{ opportunity.savings_text }}
 - {{ opportunity.savings_bucket }}
@@ -16,7 +16,7 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{ opportunity.aktuelle_monatliche_kosten_ }}
 - {{ opportunity.neuer_monatlicher_preis_ }}
 
-## Contact Fields
+## Contact
 - {{ contact.first_name }}
 - {{ contact.postal_code }}
 - {{ contact.city }}
@@ -34,7 +34,7 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{custom_values.impressum_url}}
 - {{custom_values.datenschutz_url}}
 
-## savings_text Source of Truth (final)
+## savings_text Source of Truth
 - neueinzug = unnötige Mehrkosten beim Start
 - spart_nicht = gut und sinnvoll eingestellt
 - low = etwas mehr als nötig
@@ -42,31 +42,13 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - high = mehrere hundert Euro pro Jahr zu viel
 - very_high = über 500€ pro Jahr zu viel
 
-## Satzlogik je Szenario
-- spart: `Du zahlst aktuell {{ opportunity.savings_text }}` oder `Das bedeutet für dich: {{ opportunity.savings_text }}`
-- spart_nicht: `Du bist aktuell {{ opportunity.savings_text }}` oder `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
-- neueinzug: `So vermeidest du {{ opportunity.savings_text }}` oder `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
+## Pflicht-Satzlogik
+- spart: `Du zahlst aktuell {{ opportunity.savings_text }}` / `Das bedeutet für dich: {{ opportunity.savings_text }}`
+- spart_nicht: `Dein {{ opportunity.energieart }}-Tarif ist aktuell {{ opportunity.savings_text }}` / `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
+- neueinzug: `So vermeidest du {{ opportunity.savings_text }}` / `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
 
-## Nutzungsregeln (final)
-
-### Pflichtkontext
-In Nicht-Referral-Mails ist {{ opportunity.energieart }} verpflichtend:
-- im Subject oder Preheader
-- und im Body
-
-### CTA Ziel
-- Standard CTA: {{ opportunity.offer_url }}
-- Referral CTA nur in ausgewählten Loop-Mails: {{ contact.empfehlungslink }}
-
-### CTA-Meaning (Nicht-Referral)
-CTA-Texte müssen ausdrücken:
-- Empfehlung wurde bereits auf Basis der Angaben ermittelt
-- Empfehlung ist eine sichere Option
-- Link führt zum direkten Ansehen dieser Empfehlung
-
-### Platzhalter-Schutz
-- Placeholder niemals umformatieren
-- Placeholder niemals übersetzen
-- Placeholder niemals mit Beispieldaten ersetzen
-- Placeholder-Syntax exakt beibehalten
-- Keine neuen Variablen erfinden
+## Nutzungsregeln
+- In Nicht-Referral-Mails muss `{{ opportunity.energieart }}` in Subject oder Preheader und zusätzlich im Body vorkommen.
+- Standard-CTA zeigt auf `{{ opportunity.offer_url }}`.
+- Referral-CTA nur in ausgewählten Loop-Mails auf `{{ contact.empfehlungslink }}`.
+- Keine neuen Variablen erfinden oder umbenennen.

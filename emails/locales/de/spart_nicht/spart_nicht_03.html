@@ -1,14 +1,13 @@
-<!-- Subject: "Ist dein {{ opportunity.energieart }}-Tarif noch sinnvoll?" -->
-<!-- Preheader: "Wir haben deinen Tarif nochmal eingeordnet und eine verlässliche Option für dich vorbereitet." -->
+<!-- Subject: "{{ contact.first_name }}, warum Beobachten bei {{ opportunity.energieart }} wichtig bleibt" -->
+<!-- Preheader: "Heute passt dein Tarif, aber der Markt bleibt in Bewegung – ein kurzer Vergleich hält dich handlungsfähig." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ehrliches Update: Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}.</p>
-<p>Wenn dein Fokus rein auf sofortiger Ersparnis liegt, besteht momentan kein klarer Wechselvorteil.</p>
-<p>Wenn du dir Preisgarantie und mehr Planungssicherheit für die nächsten Monate wünschst, kann ein Wechsel trotzdem sinnvoll sein.</p>
-<p>Genau dafür haben wir eine sichere {{ opportunity.energieart }}-Alternative mit stabilen und verlässlichen Konditionen für dich ermittelt.</p>
-<p>Es geht nicht um Aktionismus, sondern um eine saubere Entscheidung.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>kurzer Marktblick zu {{ opportunity.energieart }}:</p>
+<p>Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}.</p>
+<p>Das kann sich mit neuen Preisrunden ändern, deshalb lohnt sich ein kurzer Vergleich zum richtigen Zeitpunkt.</p>
+<p>Deine vorbereitete Option gibt dir dafür einen klaren Referenzpunkt statt späteres Nacharbeiten.</p>
+<p>Hier kannst du dir deine empfohlene {{ opportunity.energieart }}-Option ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

@@ -1,11 +1,11 @@
 <!-- Subject: "{{ contact.first_name }}, kurze Frage zu deinem {{ opportunity.energieart }}-Tarif" -->
-<!-- Preheader: "{{ contact.first_name }}, ich wollte das kurz für dich klären." -->
+<!-- Preheader: "Auf Basis deiner Angaben haben wir weiterhin eine passende {{ opportunity.energieart }}-Empfehlung für dich." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele zahlen monatelang unbemerkt zu viel, weil der Tarif einfach weiterläuft.</p>
-<p>Ein kurzer Check zeigt dir direkt, ob du zu viel zahlst.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>du hattest bei uns eine {{ opportunity.energieart }}-Empfehlung angefragt.</p>
+<p>Ein kurzer Blick zeigt dir sofort, wie dein Tarif aktuell einzuordnen ist.</p>
+<p>Hier kannst du dir deine persönliche {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

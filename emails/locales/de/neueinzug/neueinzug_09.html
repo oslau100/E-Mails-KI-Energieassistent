@@ -1,11 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, einmal sauber klären?" -->
-<!-- Preheader: "Bevor das Thema liegen bleibt: kurzer Check, klare Entscheidung. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, bevor {{ opportunity.energieart }} im Umzug untergeht" -->
+<!-- Preheader: "Wir haben deine {{ opportunity.energieart }}-Empfehlung bereits vorbereitet – einmal kurz ansehen genügt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>Beim Umzug vermeidest du {{ opportunity.savings_text }}.</p>
-<p>nur ein kurzer Impuls:</p>
-<p>Noch weiter laufen lassen oder jetzt einmal sauber klären?</p>
+<p>nur ein kurzer Reminder zu deinem Umzug:</p>
+<p>Damit vermeidest du {{ opportunity.savings_text }}.</p>
+<p>Gerade dieser Punkt geht im Trubel schnell unter und kostet danach unnötig Zeit und Geld.</p>
 <p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">

@@ -1,14 +1,13 @@
-<!-- Subject: "{{ contact.first_name }}, eine kurze Einschätzung zu deinem Tarif" -->
-<!-- Preheader: "Bevor du das Thema liegen lässt: Wir haben deinen {{ opportunity.energieart }}-Tarif neu bewertet und eine stabile Option vorbereitet." -->
+<!-- Subject: "{{ contact.first_name }}, sichere {{ opportunity.energieart }}-Option zum Abschluss" -->
+<!-- Preheader: "Wenn du langfristig Ruhe bei {{ opportunity.energieart }} willst, lohnt sich ein letzter Blick auf die vorbereitete Empfehlung." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>ehrliches Update: Du bist aktuell {{ opportunity.savings_text }}.</p>
-<p>Wenn es dir nur um einen schnellen Preisvorteil geht, gibt es aktuell keinen klaren Wechselgrund.</p>
-<p>Wenn dir jedoch stabile monatliche Kosten und Schutz vor möglichen Preiserhöhungen wichtig sind, kann ein Wechsel trotzdem sinnvoll sein.</p>
-<p>Auf Basis deiner Angaben haben wir deshalb eine sichere {{ opportunity.energieart }}-Empfehlung mit verlässlichen Konditionen für dich vorbereitet.</p>
-<p>Du entscheidest danach in Ruhe.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Option direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>zum Abschluss ein klares Fazit:</p>
+<p>Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}.</p>
+<p>Kurzfristig ist das ordentlich, langfristig zählt oft, wie planbar der Tarif bleibt.</p>
+<p>Genau dafür haben wir eine sichere {{ opportunity.energieart }}-Alternative mit verlässlichen Konditionen vorbereitet.</p>
+<p>Hier siehst du deine vorbereitete {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

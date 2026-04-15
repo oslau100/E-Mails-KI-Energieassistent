@@ -1,68 +1,65 @@
 # Messaging Framework
 
-## Grundprinzip
-Kommunikation für den deutschen DACH-Energiemarkt: klar, vertrauenswürdig, handlungsstark.
+## Zielbild
+Persönliche, klare Lifecycle-Mails für den DACH-Energiemarkt mit hoher Relevanz und starker Klicklogik.
 
-## Performance-Ziele
-- höhere Open Rate über inbox-starke Betreffzeilen
-- höhere Klickrate über use-case-präzise CTA-Sprache
-- höhere Conversion über Kontext, Sicherheit und Einwandbehandlung
+## Performance-Fokus
+- Open Rate: vielfältige, konkrete Betreffzeilen
+- CTR: klarer Kontext + eine eindeutige nächste Aktion
+- Conversion: logische Brücken statt aufschiebender Beruhigungssprache
 
-## Form-Prinzip
-Die Emails sollen wie persönliche Nachrichten wirken, nicht wie Newsletter.
-
+## Form
 Pflicht:
-- textbasiert
-- schlicht
+- plain HTML
 - persönlicher Ton
-- CTA als normaler Hyperlink
+- ein CTA-Link im Body
 
-Verboten:
-- Buttons
-- Bilder im Body
-- Banner/Boxen
-- komplexes Marketing-Layout
-- fake-transaktionale Betreffmuster ("deine Anfrage", "wir warten auf Rückmeldung")
-- unklare Formulierungen ("dein aktueller Stand", "dein Tarif-Status", "deine Situation", "deine Daten")
+Nicht erlaubt:
+- Buttons, Banner, Marketing-Layouts
+- fake-transaktionale oder fake-supportartige Formulierungen
+- künstliche Dringlichkeit
 
-## savings_text Semantik (final)
-- spart: Überzahlung
-- spart_nicht: positiver Status
-- neueinzug: vermiedene Kosten
+## Segment-Logik
+### spart
+- Kernaussage: Überzahlung wird konkret sichtbar
+- Mechanik: Vergleich, monatliche Konsequenz, kurzer nächster Schritt
 
-## Pflicht-Satzmuster
-- spart: `Du zahlst aktuell {{ opportunity.savings_text }}` oder `Das bedeutet für dich: {{ opportunity.savings_text }}`
-- spart_nicht: `Du bist aktuell {{ opportunity.savings_text }}` oder `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
-- neueinzug: `So vermeidest du {{ opportunity.savings_text }}` oder `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
+### spart_nicht
+- Kernaussage: aktuell gut eingestellt
+- gleichzeitig: Wechsel kann aus Stabilitäts-/Planungsgründen sinnvoll sein
+- über 4 Mails mit unterschiedlicher Begründung (Status, Stabilität, Marktbewegung, langfristige Sicherheit)
 
-## Business-Case CTA Logik (final)
-Ausgangspunkt: Nutzer hat bereits eine persönliche Empfehlung angefordert.
+### neueinzug
+- Kernaussage: beim Umzug Mehrkosten vermeiden
+- Fokus: Grundversorgungsrisiko, schnelle Entlastung, jetzt einfacher als später
 
-Daher CTA-Logik in Nicht-Referral-Mails:
-- sichere {{ opportunity.energieart }}-Empfehlung wurde bereits auf Basis der Angaben ermittelt
-- CTA fordert zum direkten Ansehen dieser Empfehlung auf
-- Klarheit + Sicherheit statt generischem Prüf-Frame
+### loop
+- Kernaussage: Relevanz erhalten, mit neuer Beobachtung oder neuem Blickwinkel reaktivieren
+- Referral-Mails: hilfreich und mission-led, nicht provisionsgetrieben
 
-## Betreffzeilen-Regeln (final)
-- konkret, relevant, natürlich
-- persönlich statt werblich
-- mix aus Frage-, Timing- und Klarheitsmustern
-- keine Fake-Dringlichkeit
-- kein Support-/Ticket-Sound
-- kein irreführendes Framing
+## savings_text Semantik (fix)
+- spart = Überzahlung
+- spart_nicht = positiver Status
+- neueinzug = vermiedene Mehrkosten
 
-## Preheader-Regeln (final)
+## Subject-Regeln
+- konkret, menschlich, relevant
+- strukturell abwechslungsreich
+- kein Fake-Support/Fake-Transaktion/Fake-Dringlichkeit
+
+## Preheader-Regeln
 - ergänzt den Betreff inhaltlich
-- erhöht Relevanz und Kontext
-- darf eine sanfte offene Schleife setzen
-- kein Fake-Service-/Fake-Waiting-Frame
+- erhöht Kontext und Handlungsklarheit
+- keine leeren Füllsätze
 
-## {{ opportunity.energieart }} Regel
-In jeder Nicht-Referral-Mail:
-- muss {{ opportunity.energieart }} im Subject oder Preheader enthalten sein
-- und im Body enthalten sein
+## CTA-Framing
+In Nicht-Referral-Mails immer klar: Empfehlung ist bereits vorbereitet und kann direkt angesehen werden.
 
-## Zusätzliche Kontext-/Einwand-Sätze
-- maximal ein Zusatzsatz, nur wenn conversion-relevant
-- zulässige Funktionen: Kontext, Einwandbehandlung, CTA-Brücke
-- keine pauschale Textaufblähung
+## Bridge-Line-Regel (wichtig)
+Keine generischen Beruhigungssätze als CTA-Brücke, insbesondere nicht:
+- „Du musst nichts überstürzen.“
+- „Du entscheidest danach in Ruhe.“
+- „Der Check verpflichtet dich zu nichts.“
+- „Wenn kein Vorteil da ist, bleibt alles wie es ist.“
+
+Stattdessen: 1 kurze Logik-Brücke (Vergleich, Konsequenz, schnelle Klarheit, praktischer nächster Schritt).
