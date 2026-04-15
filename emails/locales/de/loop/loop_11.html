@@ -1,11 +1,11 @@
-<!-- Subject: "Wenn du warten willst, dann bewusst" -->
-<!-- Preheader: "Warten ist okay – solange du vorher einmal sauber geprüft hast. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, warten ist okay – aber bewusst" -->
+<!-- Preheader: "Kurz einordnen hilft, damit Warten keine teure Gewohnheit wird." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>warten kann richtig sein. Unbewusst warten ist meist teuer.</p>
 <p>Deshalb lieber kurz prüfen und dann bewusst entscheiden.</p>
-<p>Hier findest du deine zuletzt ermittelte sichere {{ opportunity.energieart }}-Empfehlung: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du dir deine persönliche {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

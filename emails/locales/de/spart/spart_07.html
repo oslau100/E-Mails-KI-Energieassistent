@@ -1,12 +1,13 @@
-<!-- Subject: "{{ contact.first_name }}, Entscheidung leicht machen" -->
-<!-- Preheader: "Drei kurze Fragen reichen oft für eine gute Tarifentscheidung. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, dein nächster Schritt bei {{ opportunity.energieart }}" -->
+<!-- Preheader: "Auf Basis deiner Angaben haben wir bereits eine passende Option vorbereitet." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>wenn Entscheidungen hängen bleiben, hilft ein einfacher Rahmen:</p>
 <p>1) Zahlst du aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Willst du das Thema jetzt sauber abschließen?</p>
 <p>Wenn 1 und 2 mit Ja beantwortet sind, ist der nächste Schritt meist klar.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Tarifempfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Das bedeutet für dich: {{ opportunity.savings_text }}.</p>
+<p>Hier kannst du dir deine persönliche {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

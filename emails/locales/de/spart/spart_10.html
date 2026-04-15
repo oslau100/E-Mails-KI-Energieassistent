@@ -1,12 +1,12 @@
-<!-- Subject: "Ein klarer Schritt für deinen Tarif" -->
-<!-- Preheader: "Du hast alle Infos – jetzt kannst du in Ruhe entscheiden. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, was jetzt bei {{ opportunity.energieart }} sinnvoll ist" -->
+<!-- Preheader: "Der Vergleich ist vorbereitet – so siehst du direkt, was der bessere Schritt ist." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>letzter Impuls von mir:</p>
-<p>Du hast jetzt alle Infos, um unnötige Mehrkosten zu vermeiden.</p>
-<p>Du musst nichts überstürzen, aber ein kurzer Check bringt dir direkt Klarheit.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Tarifempfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
+<p>Ein kurzer Blick reicht, damit du das Thema sauber abschließen kannst.</p>
+<p>Hier siehst du deine empfohlene {{ opportunity.energieart }}-Option direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

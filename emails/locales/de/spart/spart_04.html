@@ -1,12 +1,13 @@
-<!-- Subject: "Nichtstun kostet bei {{ opportunity.energieart }} oft weiter" -->
-<!-- Preheader: "Aufschieben wirkt harmlos, kostet aber oft Monat für Monat Geld." -->
+<!-- Subject: "Viele zahlen bei {{ opportunity.energieart }} zu lange zu viel" -->
+<!-- Preheader: "Wenn der Tarif weiterläuft, steigt die Summe oft leise im Hintergrund." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>nicht zu wechseln fühlt sich neutral an – ist es aber nicht.</p>
 <p>Wenn ein teurer Tarif weiterläuft, zahlst du jeden Monat weiter zu viel.</p>
-<p>Wenn kein Vorteil da ist, bleibt alles wie es ist.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Tarifempfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Das bedeutet für dich: {{ opportunity.savings_text }}.</p>
+<p>Der nächste sinnvolle Schritt ist, das einmal kurz konkret einzuordnen.</p>
+<p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

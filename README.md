@@ -26,6 +26,21 @@ Unser Ziel ist Klarheit statt Tarifchaos.
 - spart_nicht = 4 Emails
 - loop = 15 Emails
 
+## `{{ opportunity.savings_text }}` (final)
+Diese Werte sind verbindlich und dürfen nicht verändert werden.
+
+- `neueinzug` = `unnötige Mehrkosten beim Start`
+- `spart_nicht` = `gut und sinnvoll eingestellt`
+- `low` = `etwas mehr als nötig`
+- `mid` = `spürbar mehr als nötig`
+- `high` = `mehrere hundert Euro pro Jahr zu viel`
+- `very_high` = `über 500€ pro Jahr zu viel`
+
+### Satzlogik pro Segment
+- `spart`: `Du zahlst aktuell {{ opportunity.savings_text }}` oder `Das bedeutet für dich: {{ opportunity.savings_text }}`
+- `spart_nicht`: `Du bist aktuell {{ opportunity.savings_text }}` oder `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
+- `neueinzug`: `So vermeidest du {{ opportunity.savings_text }}` oder `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
+
 ## CTA-Regel (final)
 Jede Email enthält genau einen CTA-Link im Body.
 
@@ -65,5 +80,9 @@ Siehe `specs/ghl-variables.md`.
 ## Final Messaging-Standards
 - In jeder Nicht-Referral-Mail muss {{ opportunity.energieart }} im Body stehen.
 - Zusätzlich muss {{ opportunity.energieart }} im Subject oder Preheader stehen.
-- 1–2 zusätzliche Sätze nur selektiv, wenn sie Kontext + Einwandbehandlung verbessern.
+- Zusätzliche Zeilen nur selektiv, wenn sie Kontext + Einwandbehandlung verbessern.
 - Verboten: fake-transaktionale, irreführende oder unklare Formulierungen (z. B. „dein aktueller Stand“).
+
+### Bridge-Line-Regel (Conversion)
+- Keine generischen Beruhigungsphrasen wie "Du musst nichts überstürzen" oder "Der Check verpflichtet dich zu nichts".
+- Stattdessen kurze, logische Brücken nutzen: Vergleich, Konsequenz, nächster sinnvoller Schritt.

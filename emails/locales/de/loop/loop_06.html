@@ -1,11 +1,12 @@
-<!-- Subject: "Kurz prüfen, dann wieder Ruhe" -->
-<!-- Preheader: "Noch weiter laufen lassen oder jetzt einmal sauber klären? Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "Wann hast du deinen {{ opportunity.energieart }}-Tarif zuletzt geprüft?" -->
+<!-- Preheader: "Oft reicht ein kurzer Vergleich, um wieder Klarheit zu haben." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
+<p>Du hattest bei uns eine {{ opportunity.energieart }}-Empfehlung angefragt.</p>
 <p>kurze Frage:</p>
 <p>Wann hast du deinen Tarif zuletzt bewusst geprüft?</p>
-<p>Wenn du kurz wieder Klarheit willst, kannst du dir hier deine sichere {{ opportunity.energieart }}-Empfehlung ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier kannst du dir deine persönliche {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

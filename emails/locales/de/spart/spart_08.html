@@ -1,12 +1,13 @@
-<!-- Subject: "Aufschieben ist auch beim Tarif eine Entscheidung" -->
-<!-- Preheader: "Wer nicht prüft, entscheidet sich oft unbewusst für höhere Kosten. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "Warum viele bei {{ opportunity.energieart }} zu spät prüfen" -->
+<!-- Preheader: "Oft fällt es erst auf, wenn der Tarif schon lange unverändert läuft." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurzer Reframe:</p>
 <p>Auch nichts zu tun ist eine Entscheidung – meist für den teureren Tarif.</p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
 <p>Ein kurzer Check zeigt dir direkt, ob du zu viel zahlst.</p>
-<p>Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung für dich ermittelt – hier kannst du sie ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

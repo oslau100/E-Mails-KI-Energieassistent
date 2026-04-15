@@ -1,12 +1,13 @@
-<!-- Subject: "{{ contact.first_name }}, kurze Frage zu deinem {{ opportunity.energieart }}-Tarif" -->
-<!-- Preheader: "Viele zahlen monatelang unbemerkt zu viel – ich wollte das kurz für dich klären." -->
+<!-- Subject: "{{ contact.first_name }}, was bei deinem {{ opportunity.energieart }}-Tarif auffällt" -->
+<!-- Preheader: "Du hattest eine {{ opportunity.energieart }}-Empfehlung angefragt – der Vergleich ist vorbereitet." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>viele zahlen monatelang unbemerkt zu viel, weil der Tarif einfach weiterläuft.</p>
-<p>Bei dir geht es aktuell um {{ opportunity.savings_text }}.</p>
-<p>Der Check verpflichtet dich zu nichts.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Tarifempfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>viele merken erst spät, dass der Tarif einfach weiterläuft und unnötig teuer bleibt.</p>
+<p>Du hattest bei uns eine {{ opportunity.energieart }}-Empfehlung angefragt.</p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
+<p>Der Unterschied wird oft erst sichtbar, wenn man es einmal direkt vergleicht.</p>
+<p>Hier kannst du dir deine vorbereitete {{ opportunity.energieart }}-Option ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

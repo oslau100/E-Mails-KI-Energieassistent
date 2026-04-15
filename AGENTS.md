@@ -86,6 +86,27 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
 - {{custom_values.impressum_url}}
 - {{custom_values.datenschutz_url}}
 
+## savings_text source of truth (final)
+- neueinzug = unnötige Mehrkosten beim Start
+- spart_nicht = gut und sinnvoll eingestellt
+- low = etwas mehr als nötig
+- mid = spürbar mehr als nötig
+- high = mehrere hundert Euro pro Jahr zu viel
+- very_high = über 500€ pro Jahr zu viel
+
+### Mandatory savings_text sentence structure
+- spart:
+  - Du zahlst aktuell {{ opportunity.savings_text }}
+  - Das bedeutet für dich: {{ opportunity.savings_text }}
+- spart_nicht:
+  - Du bist aktuell {{ opportunity.savings_text }}
+  - Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}
+- neueinzug:
+  - So vermeidest du {{ opportunity.savings_text }}
+  - Beim Umzug vermeidest du {{ opportunity.savings_text }}
+
+Do not mix these meanings across segments.
+
 ## Subject line rules (open rate)
 - clear, personal, concrete
 - not ad-like
@@ -108,6 +129,16 @@ For every non-affiliate/referral mail:
 Do not force it in referral mails when unnatural.
 
 ## Selective bridge-line rule
+
+### Anti-reassurance rule (final)
+Avoid using generic delay-enabling bridges such as:
+- "Du musst nichts überstürzen."
+- "Du entscheidest danach in Ruhe."
+- "Der Check verpflichtet dich zu nichts."
+- "Wenn kein Vorteil da ist, bleibt alles wie es ist."
+
+Use logic-based bridge lines instead (comparison, consequence, practical next step).
+
 - Keep current structure and add exactly one extra line only where needed.
 - Allowed function of this extra line: objection handling, trust bridge, or relevance bridge before CTA.
 - Do not add this line to every email; use it selectively.
