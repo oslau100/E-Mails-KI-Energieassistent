@@ -12,13 +12,24 @@ Future languages must keep DACH market logic and mission.
 - same CTA intent
 - plain personal email style
 
+## savings_text compatibility
+Across all locales, segment semantics must stay stable:
+- spart = overpayment
+- spart_nicht = positive status
+- neueinzug = avoided cost
+
+Required German base structures:
+- spart: `Du zahlst aktuell {{ opportunity.savings_text }}` / `Das bedeutet für dich: {{ opportunity.savings_text }}`
+- spart_nicht: `Du bist aktuell {{ opportunity.savings_text }}` / `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
+- neueinzug: `So vermeidest du {{ opportunity.savings_text }}` / `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
+
 ## Subject and preheader quality
 Across languages:
 - subject must be concrete, clear, trustworthy
 - preheader must complement subject and add context
 - no misleading urgency
 - no fake support-style phrasing
-- no fake-transactional framing (e.g. "request open", "waiting for your reply")
+- no fake-transactional framing
 
 ## Forbidden ambiguous wording (carry over by meaning)
 Do not translate into equivalents of:
@@ -42,20 +53,3 @@ In non-referral mails, CTA language should reflect:
   - and in body
 - In referral mails, {{ opportunity.energieart }} is optional (only if natural)
 - do not overuse other dynamic variables
-
-## Selective bridge-line rule
-- Keep original structure and add 1–2 extra lines only when needed for context + objection handling.
-- Do not apply this globally to every email.
-
-## Signature localization rule
-- Keep one consistent lightweight HTML signature in localized emails.
-- Signature may include brand name, small logo, address, impressum/privacy links.
-- Signature formatting should remain subtle and personal-mail compatible.
-
-## QA for localization
-- no broken placeholders
-- no mixed-language leftovers
-- no fake urgency
-- no fake-transactional framing
-- no ambiguous wording
-- exactly one CTA link in body

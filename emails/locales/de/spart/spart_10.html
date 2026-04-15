@@ -1,10 +1,10 @@
-<!-- Subject: "Ein klarer Schritt für deinen Tarif" -->
+<!-- Subject: "{{ contact.first_name }}, jetzt kurz entscheiden?" -->
 <!-- Preheader: "Du hast alle Infos – jetzt kannst du in Ruhe entscheiden. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>letzter Impuls von mir:</p>
-<p>Du hast jetzt alle Infos, um unnötige Mehrkosten zu vermeiden.</p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
 <p>Du musst nichts überstürzen, aber ein kurzer Check bringt dir direkt Klarheit.</p>
 <p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Tarifempfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
