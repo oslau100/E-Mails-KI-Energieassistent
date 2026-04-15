@@ -34,28 +34,24 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{custom_values.impressum_url}}
 - {{custom_values.datenschutz_url}}
 
-## Nutzung in Emails
+## Nutzungsregeln (final)
 
-### Personalisierung
-- {{ contact.first_name }}
-- {{ contact.city }}
-- {{ contact.postal_code }}
-- {{ opportunity.energieart }} (selektiv in Subject, Preheader und Body)
-
-### Messaging
-- {{ opportunity.savings_text }}
-- {{ opportunity.cta_text }}
+### Pflichtkontext
+In Nicht-Referral-Mails ist {{ opportunity.energieart }} verpflichtend:
+- im Subject oder Preheader
+- und im Body
 
 ### CTA Ziel
-- {{ opportunity.offer_url }}
+- Standard CTA: {{ opportunity.offer_url }}
+- Referral CTA nur in ausgewählten Loop-Mails: {{ contact.empfehlungslink }}
 
-### Vergleich / Conversion Layer
-- {{ opportunity.aktueller_anbieter }}
-- {{ opportunity.neuer_anbieter }}
-- {{ opportunity.aktuelle_monatliche_kosten_ }}
-- {{ opportunity.neuer_monatlicher_preis_ }}
+### CTA-Meaning (Nicht-Referral)
+CTA-Texte müssen ausdrücken:
+- Empfehlung wurde bereits auf Basis der Angaben ermittelt
+- Empfehlung ist eine sichere Option
+- Link führt zum direkten Ansehen dieser Empfehlung
 
-## Regeln
+### Platzhalter-Schutz
 - Placeholder niemals umformatieren
 - Placeholder niemals übersetzen
 - Placeholder niemals mit Beispieldaten ersetzen
