@@ -36,6 +36,12 @@ Every email must contain a CTA.
 Most emails must use the tariff recommendation CTA and link to:
 - {{ opportunity.offer_url }}
 
+### CTA business logic (final)
+For non-referral emails, CTA framing must reflect the real use case:
+- a personal recommendation has already been determined based on user input
+- recommendation must be framed as a safe option
+- CTA language should point to “now view your recommendation”, not “start a generic check”
+
 ### Referral CTA rule
 Only selected loop emails may use referral / recommendation CTAs.
 Referral emails must be mission-led and helpful, never spammy affiliate style.
@@ -84,16 +90,22 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
 - clear, personal, concrete
 - not ad-like
 - no fake support/service framing
-- {{ contact.first_name }} and {{ opportunity.energieart }} may be used selectively
+- no fake-transactional framing (e.g. “deine Anfrage”, “wir warten auf Rückmeldung”, “bitte antworten”)
 - no misleading urgency
-- no fake-transactional framing ("deine Anfrage", "wir warten auf Rückmeldung", "bitte dringend antworten")
+- vary structures (question, statement, timing, relevance)
 
 ## Preheader rules
 - must complement the subject
 - should increase relevance and clarity
 - can create a soft open loop
-- no fake urgency or fake "we are waiting" framing
+- no fake urgency or fake “we are waiting” framing
 - no fake ticket/support wording
+
+## {{ opportunity.energieart }} rule (final)
+For every non-affiliate/referral mail:
+- {{ opportunity.energieart }} must appear in subject or preheader
+- and must appear in the body
+Do not force it in referral mails when unnatural.
 
 ## Selective bridge-line rule
 - Keep current structure and add exactly one extra line only where needed.
