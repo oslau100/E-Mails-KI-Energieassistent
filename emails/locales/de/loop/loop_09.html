@@ -1,5 +1,5 @@
-<!-- Subject: "Teile Klarheit statt unnötiger Kosten" -->
-<!-- Preheader: "Vielleicht hilft dein Link gerade heute jemandem in deinem Umfeld." -->
+<!-- Subject: "Teile Orientierung, wenn jemand bei Energie unsicher ist" -->
+<!-- Preheader: "Mission statt Werbung: Du erleichterst anderen eine sichere Entscheidung." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
@@ -7,6 +7,14 @@
 <p>Ein einfacher, vertrauenswürdiger Link kann genau dann helfen.</p>
 <p>Wenn eine Empfehlung erfolgreich ist, bekommst du aktuell {{custom_values.empfehlungsprmie}} – wichtiger ist: Du machst es jemandem leichter.</p>
 <p>Hier kannst du deinen Empfehlungslink jetzt direkt teilen: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
+<strong>{{custom_values.brandname}}</strong><br>
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:120px; height:auto; margin:6px 0;">
+{{custom_values.strae_und_hausnummer}}<br>
+{{custom_values.plz_und_stadt}}<br>
+<a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>
+{{custom_values.absender_email}}
+</p>
 </body>
 </html>

@@ -27,6 +27,12 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - {{custom_values.absender_name}}
 - {{custom_values.empfehlungsportal_url}}
 - {{custom_values.empfehlungsprmie}}
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}
 
 ## Nutzung in Emails
 
@@ -42,6 +48,7 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 
 ### CTA Ziel
 - {{ opportunity.offer_url }}
+- Für Nicht-Affiliate-Mails semantisch als „sichere Empfehlung ansehen“ framen.
 
 ### Vergleich / Conversion Layer
 - {{ opportunity.aktueller_anbieter }}
@@ -55,3 +62,13 @@ Alle Platzhalter müssen exakt so geschrieben werden wie hier angegeben.
 - Placeholder niemals mit Beispieldaten ersetzen
 - Placeholder-Syntax exakt beibehalten
 - Keine neuen Variablen erfinden
+- In Nicht-Affiliate-Mails muss {{ opportunity.energieart }} in Subject/Preheader-Kontext und Body logisch genutzt werden.
+
+## Signatur-Verwendung
+Für die HTML-Signatur in deutschen Emails sind folgende Werte vorgesehen:
+- {{custom_values.brandname}}
+- {{custom_values.logo}}
+- {{custom_values.strae_und_hausnummer}}
+- {{custom_values.plz_und_stadt}}
+- {{custom_values.impressum_url}}
+- {{custom_values.datenschutz_url}}

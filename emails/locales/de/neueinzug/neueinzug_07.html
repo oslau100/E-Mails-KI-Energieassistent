@@ -1,11 +1,21 @@
 <!-- Subject: "Der Aufwand ist kleiner als gedacht" -->
-<!-- Preheader: "Der Check dauert kurz und gibt dir schnell Sicherheit." -->
+<!-- Preheader: "Der Check dauert kurz und gibt dir schnell Sicherheit. Bei {{ opportunity.energieart }} hast du bereits eine sichere Empfehlung vorliegen." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>viele überschätzen den Aufwand und unterschätzen die Kosten des Wartens.</p>
 <p>Der Check ist kurz. Du entscheidest danach in Ruhe.</p>
-<p>Hier bekommst du in wenigen Minuten Klarheit: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
-<p>Viele Grüße<br>{{custom_values.absender_name}}<br><a href="mailto:{{custom_values.absender_email}}">{{custom_values.absender_email}}</a></p>
+<p>Vielleicht fragst du dich, ob dein aktueller {{ opportunity.energieart }}-Tarif nicht schon ausreicht.</p>
+<p>Genau deshalb haben wir auf Basis deiner Angaben bereits eine sichere Empfehlung ermittelt.</p>
+<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung für den Start direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
+<strong>{{custom_values.brandname}}</strong><br>
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:120px; height:auto; margin:6px 0;">
+{{custom_values.strae_und_hausnummer}}<br>
+{{custom_values.plz_und_stadt}}<br>
+<a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>
+{{custom_values.absender_email}}
+</p>
 </body>
 </html>
