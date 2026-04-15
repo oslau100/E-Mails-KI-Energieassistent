@@ -1,13 +1,12 @@
-<!-- Subject: "{{ contact.first_name }}, Umzug ohne Tarif-Falle?" -->
-<!-- Preheader: "Gerade am Start landen viele zuerst in der Grundversorgung." -->
+<!-- Subject: "{{ contact.first_name }}, beim Umzug wird {{ opportunity.energieart }} oft unnötig teuer" -->
+<!-- Preheader: "Gerade am Start landet man schnell in der Grundversorgung – wir haben bereits eine passende {{ opportunity.energieart }}-Empfehlung vorbereitet." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>Beim Umzug vermeidest du {{ opportunity.savings_text }}.</p>
-<p>beim Umzug wird der Tarif oft nebenbei entschieden – und genau das wird später teuer.</p>
-<p>Viele landen zuerst in der Grundversorgung (die teure Standardlösung), obwohl bessere Optionen schon verfügbar sind.</p>
-<p>Genau deshalb lohnt sich ein kurzer Check direkt zum Start.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Gerade in den ersten Tagen rutscht {{ opportunity.energieart }} oft automatisch in die teure Grundversorgung.</p>
+<p>Ein kurzer Vergleich jetzt spart dir später unnötige Korrekturen.</p>
+<p>Hier kannst du dir deine persönliche {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

@@ -1,11 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, bist du bei {{ opportunity.energieart }} vorbereitet?" -->
-<!-- Preheader: "Ein kurzer Check hält dich handlungsfähig statt später überrascht. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, passt dein {{ opportunity.energieart }}-Tarif noch?" -->
+<!-- Preheader: "Preis und Bedingungen ändern sich – deshalb lohnt sich der kurze Vergleich bei {{ opportunity.energieart }}." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>wer erst reagiert, wenn die Rechnung steigt, ist oft zu spät dran.</p>
-<p>Besser: in Ruhe prüfen und dann bewusst entscheiden.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>bei {{ opportunity.energieart }} fällt der Unterschied oft erst im direkten Vergleich auf.</p>
+<p>Genau deshalb ist ein kurzer Check jetzt der sinnvollste nächste Schritt.</p>
+<p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

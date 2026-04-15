@@ -1,12 +1,12 @@
-<!-- Subject: "{{ contact.first_name }}, Timing beim Einzug zählt" -->
-<!-- Preheader: "Je früher du prüfst, desto weniger zahlst du im falschen Tarif. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, beim Umzug zählt {{ opportunity.energieart }} ab Tag 1" -->
+<!-- Preheader: "Wer erst später prüft, zahlt häufig unnötig weiter – genau das kannst du vermeiden." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>Beim Umzug vermeidest du {{ opportunity.savings_text }}.</p>
-<p>beim Einzug ist Timing oft die halbe Entscheidung.</p>
-<p>Wer jetzt prüft, vermeidet später teures Nachjustieren aus der Grundversorgung heraus.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>gerade in der Umzugsphase wird {{ opportunity.energieart }} oft nach hinten geschoben.</p>
+<p>So vermeidest du {{ opportunity.savings_text }}.</p>
+<p>Ein schneller Vergleich jetzt sorgt dafür, dass du von Anfang an passend aufgestellt bist.</p>
+<p>Hier findest du deine empfohlene {{ opportunity.energieart }}-Option direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

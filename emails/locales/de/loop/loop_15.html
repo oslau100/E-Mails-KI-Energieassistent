@@ -1,10 +1,10 @@
-<!-- Subject: "{{ contact.first_name }}, entspannt bei {{ opportunity.energieart }}" -->
-<!-- Preheader: "Kurz prüfen, bewusst entscheiden, dann wieder Ruhe haben. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, letzter kurzer Reminder zu {{ opportunity.energieart }}" -->
+<!-- Preheader: "Deine vorbereitete {{ opportunity.energieart }}-Empfehlung ist weiterhin abrufbar." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>du musst nicht ständig optimieren – nur regelmäßig kurz hinschauen.</p>
-<p>So bleibt das Thema entspannt und trotzdem unter Kontrolle.</p>
+<p>letzter kurzer Reminder zu deiner {{ opportunity.energieart }}-Anfrage.</p>
+<p>Ein kurzer Blick jetzt sorgt dafür, dass du das Thema sauber abschließen kannst.</p>
 <p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">

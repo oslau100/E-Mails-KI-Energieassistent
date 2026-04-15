@@ -133,6 +133,17 @@ Do not force it in referral mails when unnatural.
 - Allowed function of this extra line: objection handling, trust bridge, or relevance bridge before CTA.
 - Do not add this line to every email; use it selectively.
 
+
+## Anti-reassurance rule (conversion)
+Do not use generic postponement/pressure-relief lines as CTA bridges in non-referral mails.
+Avoid especially:
+- "Du musst nichts überstürzen."
+- "Du entscheidest danach in Ruhe."
+- "Der Check verpflichtet dich zu nichts."
+- "Wenn kein Vorteil da ist, bleibt alles wie es ist."
+
+Use one short logic-driven bridge instead (comparison, consequence, quick clarity, practical next step).
+
 ## Prohibited / ambiguous phrases
 Do not use:
 - "dein aktueller Stand"

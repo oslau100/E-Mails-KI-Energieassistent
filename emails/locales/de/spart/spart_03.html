@@ -1,13 +1,12 @@
-<!-- Subject: "{{ contact.first_name }}, lohnt sich dein Wechsel jetzt?" -->
-<!-- Preheader: "Nicht der Wechsel selbst ist das Problem, sondern die Unsicherheit davor. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "Wann hast du deinen {{ opportunity.energieart }} zuletzt geprüft?" -->
+<!-- Preheader: "Viele lassen den {{ opportunity.energieart }}-Tarif laufen und merken den Unterschied erst später." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>die meisten wechseln nicht wegen fehlender Ersparnis, sondern wegen Unsicherheit.</p>
-<p>Verständlich – niemand will beim {{ opportunity.energieart }}-Vertrag etwas riskieren.</p>
+<p>viele verschieben das Thema {{ opportunity.energieart }}, obwohl der Effekt jeden Monat weiterläuft.</p>
 <p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
-<p>Der Check verpflichtet dich zu nichts und zeigt dir klar, ob sich der Schritt für dich lohnt.</p>
-<p>Hier findest du die sichere {{ opportunity.energieart }}-Empfehlung, die wir auf Basis deiner Angaben ermittelt haben: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Der nächste sinnvolle Schritt ist, das einmal kurz einzuordnen und dann abzuhaken.</p>
+<p>Hier siehst du deine empfohlene {{ opportunity.energieart }}-Option direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

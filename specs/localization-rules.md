@@ -1,55 +1,39 @@
 # Localization Rules
 
-## Current state
-Phase 1 builds German master emails only.
+## Status
+Master-Sprache ist Deutsch (de). Weitere Sprachen müssen dieselbe Psychologie und Business-Logik tragen.
 
-## Core principle
-Future languages must keep DACH market logic and mission.
+## Immer beibehalten
+- Placeholder exakt unverändert
+- Segment-Logik unverändert
+- plain, persönliche Email-Form
+- genau ein CTA-Link im Body
 
-## Must preserve
-- placeholders exactly
-- same scenario psychology
-- same CTA intent
-- plain personal email style
-
-## savings_text compatibility
-Across all locales, segment semantics must stay stable:
+## savings_text-Kompatibilität
+Bedeutung muss je Segment stabil bleiben:
 - spart = overpayment
 - spart_nicht = positive status
 - neueinzug = avoided cost
 
-Required German base structures:
+Deutsche Pflichtstrukturen:
 - spart: `Du zahlst aktuell {{ opportunity.savings_text }}` / `Das bedeutet für dich: {{ opportunity.savings_text }}`
-- spart_nicht: `Du bist aktuell {{ opportunity.savings_text }}` / `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
+- spart_nicht: `Dein {{ opportunity.energieart }}-Tarif ist aktuell {{ opportunity.savings_text }}` / `Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}`
 - neueinzug: `So vermeidest du {{ opportunity.savings_text }}` / `Beim Umzug vermeidest du {{ opportunity.savings_text }}`
 
-## Subject and preheader quality
-Across languages:
-- subject must be concrete, clear, trustworthy
-- preheader must complement subject and add context
-- no misleading urgency
-- no fake support-style phrasing
-- no fake-transactional framing
+## Subject/Preheader
+- klar, relevant, vertrauenswürdig
+- kein irreführender Druck
+- kein Fake-Service/Fake-Ticket/Fake-Transaktionston
 
-## Forbidden ambiguous wording (carry over by meaning)
-Do not translate into equivalents of:
-- "dein aktueller Stand"
-- "dein Tarif-Status"
-- "deine Situation"
-- "deine Daten"
+## CTA-Logik global
+Nicht-Referral: Empfehlung ist bereits vorbereitet und wird direkt angesehen.
+Referral: nur dort, wo es natürlich hilfreich ist.
 
-## CTA rule (global)
-Every email in every language must contain exactly one CTA link in the body.
+## Bridge-Line-Übersetzungsregel
+Bedeutung der Logik-Brücke erhalten, keine „kein Druck“-Phrasen lokalisieren.
 
-## CTA business logic (global)
-In non-referral mails, CTA language should reflect:
-- recommendation already determined from provided user information
-- recommendation framed as safe/clear option
-- user can directly view that recommendation now
-
-## Variable usage
-- In non-referral mails, {{ opportunity.energieart }} is mandatory:
-  - in subject or preheader
-  - and in body
-- In referral mails, {{ opportunity.energieart }} is optional (only if natural)
-- do not overuse other dynamic variables
+Verbotene Ambiguität (sinngemäß in allen Sprachen vermeiden):
+- „dein aktueller Stand“
+- „dein Tarif-Status“
+- „deine Situation“
+- „deine Daten“

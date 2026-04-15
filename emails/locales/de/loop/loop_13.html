@@ -1,11 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, kleine Checks, mehr Ruhe" -->
-<!-- Preheader: "Kleine regelmäßige Checks sind oft die bessere Strategie. Wir haben bereits eine sichere {{ opportunity.energieart }}-Empfehlung auf Basis deiner Angaben ermittelt." -->
+<!-- Subject: "{{ contact.first_name }}, dein nächster sinnvoller Schritt bei {{ opportunity.energieart }}" -->
+<!-- Preheader: "Die Empfehlung ist bereits da – jetzt nur noch kurz ansehen und einordnen." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>die beste Strategie ist selten Aktionismus, sondern Kontinuität.</p>
-<p>Regelmäßig kurz prüfen zeigt direkt, ob du weiterhin gut aufgestellt bist.</p>
-<p>Hier kannst du dir deine sichere {{ opportunity.energieart }}-Empfehlung direkt ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>auf Basis deiner Angaben ist deine {{ opportunity.energieart }}-Empfehlung weiterhin verfügbar.</p>
+<p>Interessant ist vor allem, wie dein Tarif im direkten Vergleich abschneidet.</p>
+<p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>
