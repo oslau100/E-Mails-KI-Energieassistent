@@ -63,3 +63,16 @@ Keine generischen Beruhigungssätze als CTA-Brücke, insbesondere nicht:
 - „Wenn kein Vorteil da ist, bleibt alles wie es ist.“
 
 Stattdessen: 1 kurze Logik-Brücke (Vergleich, Konsequenz, schnelle Klarheit, praktischer nächster Schritt).
+
+
+## Volltext-Optimierung statt Zeilen-Patching
+- Optimierungen erfolgen auf Email-Ebene, nicht als isolierte Satzkosmetik.
+- Vor Änderungen immer Funktion jeder Zeile prüfen (Kontext, Relevanz, Konsequenz, Vergleich, Brücke, CTA).
+- Nur kontextuelle Brücken verwenden; keine wiederholten Standard-Füllsätze.
+
+## Human-Language-Regel
+- Natürlich, klar, alltagsnah und vertrauenswürdig formulieren.
+- Systemhafte oder robotische Formulierungen vermeiden.
+
+## Referral-Mechanik
+- Referral-Mails adressieren primär Kopieren/Teilen (z. B. WhatsApp), nicht Selbstklick.

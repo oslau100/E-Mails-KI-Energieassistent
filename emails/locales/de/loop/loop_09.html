@@ -1,11 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, dein Empfehlungslink kann heute jemandem helfen" -->
-<!-- Preheader: "Wenn jemand gerade umzieht oder neu vergleicht, ist dein Link ein schneller Start." -->
+<!-- Subject: "{{ contact.first_name }}, dein Link kann heute direkt helfen" -->
+<!-- Preheader: "Wenn jemand gerade umzieht oder vergleicht, kannst du den Link direkt weitergeben." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kleiner Hinweis: Dein Empfehlungslink ist aktiv und sofort nutzbar.</p>
-<p>So hilfst du anderen, schneller eine passende Energieoption zu finden.</p>
-<p>Hier kannst du deinen Empfehlungslink jetzt direkt teilen: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
+<p>kurzer Hinweis: Dein persönlicher Empfehlungslink ist aktiv.</p>
+<p>Am besten funktioniert er, wenn du ihn direkt kopierst und weiterleitest.</p>
+<p>Diesen Link kannst du direkt per WhatsApp weitergeben: <a href="{{ contact.empfehlungslink }}">Link für WhatsApp kopieren</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>
