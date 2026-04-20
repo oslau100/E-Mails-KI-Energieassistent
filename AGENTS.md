@@ -88,7 +88,7 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
 
 ## savings_text source of truth (final)
 - neueinzug = unnötige Mehrkosten beim Start
-- spart_nicht = gut und sinnvoll eingestellt
+- spart_nicht = gut aufgestellt
 - low = etwas mehr als nötig
 - mid = spürbar mehr als nötig
 - high = mehrere hundert Euro pro Jahr zu viel
@@ -99,7 +99,7 @@ Referral emails must be mission-led and helpful, never spammy affiliate style.
   - Du zahlst aktuell {{ opportunity.savings_text }}
   - Das bedeutet für dich: {{ opportunity.savings_text }}
 - spart_nicht:
-  - Du bist aktuell {{ opportunity.savings_text }}
+  - Dein {{ opportunity.energieart }}-Tarif ist aktuell {{ opportunity.savings_text }}
   - Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}
 - neueinzug:
   - So vermeidest du {{ opportunity.savings_text }}

@@ -36,7 +36,7 @@ Platzhalter exakt beibehalten (inkl. Klammern, Punkten, Leerzeichen).
 
 ## savings_text Source of Truth
 - neueinzug = unnötige Mehrkosten beim Start
-- spart_nicht = gut und sinnvoll eingestellt
+- spart_nicht = gut aufgestellt
 - low = etwas mehr als nötig
 - mid = spürbar mehr als nötig
 - high = mehrere hundert Euro pro Jahr zu viel

@@ -1,11 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, Empfehlung teilen und direkt helfen" -->
-<!-- Preheader: "Mit deinem Link können Freunde oder Familie schnell zur passenden Option kommen." -->
+<!-- Subject: "{{ contact.first_name }}, dein Empfehlungslink zum Weitergeben" -->
+<!-- Preheader: "Einmal kopieren, weiterleiten, helfen: Dein Link ist direkt einsatzbereit." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>wenn jemand in deinem Umfeld beim Energiethema unsicher ist, kannst du direkt helfen.</p>
-<p>Dein persönlicher Link führt sofort zur passenden Empfehlung ohne Umwege.</p>
-<p>Hier kannst du deinen Empfehlungslink jetzt direkt weitergeben: <a href="{{ contact.empfehlungslink }}">Empfehlungslink öffnen</a></p>
+<p>Am schnellsten hilfst du, wenn du den Link direkt kopierst und weitergibst.</p>
+<p>Hier ist dein Empfehlungslink zum Weitergeben: <a href="{{ contact.empfehlungslink }}">Link kopieren und teilen</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>
