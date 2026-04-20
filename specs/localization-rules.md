@@ -37,3 +37,15 @@ Verbotene Ambiguität (sinngemäß in allen Sprachen vermeiden):
 - „dein Tarif-Status“
 - „deine Situation“
 - „deine Daten“
+
+
+## Vollfluss statt Satzinseln
+- Lokalisierungen dürfen nicht nur einzelne Zeilen austauschen.
+- Der komplette Email-Fluss muss logisch bleiben und den CTA sauber vorbereiten.
+
+## Human Tone
+- Sprache muss menschlich wirken, ohne generische Füllphrasen.
+- Brücken nur kontextuell und funktional einsetzen.
+
+## Referral-Lokalisierung
+- Referral-CTA als „Link kopieren/teilen“ formulieren, nicht als „Link öffnen“.

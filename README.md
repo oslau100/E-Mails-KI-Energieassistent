@@ -16,7 +16,7 @@ Dieses Repository enthält ein skalierbares HTML-Email-System für GoHighLevel (
 
 ## `{{ opportunity.savings_text }}` (verbindlich)
 - neueinzug = unnötige Mehrkosten beim Start
-- spart_nicht = gut und sinnvoll eingestellt
+- spart_nicht = gut aufgestellt
 - low = etwas mehr als nötig
 - mid = spürbar mehr als nötig
 - high = mehrere hundert Euro pro Jahr zu viel
@@ -70,3 +70,11 @@ Stattdessen: kurze Logik-Brücken mit
 
 ## Variablen
 Siehe `specs/ghl-variables.md`.
+
+
+## Optimierungsprinzip (Pflicht)
+- Emails immer als Gesamtfluss optimieren (Opener → Kontext → Beobachtung/Konsequenz → Brücke → CTA).
+- Keine isolierten Satz-Ersetzungen ohne Flow-Prüfung.
+- Jede Zeile braucht eine Funktion: Kontext, Relevanz, Konsequenz, Vergleich, nächster Schritt oder CTA-Übergang.
+- Sprache natürlich und menschlich, ohne generische KI-Füllsätze.
+- Referral-CTA immer als Kopieren/Teilen/Weiterleiten framen, nicht als „selbst öffnen“.

@@ -3,9 +3,10 @@
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>kurzer Impuls zu deinem {{ opportunity.energieart }}-Tarif:</p>
+<p>du hattest bei uns eine {{ opportunity.energieart }}-Empfehlung angefragt.</p>
 <p>Viele merken erst spät, wie lange ein weniger passender Tarif weiterlief.</p>
-<p>Hier siehst du deine vorbereitete {{ opportunity.energieart }}-Option direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Ein kurzer Vergleich heute verhindert, dass dieser Abstand weiter mitläuft.</p>
+<p>Hier siehst du deine {{ opportunity.energieart }}-Option direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

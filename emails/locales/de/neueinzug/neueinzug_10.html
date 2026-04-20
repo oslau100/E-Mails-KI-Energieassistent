@@ -1,12 +1,12 @@
 <!-- Subject: "{{ contact.first_name }}, letzter Umzugs-Check für {{ opportunity.energieart }}" -->
-<!-- Preheader: "Ein letzter kurzer Blick gibt dir Klarheit und verhindert unnötige Mehrkosten beim Start." -->
+<!-- Preheader: "Ein letzter kurzer Blick gibt dir Klarheit und verhindert unnötige Mehrkosten zum Start." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>letzter kurzer Impuls rund um deinen Umzug:</p>
+<p>letzter kurzer Hinweis rund um deinen Umzug:</p>
 <p>Beim Umzug vermeidest du {{ opportunity.savings_text }}.</p>
-<p>Das ist einer der wenigen Schritte, die du jetzt in Minuten erledigst und später nicht nacharbeiten musst.</p>
-<p>Hier siehst du deine vorbereitete {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Das ist ein kleiner Schritt jetzt, der dir später Zeit und Geld spart.</p>
+<p>Hier siehst du deine {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

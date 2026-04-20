@@ -1,12 +1,12 @@
-<!-- Subject: "{{ contact.first_name }}, drei Punkte zu deinem {{ opportunity.energieart }}-Tarif" -->
-<!-- Preheader: "Mit drei kurzen Fragen lässt sich die Entscheidung bei {{ opportunity.energieart }} sauber einordnen." -->
+<!-- Subject: "{{ contact.first_name }}, drei Fragen zu deinem {{ opportunity.energieart }}-Tarif" -->
+<!-- Preheader: "Mit drei kurzen Fragen wird schnell klar, ob du bei {{ opportunity.energieart }} etwas liegen lässt." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>wenn ein Tarifthema hängen bleibt, hilft ein kurzer Faktencheck:</p>
-<p>1) Zahlst du aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Willst du das Thema {{ opportunity.energieart }} jetzt abschließen?</p>
+<p>wenn ein Tarifthema liegen bleibt, hilft ein kurzer Faktencheck:</p>
+<p>1) Zahlst du aktuell mehr als nötig?<br>2) Ist die Alternative nachvollziehbar?<br>3) Möchtest du diese laufenden Mehrkosten noch länger tragen?</p>
 <p>Das bedeutet für dich: {{ opportunity.savings_text }}.</p>
-<p>Damit ist der nächste Schritt meist klar und schnell erledigt.</p>
+<p>Damit ist meist klar, was jetzt der sinnvollere Schritt ist.</p>
 <p>Hier siehst du deine persönliche {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
