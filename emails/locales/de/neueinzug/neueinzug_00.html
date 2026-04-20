@@ -1,0 +1,22 @@
+<!-- Subject: "{{ contact.first_name }}, deine {{ opportunity.energieart }}-Empfehlung für den Umzug steht bereit" -->
+<!-- Preheader: "Beim Einzug zählt der erste Schritt: So startest du mit einer sicheren {{ opportunity.energieart }}-Option statt Grundversorgung." -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>für deinen Umzug haben wir auf Basis deiner Angaben bereits eine passende {{ opportunity.energieart }}-Empfehlung vorbereitet.</p>
+<p>Gerade beim Einzug passiert oft etwas unbemerkt:<br>Man landet automatisch in der Grundversorgung.</p>
+<p>Und die ist in den meisten Fällen teurer als nötig.</p>
+<p>Deshalb geht es hier nicht darum, einfach den billigsten Tarif zu finden,<br>sondern direkt mit einer sicheren und passenden Option zu starten.</p>
+<p>Damit vermeidest du {{ opportunity.savings_text }}.</p>
+<p>Hier kannst du dir deine Empfehlung ansehen:<br><a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
+<strong>{{custom_values.brandname}}</strong><br>
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:90px; height:auto; margin:6px 0;">
+{{custom_values.strae_und_hausnummer}}<br>
+{{custom_values.plz_und_stadt}}<br>
+<a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>
+{{custom_values.absender_email}}
+</p>
+</body>
+</html>

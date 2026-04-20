@@ -1,0 +1,23 @@
+<!-- Subject: "{{ contact.first_name }}, deine {{ opportunity.energieart }}-Empfehlung ist da" -->
+<!-- Preheader: "Keine Tarifliste: Wir haben für dich eine sichere, vorgefilterte {{ opportunity.energieart }}-Option vorbereitet." -->
+<html>
+<body>
+<p>Hallo {{ contact.first_name }},</p>
+<p>wir haben deine Angaben geprüft und dabei eine passende {{ opportunity.energieart }}-Empfehlung für dich gefunden.</p>
+<p>Wichtig dabei:<br>Es geht nicht darum, einfach irgendeinen günstigen Tarif zu zeigen.</p>
+<p>Sondern eine Option, bei der du keine versteckten Kosten oder unangenehmen Überraschungen erwarten musst.</p>
+<p>Alles, was später teuer oder unklar werden kann, wurde vorher aussortiert.</p>
+<p>Du bekommst also keine Tarifliste, sondern eine klare Empfehlung.</p>
+<p>Du zahlst aktuell {{ opportunity.savings_text }}.</p>
+<p>Hier kannst du dir deine persönliche Empfehlung direkt ansehen:<br><a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Viele Grüße<br>{{custom_values.absender_name}}</p>
+<p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
+<strong>{{custom_values.brandname}}</strong><br>
+<img src="{{custom_values.logo}}" alt="{{custom_values.brandname}} Logo" style="display:block; max-width:90px; height:auto; margin:6px 0;">
+{{custom_values.strae_und_hausnummer}}<br>
+{{custom_values.plz_und_stadt}}<br>
+<a href="{{custom_values.impressum_url}}">Impressum</a> · <a href="{{custom_values.datenschutz_url}}">Datenschutz</a><br>
+{{custom_values.absender_email}}
+</p>
+</body>
+</html>
