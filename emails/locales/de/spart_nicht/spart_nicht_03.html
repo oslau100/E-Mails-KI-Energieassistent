@@ -1,12 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, warum Beobachten bei {{ opportunity.energieart }} wichtig bleibt" -->
-<!-- Preheader: "Heute passt dein Tarif, aber der Markt bleibt in Bewegung – ein kurzer Vergleich hält dich handlungsfähig." -->
+<!-- Subject: "{{ contact.first_name }}, {{ opportunity.energieart }} im Blick behalten lohnt sich" -->
+<!-- Preheader: "Heute passt dein Tarif – bei neuen Preisrunden ist ein schneller Vergleich besonders wertvoll." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
 <p>kurzer Marktblick zu {{ opportunity.energieart }}:</p>
 <p>Bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}.</p>
-<p>Das kann sich mit neuen Preisrunden ändern, deshalb lohnt sich ein kurzer Vergleich zum richtigen Zeitpunkt.</p>
-<p>Deine vorbereitete Option gibt dir dafür einen klaren Referenzpunkt statt späteres Nacharbeiten.</p>
+<p>Wenn sich Preise bewegen, ist es hilfreich, eine verlässliche Alternative direkt zur Hand zu haben.</p>
 <p>Hier kannst du dir deine empfohlene {{ opportunity.energieart }}-Option ansehen: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">

@@ -1,5 +1,5 @@
-<!-- Subject: "{{ contact.first_name }}, dein Vergleich für {{ opportunity.energieart }} liegt bereit" -->
-<!-- Preheader: "Ein kurzer Blick zeigt dir sofort, wie groß der monatliche Unterschied bei {{ opportunity.energieart }} ist." -->
+<!-- Subject: "{{ contact.first_name }}, dein Vergleich für {{ opportunity.energieart }} liegt vor" -->
+<!-- Preheader: "Hier siehst du sofort, wie groß der monatliche Abstand zwischen den Tarifen ist." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
@@ -7,8 +7,8 @@
 <p>Aktuell zahlst du bei {{ opportunity.aktueller_anbieter }} ca. {{ opportunity.aktuelle_monatliche_kosten_ }} pro Monat.</p>
 <p>Beim empfohlenen Tarif von {{ opportunity.neuer_anbieter }} liegen wir bei etwa {{ opportunity.neuer_monatlicher_preis_ }}.</p>
 <p>Das bedeutet für dich: {{ opportunity.savings_text }}.</p>
-<p>Genau solche kleinen Unterschiede summieren sich Monat für Monat.</p>
-<p>Hier findest du deine vorbereitete {{ opportunity.energieart }}-Option auf Basis deiner Angaben: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
+<p>Genau solche Unterschiede summieren sich Monat für Monat.</p>
+<p>Hier findest du deine {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
 <strong>{{custom_values.brandname}}</strong><br>

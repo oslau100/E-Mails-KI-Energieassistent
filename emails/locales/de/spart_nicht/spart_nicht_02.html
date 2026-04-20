@@ -1,12 +1,11 @@
-<!-- Subject: "{{ contact.first_name }}, {{ opportunity.energieart }}: Preisvorteil heute, Sicherheit morgen?" -->
-<!-- Preheader: "Kurzfristig kein klarer Preishebel – langfristige Stabilität kann bei {{ opportunity.energieart }} trotzdem entscheidend sein." -->
+<!-- Subject: "{{ contact.first_name }}, {{ opportunity.energieart }}: heute okay, langfristig sicher?" -->
+<!-- Preheader: "Kurzfristig passt es – langfristig können stabile Konditionen bei {{ opportunity.energieart }} den Unterschied machen." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>bei deinem {{ opportunity.energieart }}-Tarif bist du aktuell {{ opportunity.savings_text }}.</p>
-<p>Wenn es nur um den niedrigsten Sofortpreis geht, gibt es momentan wenig Druck zu wechseln.</p>
-<p>Gerade bei möglichen Preisbewegungen ist eine stabile Alternative aber oft die ruhigere Entscheidung.</p>
-<p>Deshalb haben wir eine verlässliche {{ opportunity.energieart }}-Option für dich vorbereitet.</p>
+<p>dein {{ opportunity.energieart }}-Tarif ist aktuell {{ opportunity.savings_text }}.</p>
+<p>Wenn es nur um den Sofortpreis geht, musst du heute nicht überstürzt wechseln.</p>
+<p>Wenn du Preisstabilität für die nächsten Monate willst, lohnt sich ein Blick auf die sichere Alternative.</p>
 <p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">

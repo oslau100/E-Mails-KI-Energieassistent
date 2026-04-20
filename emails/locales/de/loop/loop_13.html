@@ -1,10 +1,10 @@
-<!-- Subject: "{{ contact.first_name }}, dein nächster sinnvoller Schritt bei {{ opportunity.energieart }}" -->
-<!-- Preheader: "Die Empfehlung ist bereits da – jetzt nur noch kurz ansehen und einordnen." -->
+<!-- Subject: "{{ contact.first_name }}, jetzt siehst du in 1 Minute, ob {{ opportunity.energieart }} noch passt" -->
+<!-- Preheader: "Wenn der Tarif lange läuft, merkt man Abweichungen oft erst spät." -->
 <html>
 <body>
 <p>Hallo {{ contact.first_name }},</p>
-<p>auf Basis deiner Angaben ist deine {{ opportunity.energieart }}-Empfehlung weiterhin verfügbar.</p>
-<p>Interessant ist vor allem, wie dein Tarif im direkten Vergleich abschneidet.</p>
+<p>dein {{ opportunity.energieart }}-Tarif läuft im Alltag meist einfach mit.</p>
+<p>Gerade deshalb lohnt sich der kurze Vergleich: Du siehst sofort, ob du gerade zu viel bezahlst.</p>
 <p>Hier findest du deine sichere {{ opportunity.energieart }}-Empfehlung direkt: <a href="{{ opportunity.offer_url }}">{{ opportunity.cta_text }}</a></p>
 <p>Viele Grüße<br>{{custom_values.absender_name}}</p>
 <p style="font-size:12px; line-height:1.45; color:#555555; margin-top:8px;">
